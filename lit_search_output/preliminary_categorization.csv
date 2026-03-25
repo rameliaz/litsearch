@@ -1,0 +1,175 @@
+﻿Record_No,Title,Category_Code,Category_Label,Discipline,Notes
+1,What makes computational communication science (ir)reproducible?,B,Empirical Audit / Assessment,COMM,
+2,Measuring transparency in the social sciences: political science and IR,C,Survey / Interview Study,POLSCI,Near-duplicate of #14
+3,Teaching constructive replications in the behavioral and social sciences using quantitative data,I,Education / Training,SOC,Near-duplicate of #15
+4,Checklists for computational reproducibility in social sciences: insights from literature and survey evaluation,A,Guidelines / Checklists / Frameworks,SOC,HIGH RELEVANCE; no abstract
+5,Using synthetic data in CSD to promote computational reproducibility and transparency,D,Technical Tool / Workflow,COMM,Near-duplicate of #16
+6,How transparency and reproducibility can increase credibility in policy analysis,B,Empirical Audit / Assessment,SOC,
+7,Reproducibility in the social sciences,F,Systematic or Narrative Review,SOC,
+8,A protocol for structured robustness reproductions and replicability assessments,A,Guidelines / Checklists / Frameworks,GEN,No abstract
+9,Reproducibility and transparency versus privacy and confidentiality: reflections from a data editor,G,Policy / Editorial / Institutional,ECON,
+10,Reproducibility in Management Science (HTML title variant),B,Empirical Audit / Assessment,ECON,DUPLICATE of #11 #12
+11,Reproducibility in management science (variant 1),B,Empirical Audit / Assessment,ECON,DUPLICATE of #10 #12
+12,Reproducibility in management science (variant 2),B,Empirical Audit / Assessment,ECON,DUPLICATE of #10 #11
+13,From guidelines to practice: evaluating the reproducibility of methods in computational social science,B,Empirical Audit / Assessment,CSS,
+14,Trust us: open data and preregistration in political science and IR,C,Survey / Interview Study,POLSCI,Near-duplicate of #2
+15,Teaching constructive replications in the social sciences,I,Education / Training,SOC,Near-duplicate of #3
+16,"Synthetic data in CSD: promoting an open, reproducible, and cumulative science",D,Technical Tool / Workflow,COMM,Near-duplicate of #5
+17,Computational reproducibility in computational social science,A,Guidelines / Checklists / Frameworks,CSS,Tiered reproducibility model
+18,Ten meta science insights to deal with the credibility crisis in the social sciences,E,Conceptual / Definitional,SOC,
+19,A synthetic dataset primer for the biobehavioural sciences to promote reproducibility,D,Technical Tool / Workflow,BIO,
+20,The reliability of replications: a study in computational reproductions,H,Replication / Reproduction Report,SOC,Crowdsourced; 85 teams
+21,Data and code availability in political science publications from 1995 to 2022,B,Empirical Audit / Assessment,POLSCI,
+22,An empirical analysis of journal policy effectiveness for computational reproducibility,B,Empirical Audit / Assessment,GEN,
+23,AEA data and code availability policy,G,Policy / Editorial / Institutional,ECON,Policy statement; no abstract
+24,Care to share? Experimental evidence on code sharing behavior in the social sciences,B,Empirical Audit / Assessment,SOC,
+25,Replication code availability over time and across fields: evidence from the SOEP,B,Empirical Audit / Assessment,SOC,
+26,PaperRepro: automated computational reproducibility assessment for social science papers,D,Technical Tool / Workflow,SOC,AI/LLM-based; HIGH RELEVANCE
+27,REPRO-bench: can agentic AI systems assess the reproducibility of social science research?,D,Technical Tool / Workflow,SOC,AI benchmark; HIGH RELEVANCE
+28,A guide for social science journal editors on easing into open science,G,Policy / Editorial / Institutional,SOC,Near-duplicate of #30
+29,CORE-bench: computational reproducibility agent benchmark,D,Technical Tool / Workflow,CS,AI benchmark
+30,(FULL GUIDE) a guide for social science journal editors on easing into open science,G,Policy / Editorial / Institutional,SOC,Near-duplicate of #28
+31,Automating computational reproducibility in social science: comparing prompt-based and agent-based approaches,D,Technical Tool / Workflow,SOC,LLM/AI-based; HIGH RELEVANCE
+32,Dawning of a new age? Economics journals data policies on the test bench,G,Policy / Editorial / Institutional,ECON,
+33,Active maintenance: a proposal for the long-term computational reproducibility of scientific results,G,Policy / Editorial / Institutional,POLSCI,
+34,Replication data for: active maintenance...,G,Policy / Editorial / Institutional,POLSCI,Dataset record for #33
+35,Toward reusable science with readable code and reproducibility,A,Guidelines / Checklists / Frameworks,GEN,
+36,Journal data policies: exploring how the understanding of editors and authors corresponds to the policies,G,Policy / Editorial / Institutional,GEN,
+37,Artisan: agentic artifact evaluation,D,Technical Tool / Workflow,CS,AI artifact evaluation
+38,Code-sharing policies are associated with increased reproducibility potential of ecological findings,B,Empirical Audit / Assessment,OTHER,Ecology
+39,Accelerating social science knowledge production with the coordinated open-source model,J,Open Science / Data Sharing,SOC,
+40,How to train your stochastic parrot: large language models for political texts,D,Technical Tool / Workflow,POLSCI,Marginally relevant; LLM tool
+41,Audio-as-data tools: replicating computational data processing,B,Empirical Audit / Assessment,COMM,
+42,Open science in developmental science,J,Open Science / Data Sharing,BIO,
+43,In-class data analysis replications: teaching students while testing science,I,Education / Training,SOC,
+44,Reproducibility under preprocessing variability: a comparative study of modern ML methods on social data,B,Empirical Audit / Assessment,CS,ML focus
+45,Increasing the reproducibility of scientific research works: Environment Code-First framework,D,Technical Tool / Workflow,CS,
+46,Reproducible research in R: a tutorial on how to do the same thing more than once,D,Technical Tool / Workflow,GEN,
+47,The science of open (communication) science: quality criteria in communication research,E,Conceptual / Definitional,COMM,
+48,A backend platform for supporting the reproducibility of computational experiments,D,Technical Tool / Workflow,CS,
+49,Let us talk about it: making scientific computational reproducibility easy,D,Technical Tool / Workflow,CS,Near-duplicate of #51
+50,Ciencia reproducible que por que como,E,Conceptual / Definitional,GEN,REMOVED from Zotero; Spanish article indexed under English translation by OpenAlex
+51,Lets talk about it: making scientific computational reproducibility easier,D,Technical Tool / Workflow,CS,Near-duplicate of #49
+52,SciConv: a conversational tool for reproducibility,D,Technical Tool / Workflow,CS,
+53,The imperative for reproducibility in building performance simulation research,E,Conceptual / Definitional,OTHER,Low discipline relevance; BPS
+54,Unintended code errors and computational reproducibility,B,Empirical Audit / Assessment,GEN,
+55,Learning from reproducing computational results: three principles and the reproduction package,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE
+56,Coding be eR: assessing and improving the reproducibility of R-based research with containR,D,Technical Tool / Workflow,GEN,
+57,Advancing computational reproducibility in the dataverse data repository platform,D,Technical Tool / Workflow,GEN,
+58,Reproducibility as a service,D,Technical Tool / Workflow,CS,
+59,A guide to computational reproducibility in signal processing and machine learning,A,Guidelines / Checklists / Frameworks,CS,Low discipline relevance
+60,Preparing code and data for computational reproducibility,A,Guidelines / Checklists / Frameworks,GEN,
+61,A collaborative semantic-based provenance management platform for reproducibility,D,Technical Tool / Workflow,CS,
+62,"A provenance-based semantic approach to support understandability, reproducibility, and reuse",D,Technical Tool / Workflow,CS,
+63,Storing reproducible results from computational experiments using scientific python packages,D,Technical Tool / Workflow,CS,
+64,Navigating the landscape of reproducible research: a predictive modeling approach,B,Empirical Audit / Assessment,CS,
+65,ReproZip: computational reproducibility with ease,D,Technical Tool / Workflow,CS,
+66,Using ReproZip for reproducibility and library services,D,Technical Tool / Workflow,GEN,
+67,Reproducing scientific experiment with cloud DevOps,D,Technical Tool / Workflow,CS,
+68,ReproServer: making reproducibility easier and less intensive,D,Technical Tool / Workflow,CS,
+69,"Reproducibility, preservation, and access to research with ReproZip and ReproServer",D,Technical Tool / Workflow,CS,
+70,Laying foundations to quantify the effort of reproducibility,E,Conceptual / Definitional,CS,ML context
+71,DeepDIVA: a highly-functional python framework for reproducible experiments,D,Technical Tool / Workflow,CS,ML framework
+72,Containerization for creating reusable model code,D,Technical Tool / Workflow,CS,
+73,An introduction to docker for reproducible research,D,Technical Tool / Workflow,CS,
+74,Similarity-based assessment of computational reproducibility in jupyter notebooks,D,Technical Tool / Workflow,CS,
+75,The ReproRubric: evaluation criteria for the reproducibility of computational analyses,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE; criteria rubric
+76,"Tellurium notebooks - an environment for dynamical model development, reproducibility, and reuse",D,Technical Tool / Workflow,BIO,Biomedical
+77,Towards reproducibility in scientific workflows: an infrastructure-based approach,D,Technical Tool / Workflow,CS,
+78,AutoReproduce: automatic AI experiment reproduction with paper lineage,D,Technical Tool / Workflow,CS,AI focus
+79,Computational reproducibility in finance: evidence from 1000 tests,B,Empirical Audit / Assessment,ECON,HIGH RELEVANCE
+80,Overcoming barriers to computational reproducibility,F,Systematic or Narrative Review,GEN,
+81,Successes and struggles with computational reproducibility: lessons from the fragile families challenge,B,Empirical Audit / Assessment,SOC,
+82,Computational reproducibility of R code supplements on OSF,B,Empirical Audit / Assessment,GEN,
+83,Challenges of curating for reproducible and FAIR research output,A,Guidelines / Checklists / Frameworks,GEN,CURE-FAIR; HIGH RELEVANCE
+84,Implementing computational reproducibility in the whole tale environment,D,Technical Tool / Workflow,GEN,
+85,Toward enabling reproducibility for data-intensive research using the whole tale platform,D,Technical Tool / Workflow,GEN,
+86,Application of BagIt-serialized research object bundles for packaging and re-execution,D,Technical Tool / Workflow,CS,
+87,Computational reproducibility: a how-to guide based on the turing way,A,Guidelines / Checklists / Frameworks,GEN,
+88,Evaluating tools for enhancing reproducibility in computational scientific experiments,F,Systematic or Narrative Review,GEN,
+89,Ensuring reproducibility in computational processes: automating data identification and documentation,D,Technical Tool / Workflow,GEN,
+90,Primer on reproducible research in R: enhancing transparency and scientific rigor,A,Guidelines / Checklists / Frameworks,GEN,
+91,On the importance of computational reproducibility in fostering open and FAIR science,E,Conceptual / Definitional,GEN,
+92,Tooling for reproducible research: considerations for the past and future of data analysis,F,Systematic or Narrative Review,GEN,
+93,Works on My Machine: a case study of replicability challenges in computational humanities research,B,Empirical Audit / Assessment,COMM,
+94,Why and how we share reproducible research at yale university ISPS,G,Policy / Editorial / Institutional,SOC,Data editor perspective; HIGH RELEVANCE
+95,The fundamental principles of reproducibility,E,Conceptual / Definitional,GEN,
+96,Reinforcing reproducibility and replicability: an introduction,E,Conceptual / Definitional,GEN,Column intro
+97,A manifesto for data sharing in social media research,J,Open Science / Data Sharing,COMM,
+98,Sustainable computational science: the ReScience initiative,D,Technical Tool / Workflow,CS,
+99,Docker image builder: a robust method for constructing docker images for reproducible research,D,Technical Tool / Workflow,CS,
+100,Sciunits: reusable research objects,D,Technical Tool / Workflow,CS,
+101,Toward practical transparent verifiable and long-term reproducible research using guix,D,Technical Tool / Workflow,CS,
+102,Fixing dependency errors for python build reproducibility,D,Technical Tool / Workflow,CS,
+103,EFECT: a method to quantify the reproducibility of stochastic simulations,D,Technical Tool / Workflow,CS,
+104,Beyond open data: a model for linking digital artifacts to enable reproducibility of scientific claims,A,Guidelines / Checklists / Frameworks,GEN,
+105,Automated reproducibility testing in R markdown,D,Technical Tool / Workflow,GEN,
+106,Scientific tests and continuous integration strategies to enhance reproducibility,D,Technical Tool / Workflow,CS,
+107,Experiences with reproducibility: case studies from scientific workflows,B,Empirical Audit / Assessment,CS,
+108,The art of publishing reproducible research outputs: supporting emerging practices through cultural and technological innovation,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE
+109,Reproducibility: a primer on semantics and implications for research,E,Conceptual / Definitional,GEN,
+110,Reproducibility signals in science: a preliminary analysis,B,Empirical Audit / Assessment,GEN,
+111,Documenting computing environments for reproducible experiments,D,Technical Tool / Workflow,CS,
+112,Reproducing statistical results,E,Conceptual / Definitional,GEN,
+113,Long-term availability of data associated with articles in PLOS ONE,B,Empirical Audit / Assessment,GEN,
+114,A reproducible data analysis workflow,D,Technical Tool / Workflow,GEN,Near-duplicate of #116
+115,"Transparency, reproducibility, and the credibility of economics research",F,Systematic or Narrative Review,ECON,HIGH RELEVANCE
+116,A reproducible data analysis workflow with R markdown git make and docker,D,Technical Tool / Workflow,GEN,Near-duplicate of #114
+117,Making provenance work for you,D,Technical Tool / Workflow,CS,
+118,Why risk it when you can rix it: tutorial for computational reproducibility focused on simulation studies,D,Technical Tool / Workflow,GEN,
+119,Reproducibility spectrum for applied social sciences: conceptual taxonomy and recommended tools,A,Guidelines / Checklists / Frameworks,SOC,HIGH RELEVANCE; taxonomy for social sciences
+120,rix: reproducible data science environments with Nix,D,Technical Tool / Workflow,GEN,
+121,Reproducibility and replicability in economics,F,Systematic or Narrative Review,ECON,Historical overview
+122,Reproducibility certification in economics research,G,Policy / Editorial / Institutional,ECON,HIGH RELEVANCE; no abstract
+123,A framework for evaluating reproducibility and replicability in economics,A,Guidelines / Checklists / Frameworks,ECON,HIGH RELEVANCE; no abstract
+124,Report of the AEA data editor,G,Policy / Editorial / Institutional,ECON,
+125,Teaching reproducible methods in economics at liberal arts colleges: a survey,C,Survey / Interview Study,ECON,
+126,Computational reproducibility and robustness of empirical economics and political science research,H,Replication / Reproduction Report,ECON,HIGH RELEVANCE; systematic reproduction of 110 articles
+127,CRRESS session 4 - reproducibility and confidential data,G,Policy / Editorial / Institutional,GEN,
+128,Reproducibility confidentiality data access,G,Policy / Editorial / Institutional,GEN,
+129,Statistical perspectives on reproducibility: definitions and challenges,E,Conceptual / Definitional,GEN,
+130,Provide proactive reproducible analysis transparency with every publication,A,Guidelines / Checklists / Frameworks,GEN,
+131,Three approaches to support reproducible research,F,Systematic or Narrative Review,GEN,
+132,The future of peer review and reproducible science,E,Conceptual / Definitional,GEN,Talk/presentation
+133,Trust but verify: an investigation of methods of verification and dissemination of computational research artifacts,G,Policy / Editorial / Institutional,GEN,HIGH RELEVANCE; artifact evaluation initiatives
+134,Reproducible Research Publication Workflow: RRPW,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE; publication workflow
+135,Tools and techniques for computational reproducibility,F,Systematic or Narrative Review,GEN,
+136,Creating and sharing reproducible research code the workflowr way,D,Technical Tool / Workflow,GEN,
+137,A review of containerization for interactive and reproducible analysis,F,Systematic or Narrative Review,CS,
+138,AIRepr: an analyst-inspector framework for evaluating reproducibility of LLMs in data science,D,Technical Tool / Workflow,CS,No abstract
+139,Reproducibility does not imply reproduction,E,Conceptual / Definitional,GEN,
+140,Reproducibility checklists,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE; no abstract
+141,Why computational reproducibility matters,E,Conceptual / Definitional,GEN,
+142,A survey on collecting managing and analyzing provenance from scripts,F,Systematic or Narrative Review,CS,
+143,Computational reproducibility: the elephant in the room,E,Conceptual / Definitional,GEN,
+144,Toward computational reproducibility: a doctoral student story of passing the baton,B,Empirical Audit / Assessment,GEN,
+145,CODECHECK: independent execution of computations underlying research articles during peer review,G,Policy / Editorial / Institutional,GEN,HIGH RELEVANCE; peer review check system
+146,Tools and recommendations for reproducible teaching,I,Education / Training,GEN,
+147,Science capsule: towards sharing and reproducibility of scientific workflows,D,Technical Tool / Workflow,CS,
+148,The four possibilities of reproducible scientific computations,E,Conceptual / Definitional,GEN,
+149,WORCS: a workflow for open reproducible code in science,D,Technical Tool / Workflow,GEN,
+150,Ten simple rules for writing dockerfiles for reproducible data science,D,Technical Tool / Workflow,CS,
+151,The stark realities of reproducible statistically orientated sociological research,A,Guidelines / Checklists / Frameworks,SOC,HIGH RELEVANCE; sociology guidelines
+152,Computational reproducibility: a practical framework for data curators,A,Guidelines / Checklists / Frameworks,GEN,HIGH RELEVANCE; practical framework
+153,PRIMAD-LID: a developed framework for computational reproducibility,A,Guidelines / Checklists / Frameworks,GEN,
+154,"Perceived problems, causes, and solutions of finance research reproducibility and replicability",C,Survey / Interview Study,ECON,Pre-registered survey
+155,Mass reproducibility and replicability: a new hope,H,Replication / Reproduction Report,GEN,No abstract
+156,Introducing reproducibility standards at the world bank,G,Policy / Editorial / Institutional,GEN,
+157,statacons: an SCons-based build tool for stata,D,Technical Tool / Workflow,ECON,Stata workflow tool
+158,Highlights of the US national academies report on reproducibility and replicability in science,F,Systematic or Narrative Review,GEN,
+159,The rise of open science: tracking the evolution and perceived value of data and methods link-sharing practices,J,Open Science / Data Sharing,GEN,
+160,What is computational reproducibility?,E,Conceptual / Definitional,GEN,
+161,Facilitating reproducible project management and manuscript development in team science: the projects R package,D,Technical Tool / Workflow,GEN,
+162,Computational and robustness reproducibility of UN peacekeeping paper,H,Replication / Reproduction Report,POLSCI,
+163,Replication of the morning after: report from the nottingham replication games,H,Replication / Reproduction Report,POLSCI,
+164,A report on corruption and co-optation in autocracy,H,Replication / Reproduction Report,POLSCI,
+165,Verification report: egalitarianism in young children,H,Replication / Reproduction Report,BIO,
+166,Protecting against researcher bias in secondary data analysis,J,Open Science / Data Sharing,SOC,
+167,Replicability of simulation studies for the investigation of statistical methods: RepliSims,H,Replication / Reproduction Report,GEN,
+168,Transparent reporting items for simulation studies evaluating statistical methods (TRISS),A,Guidelines / Checklists / Frameworks,GEN,
+169,The interdependence of data producers and data users,J,Open Science / Data Sharing,GEN,
+170,Reproducibility badging and definitions,G,Policy / Editorial / Institutional,GEN,HIGH RELEVANCE; badging; no abstract
+171,Principles for data analysis workflows,A,Guidelines / Checklists / Frameworks,GEN,
+172,The role of third-party verification in research reproducibility,G,Policy / Editorial / Institutional,GEN,HIGH RELEVANCE; no abstract
+173,UK reproducibility network open and transparent research practices survey dataset,C,Survey / Interview Study,GEN,UKRN survey data
+174,Improving research quality: the view from the UK reproducibility network institutional leads,J,Open Science / Data Sharing,GEN,

@@ -1,0 +1,695 @@
+--- Record 1 ---
+TI: What makes computational communication science (ir)reproducible?
+AB: Computational methods are in full swing in communication science. Part of their promise is to make communication research more reproducible. However, how this plays out in practice has not been systematically studied. We verify the reproducibility of the entire cohort of 30 substantive and methods papers published in the journal Computational Communication Research (CCR), the official journal of t
+
+--- Record 2 ---
+TI: Measuring transparency in the social sciences: political science and international relations
+AB: The scientific method is predicated on transparency—yet the pace at which transparent research practices are being adopted by the scientific community is slow. The replication crisis in psychology showed that published findings employing statistical inference are threatened by undetected errors, data manipulation and data falsification. To mitigate these problems and bolster research credibility, 
+
+--- Record 3 ---
+TI: Teaching constructive replications in the behavioral and social sciences using quantitative data
+AB: Introduction The replication crisis in the behavioral and social sciences spawned a credibility revolution, calling for new open science research practices that ensure greater transparency, including preregistrations, open data and code, and open access. Statement of the Problem Replications of published research are an important element in this revolution as part of the self-correcting process of
+
+--- Record 4 ---
+TI: Checklists for computational reproducibility in social sciences: insights from literature and survey evaluation
+AB: 
+
+--- Record 5 ---
+TI: Using synthetic data in communication sciences and disorders to promote computational reproducibility and transparency
+AB: Purpose: Reproducibility is a core principle of science and access to a study’s data is essential to reproduce its findings. However, data sharing is uncommon in the field of Communication Sciences and Disorders (CSD), often due to concerns related to privacy and disclosure risks. Synthetic data offers a potential solution to this barrier by generating artificial datasets that do not represent rea
+
+--- Record 6 ---
+TI: How transparency and reproducibility can increase credibility in policy analysis: a case study of the minimum wage policy estimate
+AB: The analysis of public policies, even when performed by the best non-partisan agencies, often lacks credibility This allows policy makers to cherrypick between reports, or within a specific report, to select estimates that better match their beliefs. For example, in 2014 the Congressional Budget Office (CBO) produced a report on the effects of raising the minimum wage that was cited both by oppone
+
+--- Record 7 ---
+TI: Reproducibility in the social sciences
+AB: Concern over social scientists’ inability to reproduce empirical research has spawned a vast and rapidly growing literature. The size and growth of this literature make it difficult for newly interested academics to come up to speed. Here, we provide a formal text modeling approach to characterize the entirety of the field, which allows us to summarize the breadth of this literature and identify c
+
+--- Record 8 ---
+TI: A protocol for structured robustness reproductions and replicability assessments
+AB: 
+
+--- Record 9 ---
+TI: Reproducibility and transparency versus privacy and confidentiality: reflections from a data editor
+AB: Transparency and reproducibility are often seen in opposition to privacy and confidentiality. Data that need to be kept confidential are seen as an impediment to reproducibility, and privacy would seem to inhibit transparency. I bring a more nuanced view to the discussion, and show, using examples from over 1,000 reproducibility assessments, that confidential data can very well be used in reproduc
+
+--- Record 10 ---
+TI: Reproducibility in <i>Management Science</i>
+AB: With the help of more than 700 reviewers, we assess the reproducibility of nearly 500 articles published in the journal Management Science before and after the introduction of a new Data and Code Disclosure policy in 2019. When considering only articles for which data accessibility and hardware and software requirements were not an obstacle for reviewers, the results of more than 95% of articles u
+
+--- Record 11 ---
+TI: Reproducibility in management science
+AB: With the help of more than 700 reviewers, we assess the reproducibility of nearly 500 articles published in the journal Management Science before and after the introduction of a new Data and Code Disclosure policy in 2019. When considering only articles for which data accessibility and hardware and software requirements were not an obstacle for reviewers, the results of more than 95% of articles u
+
+--- Record 12 ---
+TI: Reproducibility in management science
+AB: With the help of more than 700 reviewers we assess the reproducibility of nearly 500 articles published in the journal Management Science before and after the introduction of a new Data and Code Disclosure policy in 2019. When considering only articles for which data accessibility and hard- and software requirements were not an obstacle for reviewers, the results of more than 95% of articles under
+
+--- Record 13 ---
+TI: From guidelines to practice: evaluating the reproducibility of methods in computational social science
+AB: Reproducibility remains a central challenge in computational social science, where complex workflows, evolving software ecosystems, and inconsistent documentation hinder researchers ability to re-execute published methods. This study presents a systematic evaluation of reproducibility across three conditions: uncurated documentation, curated documentation, and curated documentation paired with a p
+
+--- Record 14 ---
+TI: ‘Trust us’: open data and preregistration in political science and international relations
+AB: The scientific method is predicated on transparency -- yet the pace at which transparent research practices are being adopted by the scientific community is slow. The replication crisis in psychology showed that published findings employing statistical inference are threatened by undetected errors, data manipulation, and data falsification. To mitigate these problems and bolster research credibili
+
+--- Record 15 ---
+TI: Teaching constructive replications in the social sciences
+AB: The replication crisis in political science and other social and behavioral sciences spawned a credibility revolution, calling for new open science research practices that ensure greater transparency, including pre-registrations, open data and code and open access. Replications of published research are an important element in this revolution as part of the self-correcting process of scientific kn
+
+--- Record 16 ---
+TI: Synthetic data in communication sciences and disorders: promoting an open, reproducible, and cumulative science
+AB: Reproducibility is a core principle of science and access to a study’s data is essential to reproduce its findings. However, data sharing is uncommon in the field of Communication Sciences and Disorders (CSD), often due to concerns related to privacy and disclosure risks. Synthetic data offers a potential solution to this barrier by generating artificial datasets that do not represent real individ
+
+--- Record 17 ---
+TI: Computational reproducibility in computational social science
+AB: Abstract Open science practices have been widely discussed and have been implemented with varying success in different disciplines. We argue that computational-x disciplines such as computational social science, are also susceptible to the symptoms of the crises, but in terms of reproducibility. We expand the binary definition of reproducibility into a tier system which allows increasing levels of
+
+--- Record 18 ---
+TI: Ten meta science insights to deal with the credibility crisis in the social sciences
+AB: A decade of meta science research on social science research has produced devastating results. While the movement towards open science is gaining momentum, awareness of the credibility crisis remains low among social scientists. Here are ten meta science insights on the credibility crisis plus solutions on how to fight it.
+
+--- Record 19 ---
+TI: A synthetic dataset primer for the biobehavioural sciences to promote reproducibility and hypothesis generation
+AB: Open research data provide considerable scientific, societal, and economic benefits. However, disclosure risks can sometimes limit the sharing of open data, especially in datasets that include sensitive details or information from individuals with rare disorders. This article introduces the concept of synthetic datasets, which is an emerging method originally developed to permit the sharing of con
+
+--- Record 20 ---
+TI: The reliability of replications: a study in computational reproductions
+AB: This paper reports findings from a crowdsourced replication. Eighty-five independent teams attempted a computational replication of results reported in an original study of policy preferences and immigration by fitting the same statistical models to the same data. The replication involved an experimental condition. Random assignment put participating teams into either the transparent group that re
+
+--- Record 21 ---
+TI: Data and code availability in political science publications from 1995 to 2022
+AB: Abstract In this article, we assess the availability of reproduction archives in political science. By “reproduction archive,” we mean the data and code supporting quantitative research articles that allows others to reproduce the computations described in the published article. We collect a random sample of quantitative research articles published in political science from 1995 to 2022. We find t
+
+--- Record 22 ---
+TI: An empirical analysis of journal policy effectiveness for computational reproducibility
+AB: A key component of scientific communication is sufficient information for other researchers in the field to reproduce published findings. For computational and data-enabled research, this has often been interpreted to mean making available the raw data from which results were generated, the computer code that generated the findings, and any additional information needed such as workflows and input
+
+--- Record 23 ---
+TI: AEA data and code availability policy
+AB: 
+
+--- Record 24 ---
+TI: Care to share? Experimental evidence on code sharing behavior in the social sciences
+AB: Transparency and peer control are cornerstones of good scientific practice and entail the replication and reproduction of findings. The feasibility of replications, however, hinges on the premise that original researchers make their data and research code publicly available. This applies in particular to large- N observational studies, where analysis code is complex and may involve several ambiguo
+
+--- Record 25 ---
+TI: Replication code availability over time and across fields: evidence from the german socio-economic panel
+AB: Abstract Providing replication code is an inexpensive way to facilitate reproducibility. However, little is known about the extent of replication code provision. Therefore, we examine the availability of replication code for over 2500 peer‐reviewed articles based on the German Socio‐Economic Panel (SOEP), one of the most widely used datasets in economics and other social sciences. We find that onl
+
+--- Record 26 ---
+TI: PaperRepro: automated computational reproducibility assessment for social science papers
+AB: Computational reproducibility is essential for the credibility of scientific findings, particularly in the social sciences, where findings often inform real-world decisions. Manual reproducibility assessment is costly and time-consuming, as it is nontrivial to reproduce the reported findings using the authors' released code and data. Recent advances in large models (LMs) have inspired agent-based 
+
+--- Record 27 ---
+TI: REPRO-bench: can agentic AI systems assess the reproducibility of social science research?
+AB: Assessing the reproducibility of social science papers is essential for promoting rigor in research processes, but manual assessment is costly.With recent advances in agentic AI systems (i.e., AI agents), we seek to evaluate their capability to automate this process.However, existing benchmarks for reproducing research papers (1) focus solely on reproducing results using provided code and data wit
+
+--- Record 28 ---
+TI: A guide for social science journal editors on easing into open science
+AB: Abstract Journal editors have a large amount of power to advance open science in their respective fields by incentivising and mandating open policies and practices at their journals. The Data PASS Journal Editors Discussion Interface (JEDI, an online community for social science journal editors: www.dpjedi.org ) has collated several resources on embedding open science in journal editing ( www.dpje
+
+--- Record 29 ---
+TI: CORE-bench: fostering the credibility of published research through a computational reproducibility agent benchmark
+AB: AI agents have the potential to aid users on a variety of consequential tasks, including conducting scientific research. To spur the development of useful agents, we need benchmarks that are challenging, but more crucially, directly correspond to real-world tasks of interest. This paper introduces such a benchmark, designed to measure the accuracy of AI agents in tackling a crucial yet surprisingl
+
+--- Record 30 ---
+TI: (FULL GUIDE) a guide for social science journal editors on easing into open science
+AB: Journal editors have a large amount of power to advance open science in their respective fields by incentivising and mandating open policies and practices at their journals. The Data PASS Journal Editors Discussion Interface (JEDI, an online community for social science journal editors: www.dpjedi.org) has collated several resources on open science in journal editing (www.dpjedi.org/resources). Ho
+
+--- Record 31 ---
+TI: Automating computational reproducibility in social science: comparing prompt-based and agent-based approaches
+AB: Reproducing computational research is often assumed to be as simple as rerunning the original code with provided data. In practice, missing packages, fragile file paths, version conflicts, or incomplete logic frequently cause analyses to fail, even when materials are shared. This study investigates whether large language models and AI agents can automate the diagnosis and repair of such failures, 
+
+--- Record 32 ---
+TI: Dawning of a new age? Economics journals’ data policies on the test bench
+AB: In the field of social sciences and particularly in economics, studies have frequently reported a lack of reproducibility of published research. Most often, this is due to the unavailability of data reproducing the findings of a study. However, over the past years, debates on open science practices and reproducible research have become stronger and louder among research funders, learned societies,
+
+--- Record 33 ---
+TI: Active maintenance: a proposal for the long-term computational reproducibility of scientific results
+AB: ABSTRACT Computational reproducibility, or the ability to reproduce analytic results of a scientific study on the basis of publicly available code and data, is a shared goal of many researchers, journals, and scientific communities. Researchers in many disciplines including political science have made strides toward realizing that goal. A new challenge, however, has arisen. Code too often becomes 
+
+--- Record 34 ---
+TI: Replication data for: active maintenance: a proposal for the long-term computational reproducibility of scientific results
+AB: Computational reproducibility, or the ability to reproduce analytic results of a scientific study on the basis of publicly available code and data, is a shared goal of many researchers, journals, and scientific communities. Researchers in many disciplines including political science have made strides toward realizing that goal. A new challenge, however, has arisen. Code too often becomes obsolete 
+
+--- Record 35 ---
+TI: Toward reusable science with readable code and reproducibility
+AB: An essential part of research and scientific communication is researchers' ability to reproduce the results of others. While there have been increasing standards for authors to make data and code available, many of these files are hard to re-execute in practice, leading to a lack of research reproducibility. This poses a major problem for students and researchers in the same field who cannot lever
+
+--- Record 36 ---
+TI: Journal data policies: exploring how the understanding of editors and authors corresponds to the policies themselves
+AB: Despite the increase in the number of journals issuing data policies requiring authors to make data underlying reporting findings publicly available, authors do not always do so, and when they do, the data do not always meet standards of quality that allow others to verify or extend published results. This phenomenon suggests the need to consider the effectiveness of journal data policies to prese
+
+--- Record 37 ---
+TI: Artisan: agentic artifact evaluation
+AB: Artifact evaluation has become standard practice in the software engineering community to ensure the reproducibility of research results. However, the current manual process is labor-intensive, and hence, done only as a one-time assessment for a subset of all papers. To support the artifact evaluation effort, we present Artisan, an automated LLM agent for reproducing research results given a paper
+
+--- Record 38 ---
+TI: Code-sharing policies are associated with increased reproducibility potential of ecological findings
+AB: Software code (e.g., analytical code) is increasingly recognised as an important research output because it improves transparency, collaboration, and research credibility. Many scientific journals have introduced code-sharing policies; however, surveys have shown alarmingly low compliance with these policies. In this study, we expanded on a recent survey of ecological journals with code-sharing po
+
+--- Record 39 ---
+TI: Accelerating social science knowledge production with the coordinated open-source model
+AB: With the growing complexity of knowledge production, social science must accelerate and open up to maintain explanatory power and responsiveness. This goal requires redesigning the front end of the research to build an open and expandable knowledge infrastructure that stimulates broad collaborations, enables breaking down inertia and path dependencies of conventional approaches, and boosts discove
+
+--- Record 40 ---
+TI: How to train your stochastic parrot: large language models for political texts
+AB: Abstract We demonstrate how few-shot prompts to large language models (LLMs) can be effectively applied to a wide range of text-as-data tasks in political science—including sentiment analysis, document scaling, and topic modeling. In a series of pre-registered analyses, this approach outperforms conventional supervised learning methods without the need for extensive data pre-processing or large se
+
+--- Record 41 ---
+TI: Audio-as-data tools: replicating computational data processing
+AB: The rise of audio-as-data in social science research accentuates a fundamental challenge: establishing reproducible and reliable methodologies to guide this emerging area of study. In this study, we focus on the reproducibility of audio-as-data preparation methods in computational communication research and evaluate the accuracy of popular audio-as-data tools. We analyze automated transcription an
+
+--- Record 42 ---
+TI: Open science in developmental science
+AB: In recent years, open science policies have proliferated in the social and behavioral sciences, including sharing of study designs, protocols, and data as well as pre-registration of hypotheses. Developmental research has moved more slowly than some other disciplines in adopting open science practices, in part because not all developmental science follows a narrowly confirmatory structure. We asse
+
+--- Record 43 ---
+TI: In-class data analysis replications: teaching students while testing science
+AB: Science is facing a reproducibility crisis. Previous work has proposed incorporating data analysis replications into classrooms as a potential solution. However, despite the potential benefits, it is unclear whether this approach is feasible, and if so, what the involved stakeholders-students, educators, and scientists-should expect from it. Can students perform a data analysis replication over th
+
+--- Record 44 ---
+TI: Reproducibility under preprocessing variability: a comparative study of modern machine learning methods on social data
+AB: The reproducibility crisis in modern machine learning (ML) research has raised concerns about the stability of published results, particularly when subtle variations in data preprocessing can lead to significantly different outcomes. This paper presents a neutral, reproducible comparison of Random Forest, XGBoost, LightGBM, and shallow Neural Networks applied to a simulated case study using the UC
+
+--- Record 45 ---
+TI: Increasing the reproducibility of scientific research works: a case study using the environment code-first framework
+AB: Objective: The purpose of this paper is to present a case study on how a recently proposed reproducibility framework named Environment Code-First (ECF) based on the Infrastructure-as-Code approach can improve the implementation and reproduction of computing environments by reducing complexity and manual intervention. Methodology: The study compares the manual way of implementing a pipeline and the
+
+--- Record 46 ---
+TI: Reproducible research in R: a tutorial on how to do the same thing more than once
+AB: Computational reproducibility is the ability to obtain identical results from the same data with the same computer code. It is a building block for transparent and cumulative science because it enables the originator and other researchers, on other computers and later in time, to reproduce and thus understand how results came about, while avoiding a variety of errors that may lead to erroneous rep
+
+--- Record 47 ---
+TI: The science of open (communication) science: toward an evidence-driven understanding of quality criteria in communication research
+AB: Abstract Paralleling very visible debates in psychology, some parts of the communication field have recently pushed for a wholesale endorsement of the principles of open science and its practices, including a particular focus on replicability and reproducibility as quality criteria. Unfortunately, these discussions have been plagued by a set of at least 3 interrelated problems: A lack of conceptua
+
+--- Record 48 ---
+TI: A backend platform for supporting the reproducibility of computational experiments
+AB: In recent years, the research community has raised serious questions about the reproducibility of scientific work. In particular, since many studies include some kind of computing work, reproducibility is also a technological challenge, not only in computer science, but in most research domains. Replicability and computational reproducibility are not easy to achieve, not only because researchers h
+
+--- Record 49 ---
+TI: Let's talk about it: making scientific computational reproducibility easy
+AB: Computational reproducibility of scientific results, that is, the execution of a computational experiment (e.g., a script) using its original settings (data, code, etc.), should always be possible. However, reproducibility has become a significant challenge, as researchers often face difficulties in accurately replicating experiments due to inconsistencies in documentation, setup configurations, a
+
+--- Record 50 ---
+TI: Ciencia reproducible: ¿qué, por qué, cómo?
+AB: Most scientific papers are not reproducible: it is really hard, if not impossible, to understand how results are derived from data, and being able to regenerate them in the future (even by the same researchers). However, traceability and reproducibility of results are indispensable elements of highquality science, and an increasing requirement of many journals and funding sources. Reproducible stu
+
+--- Record 51 ---
+TI: Let’s talk about it: making scientific computational reproducibility easier
+AB: Computational reproducibility-the ability to reexecute a scientific experiment using the same code, data, and configuration-should be straightforward. However, researchers often struggle with inconsistencies in documentation, missing dependencies, and environment setup, which undermines the credibility of scientific results. To address this, we propose a conversational, text-based tool that aids r
+
+--- Record 52 ---
+TI: SciConv: a conversational tool for reproducibility
+AB: Computational reproducibility remains a critical yet unresolved issue across scientific disciplines, often hindered by complex configuration requirements and technical barriers. We present SciConv, a novel conversational tool designed to assist researchers in creating and executing reproducible computational experiments using natural language. By leveraging large language models (llMs), SciConv au
+
+--- Record 53 ---
+TI: The imperative for reproducibility in building performance simulation research
+AB: Building Performance Simulation (BPS) uses advanced computational and data science methods. Reproducibility, the ability to obtain the same results by using the same data and methods, is essential in BPS research to ensure the reliability and validity of scientific results. The benefits of reproducible research include enhanced scientific integrity, faster scientific advancements, and valuable edu
+
+--- Record 54 ---
+TI: Unintended code errors and computational reproducibility
+AB: Transparent and reproducible science requires that data and code underlying published results be made available to allow regeneration and verification of the results. But how easy is it to reproduce computational analyses using these materials? This technical report describes efforts to computationally reproduce results at one established repository as part of a routine internal pre-publication re
+
+--- Record 55 ---
+TI: Learning from reproducing computational results: introducing three principles and the reproduction package
+AB: We carry out efforts to reproduce computational results for seven published articles and identify barriers to computational reproducibility. We then derive three principles to guide the practice and dissemination of reproducible computational research: (i) Provide transparency regarding how computational results are produced; (ii) When writing and releasing research software, aim for ease of (re-)
+
+--- Record 56 ---
+TI: Coding be eR: assessing and improving the reproducibility of R-based research with containR
+AB: Reproducibility is the cornerstone of science, and we are in the midst of a reproducibility crisis. Simply sharing the code and data used for obtaining results is o en insu cient for reproducibility; in fact, we show that 85.6% of the thousands of R programs published on Dataverse 1 since 2015 cannot be run. Moreover, our nding that the failure rate of these published R programs holds constant reg
+
+--- Record 57 ---
+TI: Advancing computational reproducibility in the dataverse data repository platform
+AB: Recent reproducibility case studies have raised concerns showing that much of the deposited research has not been reproducible. One of their conclusions was that the way data repositories store research data and code cannot fully facilitate reproducibility due to the absence of a runtime environment needed for the code execution. New specialized reproducibility tools provide cloud-based computatio
+
+--- Record 58 ---
+TI: Reproducibility as a service
+AB: Abstract Recent studies demonstrated that the reproducibility of previously published computational experiments is inadequate. Many of these published computational experiments never recorded or preserved their computational environment, including packages installed in the language, libraries installed on the host system, and file locations. Researchers have created reproducibility tools to help m
+
+--- Record 59 ---
+TI: A guide to computational reproducibility in signal processing and machine learning
+AB: Computational reproducibility is a growing problem that has been extensively studied among computational researchers and within the signal processing and machine learning research community. However, with the changing landscape of signal processing and machine learning research come new obstacles and unseen challenges in creating reproducible experiments. Due to these new challenges most computati
+
+--- Record 60 ---
+TI: Preparing code and data for computational reproducibility
+AB: Computational analyses are playing an increasingly central role in research and are a feature of many advanced digital libraries. Journals, sponsors, and researchers, including in the digital library field, are calling for published research to include associated data and code. However, many involved in research have not received training in best practices and tools for building systems (e.g., usi
+
+--- Record 61 ---
+TI: A collaborative semantic-based provenance management platform for reproducibility
+AB: Scientific data management plays a key role in the reproducibility of scientific results. To reproduce results, not only the results but also the data and steps of scientific experiments must be made findable, accessible, interoperable, and reusable. Tracking, managing, describing, and visualizing provenance helps in the understandability, reproducibility, and reuse of experiments for the scientif
+
+--- Record 62 ---
+TI: A provenance-based semantic approach to support understandability, reproducibility, and reuse of scientific experiments
+AB: Understandability and reproducibility of scientific results are vital in every field of science. Several reproducibility measures are being taken to make the data used in the publications findable and accessible. However, there are many challenges faced by scientists from the beginning of an experiment to the end in particular for data management. The explosive growth of heterogeneous research dat
+
+--- Record 63 ---
+TI: Storing reproducible results from computational experiments using scientific python packages
+AB: Computational methods have become a prime branch of modern science. Unfortunately, retractions of papers in high-ranked journals due to erroneous computations as well as a general lack of reproducibility of results have led to a so-called credibility crisis. The answer from the scientific community has been an increased focus on implementing reproducible research in the computational sciences. Res
+
+--- Record 64 ---
+TI: Navigating the landscape of reproducible research: a predictive modeling approach
+AB: The reproducibility of scientific articles is central to the advancement of science. Despite this importance, evaluating reproducibility remains challenging due to the scarcity of ground truth data. Predictive models can address this limitation by streamlining the tedious evaluation process. Typically, a paper's reproducibility is inferred based on the availability of artifacts such as code, data,
+
+--- Record 65 ---
+TI: ReproZip: computational reproducibility with ease
+AB: We present ReproZip, the recommended packaging tool for the SIGMOD Reproducibility Review. ReproZip was designed to simplify the process of making an existing computational experiment reproducible across platforms, even when the experiment was put together without reproducibility in mind. The tool creates a self-contained package for an experiment by automatically tracking and identifying all its 
+
+--- Record 66 ---
+TI: Using ReproZip for reproducibility and library services
+AB: Achieving research reproducibility is challenging in many ways: there are social and cultural obstacles as well as a constantly changing technical landscape that makes replicating and reproducing research difficult. Users face challenges in reproducing research across different operating systems, in using different versions of software across long projects and among collaborations, and in using pu
+
+--- Record 67 ---
+TI: Reproducing scientific experiment with cloud DevOps
+AB: The reproducibility of scientific experiment is vital for the advancement of disciplines based on previous work. To achieve this goal, many researchers focus on complex methodology and self-invented tools which have difficulty in practical usage. In this article, we introduce the Cloud DevOps infrastructure from software engineering community and shows how it can be used effectively for heterogene
+
+--- Record 68 ---
+TI: ReproServer: making reproducibility easier and less intensive
+AB: Reproducibility in the computational sciences has been stymied because of the complex and rapidly changing computational environments in which modern research takes place. While many will espouse reproducibility as a value, the challenge of making it happen (both for themselves and testing the reproducibility of others' work) often outweigh the benefits. There have been a few reproducibility solut
+
+--- Record 69 ---
+TI: Reproducibility, preservation, and access to research with ReproZip and ReproServer
+AB: The adoption of reproducibility remains low, despite incentives becoming increasingly common in different domains, conferences, and journals. The truth is, reproducibility is technically difficult to achieve due to the complexities of computational environments. To address these technical challenges, we created ReproZip, an open-source tool that automatically packs research along with all the nece
+
+--- Record 70 ---
+TI: Laying foundations to quantify the "effort of reproducibility"
+AB: Why are some research studies easy to reproduce while others are difficult? Casting doubt on the accuracy of scientific work is not fruitful, especially when an individual researcher cannot reproduce the claims made in the paper. There could be many subjective reasons behind the inability to reproduce a scientific paper. The field of Machine Learning (ML) faces a reproducibility crisis, and survey
+
+--- Record 71 ---
+TI: DeepDIVA: a highly-functional python framework for reproducible experiments
+AB: We introduce DeepDIVA: an infrastructure designed to enable quick and intuitive setup of reproducible experiments with a large range of useful analysis functionality. Reproducing scientific results can be a frustrating experience, not only in document image analysis but in machine learning in general. Using DeepDIVA a researcher can either reproduce a given experiment or share their own experiment
+
+--- Record 72 ---
+TI: Containerization for creating reusable model code
+AB: Will you be able to run your computational models in the future? Even with well-documented code, this can be difficult due to changes in the software frameworks and operating systems that your code was built on. In this paper we discuss the use of containers to preserve code and their software dependencies to reproduce simulation results in the future. Containers are standalone lightweight package
+
+--- Record 73 ---
+TI: An introduction to docker for reproducible research
+AB: As computational work becomes more and more integral to many aspects of scientific research, computational reproducibility has become an issue of increasing importance to computer systems researchers and domain scientists alike. Though computational reproducibility seems more straight forward than replicating physical experiments, the complex and rapidly changing nature of computer environments ma
+
+--- Record 74 ---
+TI: Similarity-based assessment of computational reproducibility in jupyter notebooks
+AB: Computational reproducibility refers to obtaining consistent results when rerunning an experiment. Jupyter Notebook, a web-based computational notebook application, facilitates running, publishing, and sharing computational experiments along with their results. However, rerunning a Jupyter Notebook may not always generate identical results due to various factors, such as randomness, changes in lib
+
+--- Record 75 ---
+TI: The ReproRubric: evaluation criteria for the reproducibility of computational analyses
+AB: The computational reproducibility of analytic results has been discussed and evaluated in many different scientific disciplines, all of which have one finding in common: analytic results are far too often not reproducible. There are numerous examples of reproducibility guidelines for various applications, however, a comprehensive assessment tool for evaluating the individual components of the rese
+
+--- Record 76 ---
+TI: Tellurium notebooks - an environment for dynamical model development, reproducibility, and reuse
+AB: Abstract The considerable difficulty encountered in reproducing the results of published dynamical models limits validation, exploration and reuse of this increasingly large biomedical research resource. To address this problem, we have developed Tellurium Notebook, a software system that facilitates building reproducible dynamical models and reusing models by 1) supporting the COMBINE archive for
+
+--- Record 77 ---
+TI: Towards reproducibility in scientific workflows: an infrastructure-based approach
+AB: It is commonly agreed that in silico scientific experiments should be executable and repeatable processes. Most of the current approaches for computational experiment conservation and reproducibility have focused so far on two of the main components of the experiment, namely, data and method. In this paper, we propose a new approach that addresses the third cornerstone of experimental reproducibil
+
+--- Record 78 ---
+TI: AutoReproduce: automatic AI experiment reproduction with paper lineage
+AB: Efficient experiment reproduction is critical to accelerating progress in artificial intelligence. However, the inherent complexity of method design and training procedures presents substantial challenges for automation. Notably, reproducing experiments often requires implicit domain-specific knowledge not explicitly documented in the original papers. To address this, we introduce the paper lineag
+
+--- Record 79 ---
+TI: Computational reproducibility in finance: evidence from 1,000 tests
+AB: Abstract We analyze the computational reproducibility of more than 1,000 empirical answers to 6 research questions in finance provided by 168 research teams. Running the researchers’ code on the same raw data regenerates exactly the same results only 52% of the time. Reproducibility is higher for researchers with better coding skills and those exerting more effort. It is lower for more technical r
+
+--- Record 80 ---
+TI: Overcoming barriers to computational reproducibility
+AB: Computational reproducibility, the possibility for independent researchers to exactly reproduce published empirical results, is fundamental to science. Despite its importance, the proportion of research articles aiming for reproducibility remains low and uneven across disciplines. Barriers include a perceived lack of incentives for researchers and journals, practical challenges in preparing reprod
+
+--- Record 81 ---
+TI: Successes and struggles with computational reproducibility: lessons from the fragile families challenge
+AB: Reproducibility is fundamental to science, and an important component of reproducibility is computational reproducibility: the ability of a researcher to recreate the results of a published study using the original author’s raw data and code. Although most people agree that computational reproducibility is important, it is still difficult to achieve in practice. In this article, the authors descri
+
+--- Record 82 ---
+TI: Computational reproducibility of R code supplements on OSF
+AB: Computational reproducibility is fundamental to scientific research, yet many published code supplements lack the necessary documentation to recreate their computational environments. While researchers increasingly share code alongside publications, the actual reproducibility of these materials remains poorly understood. In this work, we assess the computational reproducibility of 296 R projects u
+
+--- Record 83 ---
+TI: Challenges of curating for reproducible and FAIR research output
+AB: The goal of the CURE-FAIR WG is to establish standards-based guidelines for curating for reproducible and FAIR data and code. The final deliverable of the Working Group (WG) is a document outlining CURE-FAIR standards-based guidelines for best practices in publishing and archiving computationally reproducible studies. To support the deliverable, the WG created four subgroups, each tasked with stud
+
+--- Record 84 ---
+TI: Implementing computational reproducibility in the whole tale environment
+AB: We present and define a structured digital object, called a "Tale," for the dissemination and publication of computational scientific findings in the scholarly record. The Tale emerges from the NSF funded Whole Tale project (wholetale.org) which is developing a computational environment designed to capture the entire computational pipeline associated with a scientific experiment and thereby enable
+
+--- Record 85 ---
+TI: Toward enabling reproducibility for data-intensive research using the whole tale platform
+AB: Whole Tale http://wholetale.org is a web-based, open-source platform for reproducible research supporting the creation, sharing, execution, and verification of "Tales" for the scientific research community. Tales are executable research objects that capture the code, data, and environment along with narrative and workflow information needed to re-create computational results from scientific studie
+
+--- Record 86 ---
+TI: Application of BagIt-serialized research object bundles for packaging and Re-execution of computational analyses
+AB: In this paper we describe our experience adopting the Research Object Bundle (RO-Bundle) format with BagIt serialization (BagIt-RO) for the design and implementation of "tales" in the Whole Tale platform. A tale is an executable research object intended for the dissemination of computational scientific findings that captures information needed to facilitate understanding, transparency, and re-exec
+
+--- Record 87 ---
+TI: Computational reproducibility: a how-to guide based on the turing way
+AB: Reproducible research is necessary to ensure that our scientific output can be independently verified and built upon in future work. But conducting reproducible research requires software development skills that are not usually taught or expected of academic researchers. The Turing Way is an open-source, community-led handbook that supports this knowledge (among others) in an accessible and compre
+
+--- Record 88 ---
+TI: Evaluating tools for enhancing reproducibility in computational scientific experiments
+AB: Ensuring the reproducibility of computational scientific experiments is crucial for advancing research and fostering scientific integrity. However, achieving reproducibility poses significant challenges, particularly in the absence of appropriate software tools to help. This paper addresses this issue by comparing existing tools designed to assist researchers across various fields in achieving rep
+
+--- Record 89 ---
+TI: Ensuring reproducibility in computational processes: automating data identification/citation and process documentation
+AB: Reproducibility of experiments is a key foundation in the empirical sciences. Yet, both the perceived complexity as well as proposed solutions sometimes fail to grasp the full extent of the problem. At the same time, reproducibility is often perceived as a goal in its own right, rather than questioning what precisely we may gain from the investment of effort required to make a specific experiment 
+
+--- Record 90 ---
+TI: Primer on reproducible research in R: enhancing transparency and scientific rigor
+AB: Achieving research reproducibility is a precarious aspect of scientific practice. However, many studies across disciplines fail to be fully reproduced due to inadequate dissemination methods. Traditional publication practices often fail to provide a comprehensive description of the research context and procedures, hindering reproducibility. To address these challenges, this article presents a tuto
+
+--- Record 91 ---
+TI: On the importance of computational reproducibility in fostering open and FAIR science
+AB: In this talk we propose to survey the computational reproducibility practices, opportunities and challenges in view of fostering Open and FAIR Science in research communities. We discuss several thinking models regarding computational reproducibility, focusing on the broader knowledge preservation and reuse aspects rather than on the raw computing evolution aspects. Building upon several use cases
+
+--- Record 92 ---
+TI: Tooling for reproducible research: considerations for the past and future of data analysis
+AB: The concept of reproducible research has evolved significantly over the past 30 years, with the idea growing in popularity, awareness, and acceptance. Upon its introduction to the statistical and broader scientific community, computational reproducibility was proposed as an essential concept for communicating the process of computational research and for being able to understand what exactly was d
+
+--- Record 93 ---
+TI: “Works on my machine”: a case study of replicability challenges inComputational humanities research
+AB: The replicability of computational research is often stated as a key concern in digital humanities scholarship, yet its practical realisation frequently encounters limitations. This contribution analyses some technical conditions for the replicability of articles in the 2024 <em>Computational Humanities Research</em> conference proceedings. A survey was conducted to determine the stated availabili
+
+--- Record 94 ---
+TI: Why and how we share reproducible research at yale university’s institution for social and policy studies
+AB: A recurring theme in the space of reproducibility and replicability is: who should verify completeness, robustness, and correctness of artifacts in support of computational reproducibility, beyond the regular to and fro in the scientific literature?I (Lars Vilhuber, the Column Editor of this Reinforcing Reproducibility and Replicability column) also happen to be in charge of reproducibility verifi
+
+--- Record 95 ---
+TI: The fundamental principles of reproducibility
+AB: Reproducibility is a confused terminology. In this paper, I take a fundamental view on reproducibility rooted in the scientific method. The scientific method is analysed and characterized in order to develop the terminology required to define reproducibility. Furthermore, the literature on reproducibility and replication is surveyed, and experiments are modelled as tasks and problem solving method
+
+--- Record 96 ---
+TI: Reinforcing reproducibility and replicability: an introduction
+AB: The purpose of scientific publishing is the dissemination of robust research findings, exposing them to the scrutiny of peers.The key to this endeavor is documenting the provenance of those findings.Scientific practices during the course of research and subsequent publication, peer review, and dissemination practices and tools, all interact to (hopefully) enable a meaningful discourse about the ve
+
+--- Record 97 ---
+TI: A manifesto for data sharing in social media research
+AB: More and more researchers want to share research data collected from social media to allow for reproducibility and comparability of results. With this paper we want to encourage them to pursue this aim -- despite initial obstacles that they may face. Sharing can occur in various, more or less formal ways. We provide background information that allows researchers to make a decision about whether, h
+
+--- Record 98 ---
+TI: Sustainable computational science: the ReScience initiative
+AB: Computer science offers a large set of tools for prototyping, writing, running, testing, validating, sharing and reproducing results; however, computational science lags behind. In the best case, authors may provide their source code as a compressed archive and they may feel confident their research is reproducible. But this is not exactly true. James Buckheit and David Donoho proposed more than t
+
+--- Record 99 ---
+TI: Docker image builder: a robust method for constructing docker images for reproducible research
+AB: Summary: To ensure computational analyses can be reproduced, researchers must preserve all components of their work, including source code, data inputs, results, execution logs, and environment configurations. Docker images provide an ideal solution for packaging these computational environments. They allow for isolating, capturing, reusing and sharing the computational environment. This is essent
+
+--- Record 100 ---
+TI: Sciunits: reusable research objects
+AB: Science is conducted collaboratively, often requiring knowledge sharing about computational experiments. When experiments include only datasets, they can be shared using Uniform Resource Identifiers (URIs) or Digital Object Identifiers (DOIs). An experiment, however, seldom includes only datasets, but more often includes software, its past execution, provenance, and associated documentation. The R
+
+--- Record 101 ---
+TI: Toward practical transparent verifiable and long-term reproducible research using guix
+AB: Abstract Reproducibility crisis urge scientists to promote transparency which allows peers to draw same conclusions after performing identical steps from hypothesis to results. Growing resources are developed to open the access to methods, data and source codes. Still, the computational environment, an interface between data and source code running analyses, is not addressed. Environments are usua
+
+--- Record 102 ---
+TI: Fixing dependency errors for python build reproducibility
+AB: Software reproducibility is important for re-usability and the cumulative progress of research. An important manifestation of unreproducible software is the changed outcome of software builds over time. While enhancing code reuse, the use of open-source dependency packages hosted on centralized repositories such as PyPI can have adverse effects on build reproducibility. Frequent updates to these p
+
+--- Record 103 ---
+TI: EFECT: a method to quantify the reproducibility of stochastic simulations
+AB: Reproducibility is a fundamental requirement for validating scientific claims in computational research. Stochastic computational models are widely used in fields such as systems biology, financial modeling and environmental sciences. However, achieving reproducibility in stochastic simulations remains challenging, as each run can produce different outcomes. Existing infrastructure and software to
+
+--- Record 104 ---
+TI: Beyond open data: a model for linking digital artifacts to enable reproducibility of scientific claims
+AB: The last few years has seen a substantial push toward "Open Data" by policy makers, researchers, archivists, and even the public. This article postulates that the value of data is not intrinsic but instead derives from its ability to produce knowledge; the extraction of which from data is not deterministic. The value of data is realized through a focus on the reproducibility of the findings from t
+
+--- Record 105 ---
+TI: Automated reproducibility testing in R markdown
+AB: Computational results are considered _reproducible_ if the same computation on the same data yields the same results if performed on a different computer or on the same computer later in time. Reproducibility is a prerequisite for replicable, robust and transparent research in digital environments. Various approaches have been suggested to increase chances of reproducibility. Many of them rely on 
+
+--- Record 106 ---
+TI: Scientific tests and continuous integration strategies to enhance reproducibility in the scientific software context
+AB: Continuous integration (CI) is a well-established technique in commercial and open-source software projects, although not routinely used in scientific publishing. In the scientific software context, CI can serve two functions to increase reproducibility of scientific results: providing an established platform for testing the reproducibility of these results, and demonstrating to other scientists h
+
+--- Record 107 ---
+TI: Experiences with reproducibility: case studies from scientific workflows
+AB: Reproducible research is becoming essential for science to ensure transparency and for building trust. Additionally, reproducibility provides the cornerstone for sharing of methodology that can improve efficiency. Although several tools and studies focus on computational reproducibility, we need a better understanding about the gaps, issues, and challenges for enabling reproducibility of scientifi
+
+--- Record 108 ---
+TI: The art of publishing reproducible research outputs: supporting emerging practices through cultural and technological innovation
+AB: Reproducibility and transparency can be regarded (at least in experimental research) as a hallmark of research. The ability to reproduce research results in order to check their reliability is an important cornerstone of research that helps to guarantee the quality of research and to build on existing knowledge. The digital turn has brought more opportunities to document, share and verify research
+
+--- Record 109 ---
+TI: Reproducibility: a primer on semantics and implications for research
+AB: Science is allegedly in the midst of a reproducibility crisis, but questions of reproducibility and related principles date back nearly 80 years. Numerous controversies have arisen, especially since 2010, in a wide array of disciplines that stem from the failure to reproduce studies or their findings:biology, biomedical and preclinical research, business and organizational studies, computational s
+
+--- Record 110 ---
+TI: Reproducibility signals in science: a preliminary analysis
+AB: Reproducibility is an important feature of science; experiments are retested, and analyses are repeated.Trust in the findings increases when consistent results are achieved.Despite the importance of reproducibility, significant work is often involved in these efforts, and some published findings may not be reproducible due to oversights or errors.In this paper, we examine a myriad of features in s
+
+--- Record 111 ---
+TI: Documenting computing environments for reproducible experiments
+AB: Establishing the reproducibility of an experiment often requires repeating the experiment in its native computing environment. Containerization tools provide declarative interfaces for documenting native computing environments. Declarative documentation, however, may not precisely recreate the native computing environment because of human errors or dependency conflicts. An alternative is to trace 
+
+--- Record 112 ---
+TI: Reproducing statistical results
+AB: The reproducibility of statistical findings has become a concern not only for statisticians, but for all researchers engaged in empirical discovery. Section 2 of this article identifies key reasons statistical findings may not replicate, including power and sampling issues; misapplication of statistical tests; the instability of findings under reasonable perturbations of data or models; lack of ac
+
+--- Record 113 ---
+TI: Long-term availability of data associated with articles in PLOS ONE
+AB: The adoption of journal policies requiring authors to include a Data Availability Statement has helped to increase the availability of research data associated with research articles. However, having a Data Availability Statement is not a guarantee that readers will be able to locate the data; even if provided with an identifier like a uniform resource locator (URL) or a digital object identifier 
+
+--- Record 114 ---
+TI: A reproducible data analysis workflow
+AB: In this tutorial, we describe a workflow to ensure long-term reproducibility of R-based data analyses. The workflow leverages established tools and practices from software engineering. It combines the benefits of various open-source software tools including R Markdown, Git, Make, and Docker, whose interplay ensures seamless integration of version management, dynamic report generation conforming to
+
+--- Record 115 ---
+TI: Transparency, reproducibility, and the credibility of economics research
+AB: There is growing interest in enhancing research transparency and reproducibility in economics and other scientific fields. We survey existing work on these topics within economics and discuss the evidence suggesting that publication bias, inability to replicate, and specification searching remain widespread in the discipline. We next discuss recent progress in this area, including through improved
+
+--- Record 116 ---
+TI: A reproducible data analysis workflow with R markdown, git, make, and docker
+AB: In this tutorial, we describe a workflow to ensure long-term reproducibility of R-based data analyses. The workflow leverages established tools and practices from software engineering. It combines the benefits of various open-source software tools including R Markdown, Git, Make, and Docker, whose interplay ensures seamless integration of version management, dynamic report generation conforming to
+
+--- Record 117 ---
+TI: Making provenance work for you
+AB: To be useful, scientific results must be reproducible and trustworthy. Data provenance---the history of data and how it was computed---underlies reproducibility of, and trust in, data analyses. Our work focuses on collecting data provenance from R scripts and providing tools that use the provenance to increase the reproducibility of and trust in analyses done in R. Specifically, our "End-to-end pr
+
+--- Record 118 ---
+TI: Why risk it, when you can {rix} it: a tutorial for computational reproducibility focused on simulation studies
+AB: Computational reproducibility remains limited in psychological research, despite widespread norms for sharing data and analysis code. One reason is that reproducibility exists on a continuum, ranging from partial transparency—such as providing scripts or software version numbers—to fully executable research compendia that regenerate all results from raw code. In this article, we introduce Nix and 
+
+--- Record 119 ---
+TI: Reproducibility spectrum for applied social sciences: conceptual taxonomy and recommended tools
+AB: Overview This Zenodo record contains two complementary figures that together provide a comprehensive framework for understanding and implementing reproducibility in Applied Social Sciences research. Adapted from Zaragozi et al. (2020) and aligned with the ARTE (Article Reproducibility Template & Environment) workflow (Rogers et al., 2025; Limongi et al., 2025a, 2025b), these figures support both c
+
+--- Record 120 ---
+TI: rix: reproducible data science environments with 'nix'
+AB: Simplifies the creation of reproducible data science environments using the 'Nix' package manager, as described in Dolstra (2006) &lt;ISBN 90-393-4130-3&gt;. The included &lsquo;rix()' function generates a complete description of the environment as a 'default.nix' file, which can then be built using &rsquo;Nix'. This results in project specific software environments with pinned versions of R, pack
+
+--- Record 121 ---
+TI: Reproducibility and replicability in economics
+AB: I provide a summary description of the history and state of reproducibility and replicability in the academic field of economics. I include a discussion of more general replicability and transparency, including the tradition of sharing of research findings and code outside of peer-reviewed publications. I describe the historical context for journals and grey literature in economics, the role of pr
+
+--- Record 122 ---
+TI: Reproducibility certification in economics research
+AB: 
+
+--- Record 123 ---
+TI: A framework for evaluating reproducibility and replicability in economics
+AB: 
+
+--- Record 124 ---
+TI: Report of the AEA data editor
+AB: The American Economic Association (AEA) data editor's mission is to "design and oversee the AEA journals' strategy for archiving and curating research data and promoting reproducible research" (Duflo and Hoynes 2018).The 2018 Report by the Data Editor (Vilhuber 2019) articulates how to implement that mission.Since July 2019, we have conducted comprehensive prepublication reproducibility checks for
+
+--- Record 125 ---
+TI: Teaching reproducible methods in economics at liberal arts colleges: a survey
+AB: Economics has become increasingly empirical and, alongside this shift, has come more demand for improved transparency and reproducibility in empirical economic research. In this paper, we distribute a survey to almost 1,500 economics faculty from the top 161 liberal arts colleges with an economics major (according to U.S. News & World Report) in the United States to determine the prevalence of tea
+
+--- Record 126 ---
+TI: Computational reproducibility and robustness of empirical economics and political science research
+AB: This systematic and large-scale reproduction effort tests the reproducibility and robustness of economics and political science. We reproduced original analyses and conducted robustness checks of 110 articles recently published in leading economics and political science journals (all of which have mandatory data and code sharing policies). We found that over 85% of published claims were computatio
+
+--- Record 127 ---
+TI: CRRESS - session 4 - reproducibility and confidential data
+AB: What happens to reproducibility when data are confidential or proprietary? Many journals can only ask that detailed access procedures be provided in a ReadMe file, but what mechanisms could be used to conduct computational reproducibility checks on such data? Should authors temporarily share their data with the journal for the purposes of reproducibility verification, even if they are not part of 
+
+--- Record 128 ---
+TI: Reproducibility confidentiality data access
+AB: The recent concern about the reproducibility of research results has not yet been robustly incorporated into methods of providing and accessing administrative data, casting doubts on the validity of research based on such data. Reproducibility depends on disaggregating and exposing the multiple components of the research - data, software, workflows, and provenance - to other researchers and provid
+
+--- Record 129 ---
+TI: Statistical perspectives on reproducibility: definitions and challenges
+AB: Abstract Reproducibility is a widely discussed topic, yet many experimental results cannot be confirmed due to factors such as publication bias, poor documentation, and inappropriate statistical methods. A lack of standard definitions for reproducibility and related terms further complicates the matter. This paper reviews the literature on reproducibility, clarifies key terminology by defining fiv
+
+--- Record 130 ---
+TI: Provide proactive reproducible analysis transparency with every publication
+AB: The high incidence of irreproducible research has led to urgent appeals for transparency and equitable practices in open science. For the scientific disciplines that rely on computationally intensive analyses of large datasets, a granular understanding of the analysis methodology is an essential component of reproducibility. This article discusses the guiding principles of a computational reproduc
+
+--- Record 131 ---
+TI: Three approaches to support reproducible research
+AB: Introduction Ensuring the reliability of published research has become increasingly important to publishers, funders, institutions, and others over the past decade. This can mostly be attributed to increased recognition of the many factors that affect the quality and credibility of the research and publishing process. Some of the main challenges to publishing reproducible research are steeped in t
+
+--- Record 132 ---
+TI: The future of peer review and reproducible science
+AB: The ability of peer review to improve manuscripts, e.g., conduct, reporting, and validity of study findings, as well as deter publication of “bad” studies is increasingly being questioned. 1 In the past I have made a call to showcase changes that occurred to each study due to peer review. 2 In this talk I will reflect on the findings of the living review of changes that occur to manuscripts (or pr
+
+--- Record 133 ---
+TI: Trust, but verify: an investigation of methods of verification and dissemination of computational research artifacts for transparency and reproducibility
+AB: In this study, I investigate how research communities are addressing concerns about the quality and rigor of computational research. I focus specifically on initiatives to expand the peer review and publication process to include new requirements for the assessment and dissemination of computational research artifacts. I report the results of a multiple-case analysis of two primary (American Journ
+
+--- Record 134 ---
+TI: Reproducible research publication workflow: a canonical workflow framework and FAIR digital object approach to quality research output
+AB: Abstract In this paper we present the Reproducible Research Publication Workflow (RRPW) as an example of how generic canonical workflows can be applied to a specific context. The RRPW includes essential steps between submission and final publication of the manuscript and the research artefacts (i.e., data, code, etc.) that underlie the scholarly claims in the manuscript. A key aspect of the RRPW i
+
+--- Record 135 ---
+TI: Tools and techniques for computational reproducibility
+AB: When reporting research findings, scientists document the steps they followed so that others can verify and build upon the research. When those steps have been described in sufficient detail that others can retrace the steps and obtain similar results, the research is said to be reproducible. Computers play a vital role in many research disciplines and present both opportunities and challenges for
+
+--- Record 136 ---
+TI: Creating and sharing reproducible research code the workflowr way
+AB: Making scientific analyses reproducible, well documented, and easily shareable is crucial to maximizing their impact and ensuring that others can build on them. However, accomplishing these goals is not easy, requiring careful attention to organization, workflow, and familiarity with tools that are not a regular part of every scientist's toolbox. We have developed an R package, <b>workflowr</b>, t
+
+--- Record 137 ---
+TI: A review of containerization for interactive and reproducible analysis
+AB: In recent decades the analysis of data has become increasingly computational. Correspondingly, this has changed how scientific and statistical work is shared. For example, it is now commonplace for underlying analysis code and data to be proffered alongside journal publications and conference talks. Unfortunately, sharing code faces several challenges. First, it is often difficult to take code fro
+
+--- Record 138 ---
+TI: AIRepr: an analyst-inspector framework for evaluating reproducibility of LLMs in data science
+AB: 
+
+--- Record 139 ---
+TI: Reproducibility does not imply reproduction
+AB: In discussions about computational reproducibility (or replicability, or repeatability, according to the preference of each author), I often see the argument that reproducing computations may not be worth the investment in terms of human effort and computational resources. I think this argument misses the point of computational reproducibility. Obviously, there is no point in repeating a computati
+
+--- Record 140 ---
+TI: Reproducibility checklists
+AB: 
+
+--- Record 141 ---
+TI: Why computational reproducibility matters
+AB: Thirty years after my first contact with computational (ir)reproducibility, I am happy to note that many things have improved. Reproducibility, computational and otherwise, is increasingly recognized as an important aspect of scientific quality control, and mostly considered worth striving for.
+
+--- Record 142 ---
+TI: A survey on collecting, managing, and analyzing provenance from scripts
+AB: Scripts are widely used to design and run scientific experiments. Scripting languages are easy to learn and use, and they allow complex tasks to be specified and executed in fewer steps than with traditional programming languages. However, they also have important limitations for reproducibility and data management. As experiments are iteratively refined, it is challenging to reason about each exp
+
+--- Record 143 ---
+TI: Computational reproducibility: the elephant in the room
+AB: Examines the concept of computational reproducibility. Reports on the development of software programming and addresses the challenges of managing software development and developing reliability software update and maintenance procedures.
+
+--- Record 144 ---
+TI: Toward computational reproducibility: a doctoral student's story of passing the baton
+AB: ABSTRACT Computational reproducibility is a critical first step to supporting data reuse. Incentives that encourage data reuse within an academic setting are unlikely to be compelling for students who decide not to continue in academe. The goal of this work is to identify key barriers in the most likely of scenarios with computational reuse, when a doctoral student reproduces work done by another 
+
+--- Record 145 ---
+TI: CODECHECK: an open science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility
+AB: The traditional scientific paper falls short of effectively communicating computational research. To help improve this situation, we propose a system by which the computational workflows underlying research articles are checked. The CODECHECK system uses open infrastructure and tools and can be integrated into review and publication processes in multiple ways. We describe these integrations along 
+
+--- Record 146 ---
+TI: Tools and recommendations for reproducible teaching
+AB: It is recommended that teacher-scholars of data science adopt reproducible workflows in their research as scholars and teach reproducible workflows to their students. In this paper, we propose a third dimension to reproducibility practices and recommend that regardless of whether they teach reproducibility in their courses or not, data science instructors adopt reproducible workflows for their own
+
+--- Record 147 ---
+TI: Science capsule: towards sharing and reproducibility of scientific workflows
+AB: Workflows are increasingly processing large volumes of data from scientific instruments, experiments and sensors. These workflows often consist of complex data processing and analysis steps that might include a diverse ecosystem of tools and also often involve human-in-the-loop steps. Sharing and reproducing these workflows with collaborators and the larger community is critical but hard to do wit
+
+--- Record 148 ---
+TI: The four possibilities of reproducible scientific computations
+AB: Computational reproducibility has become a topic of much debate in recent years. Often that debate is fueled by misunderstandings between scientists from different disciplines, each having different needs and priorities. Moreover, the debate is often framed in terms of specific tools and techniques, in spite of the fact that tools and techniques in computing are often short-lived.
+
+--- Record 149 ---
+TI: WORCS: a workflow for open reproducible code in science
+AB: Adopting open science principles can be challenging, requiring conceptual education and training in the use of new tools. This paper introduces the Workflow for Open Reproducible Code in Science (WORCS): A step-by-step procedure that researchers can follow to make a research project open and reproducible. This workflow intends to lower the threshold for adoption of open science principles. It is b
+
+--- Record 150 ---
+TI: Ten simple rules for writing dockerfiles for reproducible data science
+AB: Computational science has been greatly improved by the use of containers for packaging software and data dependencies. In a scholarly context, the main drivers for using these containers are transparency and support of reproducibility; in turn, a workflow’s reproducibility can be greatly affected by the choices that are made with respect to building containers. In many cases, the build process for
+
+--- Record 151 ---
+TI: The stark realities of reproducible statistically orientated sociological research: some newer rules of the sociological method
+AB: There is increasing concern that research is not transparent and that empirical results are often impossible to reproduce. Guidelines for undertaking reproducible research have been proposed by a number of academic areas (e.g. computational economics, psychology and medical research), however currently there are no guidelines for sociological research. This methodological paper provides guidance f
+
+--- Record 152 ---
+TI: Computational reproducibility: a practical framework for data curators
+AB: Introduction: This paper presents concrete and actionable steps to guide researchers, data curators, and data managers in improving their understanding and practice of computational reproducibility. Objectives: Focusing on incremental progress rather than prescriptive rules, researchers and curators can build their knowledge and skills as the need arises. This paper presents a framework of increme
+
+--- Record 153 ---
+TI: PRIMAD-LID: a developed framework for computational reproducibility
+AB: Over the past decade alongside increased focus on computational reproducibility significant efforts have been made to define reproducibility. However, these definitions provide a textual description rather than a framework. The community has sought conceptual frameworks that identify all factors that must be controlled and described for credible computational reproducibility. The PRIMAD model was 
+
+--- Record 154 ---
+TI: Perceived problems, causes, and solutions of finance research reproducibility and replicability: a pre-registered report
+AB: In response to growing concerns about reproducibility and replicability in finance and conflicting findings in the area, we survey finance academics about their perceptions of reproducibility and replicability of finance research. Our survey results will provide evidence of the extent of the perceived problems, the perceived potential causes, and the community's views on possible solutions. To thi
+
+--- Record 155 ---
+TI: Mass reproducibility and replicability: a new hope
+AB: 
+
+--- Record 156 ---
+TI: Introducing reproducible research standards at the world bank
+AB: provides insights into a novel initiative within the World Bank: internal prepublication reproducibility checks.Prior contributions to the Reinforcing Reproducibility and Replicability column have highlighted organizational curation efforts (Butler) and some limited reproducibility checks (Peer); now, Jones describes the ambitious effort at the World Bank to provide curation support and reproducib
+
+--- Record 157 ---
+TI: statacons: an SCons-based build tool for stata
+AB: This paper presents statacons, an SCons-based build tool for Stata. Because of the integration of Stata and Python in recent versions of Stata, we are able to adapt SCons for Stata workflows without the use of an external shell or extensive configuration. We discuss the usefulness of build tools generally, provide examples of the use of statacons in Stata workflows, present key elements of the syn
+
+--- Record 158 ---
+TI: Highlights of the US national academies report on “reproducibility and replicability in science”
+AB: In 2019, the National Academies of Sciences, Engineering, and Medicine of the United States released a report on reproducibility and replicability in science. This topic is of keen interest to everyone concerned with the reliability of scientific research and the role of computational and statistical analysis in science. In this interview conducted by Xiao-Li Meng, (HDSRâs Editor-in-Chief), repo
+
+--- Record 159 ---
+TI: The rise of open science: tracking the evolution and perceived value of data and methods link-sharing practices
+AB: In recent years, funding agencies and journals increasingly advocate for open science practices (e.g. data and method sharing) to improve the transparency, access, and reproducibility of science. However, quantifying these practices at scale has proven difficult. In this work, we leverage a large-scale dataset of 1.1M papers from arXiv that are representative of the fields of physics, math, and co
+
+--- Record 160 ---
+TI: What is computational reproducibility?
+AB: Computational modelling is the process by which phenomena found in complex systems are expressed algorithmically. The creation of such simulations is useful because it allows us to test whether our understanding is sophisticated enough to create credible working models of the phenomena we are studying. In neuroscience and cognitive science especially, computational modelling comprises more than ju
+
+--- Record 161 ---
+TI: Facilitating reproducible project management and manuscript development in team science: the projects R package
+AB: The contemporary scientific community places a growing emphasis on the reproducibility of research. The projects R package is a free, open-source package created in the interest of facilitating reproducible research workflows. It adds to existing software tools for reproducible research and introduces several practical features that are helpful for scientists and their collaborative research teams
+
+--- Record 162 ---
+TI: Computational and robustness reproducibility of "UN peacekeeping and democratization in conflict-affected countries"
+AB: Blair et al. (2023) examine the effect of UN peacekeeping on democratization in conflict-affected countries. They use fixed effects and instrumental variable estimators and find evidence that ”UN missions with democracy promotion mandates are strongly positively correlated with the quality of democracy in host countries but that the magnitude of the relationship is larger for civilian than for uni
+
+--- Record 163 ---
+TI: Replication of the morning after: report from the nottingham replication games
+AB: We replicate the analysis provided in Bokobza et al. (2022). They identify a causal effect of failed coup attempts on cabinet minister removals in autocracies on both the country and individual minister level and show that higher-ranking ministers and those holding strategic positions are more likely to be purged than more loyal and veteran ministers using fixed effects panel models. We focus on c
+
+--- Record 164 ---
+TI: A report on "corruption and Co-optation in autocracy: evidence from Russia"
+AB: We re-analyze Szakonyi (2025), one of the most innovative corruption studies in recent years. Using data from Russia, Szakonyi (2025) estimates the effect of a political regime having compromising information (kompromat) over its politicians on legislative behavior, lobbying, and re-election. We are able to computationally reproduce the author's results, but we had to make changes to the data clea
+
+--- Record 165 ---
+TI: Verification report: egalitarianism in young children
+AB: Abstract The present study sought to evaluate the reproducibility of prominent findings stated by Fehr et al. in their developmental resource allocation experiment "Egalitarianism in Young Children", published in 2008. The experiment involved children making decisions about distributing sweets between themselves and either an in‐group or an out‐group recipient. Fehr et al. found that (1) inequity 
+
+--- Record 166 ---
+TI: Protecting against researcher bias in secondary data analysis: challenges and potential solutions
+AB: Abstract Analysis of secondary data sources (such as cohort studies, survey data, and administrative records) has the potential to provide answers to science and society’s most pressing questions. However, researcher biases can lead to questionable research practices in secondary data analysis, which can distort the evidence base. While pre-registration can help to protect against researcher biase
+
+--- Record 167 ---
+TI: Replicability of simulation studies for the investigation of statistical methods: the RepliSims project
+AB: Results of simulation studies evaluating the performance of statistical methods can have a major impact on the way empirical research is implemented. However, so far there is limited evidence of the replicability of simulation studies. Eight highly cited statistical simulation studies were selected, and their replicability was assessed by teams of replicators with formal training in quantitative m
+
+--- Record 168 ---
+TI: Transparent reporting items for simulation studies evaluating statistical methods: foundations for reproducibility and reliability
+AB: Abstract Simulation studies are essential tools to assess statistical methods. Functioning as controlled experiments, simulations generate data from known underlying processes. However, unclear or incomplete reporting of simulation studies can impact their interpretability and reproducibility, potentially leading to the misuse of statistical methods. While Morris et al. (2019, Stat Med, 38, p. 207
+
+--- Record 169 ---
+TI: The interdependence of data producers and data users: how researchers’ behaviors can support or hinder each other
+AB: Sharing and reusing data is widely viewed as advancing knowledge, but researchers often view it as a burdensome and time-consuming process. We sought to identify specific research practices that have the potential to decrease burden and increase benefits for researchers from any discipline while retaining the broad scholarly benefits, complementing investigations that have identified approaches an
+
+--- Record 170 ---
+TI: Reproducibility badging and definitions
+AB: 
+
+--- Record 171 ---
+TI: Principles for data analysis workflows
+AB: A systematic and reproducible “workflow”—the process that moves a scientific investigation from raw data to coherent research question to insightful contribution—should be a fundamental part of academic data-intensive research practice. In this paper, we elaborate basic principles of a reproducible data analysis workflow by defining 3 phases: the Explore, Refine, and Produce Phases. Each phase is 
+
+--- Record 172 ---
+TI: The role of third-party verification in research reproducibility
+AB: 
+
+--- Record 173 ---
+TI: UK reproducibility network open and transparent research practices survey dataset
+AB: Abstract Openness and transparency in the research process are a prerequisite to the production of high quality research outputs. Efforts to maximise these features have substantially accelerated in recent years, placing open and transparent research practices at the forefront of funding and related priorities, and encouraging investment in resources and infrastructure to enable such practices. De
+
+--- Record 174 ---
+TI: Improving research quality: the view from the UK reproducibility network institutional leads for research improvement
+AB: Abstract The adoption and incentivisation of open and transparent research practices is critical in addressing issues around research reproducibility and research integrity. These practices will require training and funding. Individuals need to be incentivised to adopt open and transparent research practices (e.g., added as desirable criteria in hiring, probation, and promotion decisions, recognit

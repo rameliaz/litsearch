@@ -1,0 +1,16 @@
+query_id,query_str,tier,n_retrieved,search_date,date_filter,n_after_global_dedup
+Q1,"""computational reproducibility""",1,3382,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q2,"""reproducibility criteria""",1,1100,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q3,"""reproducibility checklist""",1,616,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q4,"""reproducibility requirement""",1,362,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q5,"""reproducibility badge""",1,273,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q6,"""reproducibility verification""",1,516,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q7,"""computational reproducibility"" economics",2,463,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q8,"""computational reproducibility"" ""social science""",2,633,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q9,"""computational reproducibility"" ""political science""",2,231,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q10,"""computational reproducibility"" sociology",2,246,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q11,"""computational reproducibility"" ""communication science""",2,28,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q12,"""reproducibility criteria"" economics",2,81,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q13,"""reproducibility criteria"" ""social science""",2,69,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q14,"""computational reproducibility"" ""management science""",2,38,2026-03-12,2015-01-01 to 2026-03-12,5294
+Q15,"""computational reproducibility"" finance",2,216,2026-03-12,2015-01-01 to 2026-03-12,5294
