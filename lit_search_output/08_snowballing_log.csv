@@ -1,0 +1,124 @@
+seed_openalex_id,seed_title,seed_doi,n_citing_retrieved,query_date
+W4396530946,The Role of Third-Party Verification in Research Reproducibility,10.1162/99608f92.6d4bf9eb,2,2026-03-30
+W4396919600,What makes computational communication science (ir)reproducible?,10.5117/CCR2024.1.5.CHAN,3,2026-03-30
+W4400282592,Measuring transparency in the social sciences: political science and international relations,10.1098/rsos.240313,6,2026-03-30
+W4390009570,Teaching constructive replications in the behavioral and social sciences using quantitative data,10.1177/00986283231219503,6,2026-03-30
+W4415381560,Checklists for computational reproducibility in social sciences: insights from literature and survey evaluation,10.1145/3736731.3746161,0,2026-03-30
+W2766539773,How transparency and reproducibility can increase credibility in policy analysis: a case study of the minimum wage policy estimate,10.7249/rgsd394,1,2026-03-30
+W4225576441,Reproducibility in the social sciences,10.1146/annurev-soc-090221-035954,33,2026-03-30
+W4407427851,A protocol for structured robustness reproductions and replicability assessments,10.2139/ssrn.5135862,1,2026-03-30
+W4390104160,Reproducibility in Management Science,10.1287/mnsc.2023.03556,28,2026-03-30
+W7133530738,From guidelines to practice: evaluating the reproducibility of methods in computational social science,10.1145/3795766.3799759,0,2026-03-30
+W4404923512,Computational reproducibility in computational social science,10.1140/epjds/s13688-024-00514-w,6,2026-03-30
+W3011243144,A synthetic dataset primer for the biobehavioural sciences to promote reproducibility and hypothesis generation,10.7554/eLife.53275,127,2026-03-30
+W4407797631,Data and code availability in political science publications from 1995 to 2022,10.1017/S1049096524001276,4,2026-03-30
+W2793993424,An empirical analysis of journal policy effectiveness for computational reproducibility,10.1073/pnas.1708290115,361,2026-03-30
+W4206506112,AEA data and code availability policy,10.1257/pandp.111.818,3,2026-03-30
+W4385680790,Care to share? Experimental evidence on code sharing behavior in the social sciences,10.1371/journal.pone.0289380,15,2026-03-30
+W4404631424,Replication code availability over time and across fields: evidence from the german socio-economic panel,10.1111/ecin.13267,5,2026-03-30
+W7133298801,PaperRepro: automated computational reproducibility assessment for social science papers,10.48550/arxiv.2603.00058,0,2026-03-30
+W4412944691,REPRO-bench: can agentic AI systems assess the reproducibility of social science research?,10.18653/v1/2025.findings-acl.1210,1,2026-03-30
+W4391880064,A guide for social science journal editors on easing into open science,10.1186/s41073-023-00141-5,22,2026-03-30
+W4403707291,CORE-bench: fostering the credibility of published research through a computational reproducibility agent benchmark,10.48550/arxiv.2409.11363,3,2026-03-30
+W7128475124,Automating computational reproducibility in social science: comparing prompt-based and agent-based approaches,10.48550/arxiv.2602.08561,0,2026-03-30
+W3200021292,Dawning of a new age? Economics journals’ data policies on the test bench,10.53377/lq.10940,1,2026-03-30
+W3175388084,Active maintenance: a proposal for the long-term computational reproducibility of scientific results,10.1017/S1049096521000366,5,2026-03-30
+W4311505223,Toward reusable science with readable code and reproducibility,10.48550/arxiv.2109.10387,1,2026-03-30
+W3014050314,Journal data policies: exploring how the understanding of editors and authors corresponds to the policies themselves,10.1371/journal.pone.0230281,38,2026-03-30
+W7128648162,Artisan: agentic artifact evaluation,NA,0,2026-03-30
+W4396513603,Audio-as-data tools: replicating computational data processing,10.17645/mac.7851,3,2026-03-30
+W4225463192,Reproducible research in R: a tutorial on how to do the same thing more than once,10.3390/psych3040053,35,2026-03-30
+W3196594355,The science of open (communication) science: toward an evidence-driven understanding of quality criteria in communication research,10.1093/joc/jqab032,28,2026-03-30
+W4385970077,A backend platform for supporting the reproducibility of computational experiments,10.48550/arxiv.2308.00703,1,2026-03-30
+W7117247250,Let’s talk about it: making scientific computational reproducibility easier,10.1109/VL-HCC65237.2025.00015,2,2026-03-30
+W7117254743,SciConv: a conversational tool for reproducibility,10.1109/VL-HCC65237.2025.00071,0,2026-03-30
+W4404171592,Unintended code errors and computational reproducibility,10.31222/osf.io/rv6xd,0,2026-03-30
+W2945130123,Coding be eR: assessing and improving the reproducibility of R-based research with containR,NA,0,2026-03-30
+W3022004365,Advancing computational reproducibility in the dataverse data repository platform,10.1145/3391800.3398173,2,2026-03-30
+W4353085171,Reproducibility as a service,10.1002/spe.3202,11,2026-03-30
+W4221066880,A collaborative semantic-based provenance management platform for reproducibility,10.7717/peerj-cs.921,13,2026-03-30
+W2541490763,Storing reproducible results from computational experiments using scientific python packages,10.25080/Majora-629e541a-006,2,2026-03-30
+W4403577439,Navigating the landscape of reproducible research: a predictive modeling approach,10.1145/3627673.3679831,0,2026-03-30
+W2431100065,ReproZip: computational reproducibility with ease,10.1145/2882903.2899401,121,2026-03-30
+W2776350112,Using ReproZip for reproducibility and library services,10.29173/iq18,10,2026-03-30
+W2887195941,ReproServer: making reproducibility easier and less intensive,10.48550/arxiv.1808.01406,4,2026-03-30
+W3039166951,"Reproducibility, preservation, and access to research with ReproZip and ReproServer",10.29173/iq969,12,2026-03-30
+W4229379106,Containerization for creating reusable model code,10.18174/sesmo.18074,5,2026-03-30
+W1574680346,An introduction to docker for reproducible research,10.1145/2723872.2723882,1025,2026-03-30
+W4415332639,Similarity-based assessment of computational reproducibility in jupyter notebooks,10.1145/3736731.3746159,0,2026-03-30
+W4256346567,The ReproRubric: evaluation criteria for the reproducibility of computational analyses,10.31219/osf.io/thvef,0,2026-03-30
+W1966517122,Towards reproducibility in scientific workflows: an infrastructure-based approach,10.1155/2015/243180,37,2026-03-30
+W4415036172,AutoReproduce: automatic AI experiment reproduction with paper lineage,10.48550/arxiv.2505.20662,0,2026-03-30
+W4399880449,"Computational reproducibility in finance: evidence from 1,000 tests",10.1093/rfs/hhae029,23,2026-03-30
+W7127924756,Overcoming barriers to computational reproducibility,10.48550/arxiv.2602.03863,1,2026-03-30
+W4244185376,Successes and struggles with computational reproducibility: lessons from the fragile families challenge,10.1177/2378023119849803,43,2026-03-30
+W4416046054,Computational reproducibility of R code supplements on OSF,10.36190/2025.49,0,2026-03-30
+W3214743025,Challenges of curating for reproducible and FAIR research output,10.15497/RDA00063,9,2026-03-30
+W2951547501,Implementing computational reproducibility in the whole tale environment,10.1145/3322790.3330594,16,2026-03-30
+W3012550223,Application of BagIt-serialized research object bundles for packaging and Re-execution of computational analyses,10.1109/eScience.2019.00068,4,2026-03-30
+W4400519511,Evaluating tools for enhancing reproducibility in computational scientific experiments,10.1145/3641525.3663623,6,2026-03-30
+W4409751567,Tooling for reproducible research: considerations for the past and future of data analysis,10.17713/ajs.v54i3.2052,2,2026-03-30
+W4416264751,“Works on my machine”: a case study of replicability challenges inComputational humanities research,10.63744/iAqEoznkfKuz,1,2026-03-30
+W4391378485,Why and how we share reproducible research at yale university’s institution for social and policy studies,10.1162/99608f92.dca148ba,1,2026-03-30
+W3109268737,The fundamental principles of reproducibility,10.1098/rsta.2020.0210,9,2026-03-30
+W4385297687,Reinforcing reproducibility and replicability: an introduction,10.1162/99608f92.9ba2bd43,4,2026-03-30
+W2401562030,A manifesto for data sharing in social media research,10.1145/2908131.2908172,45,2026-03-30
+W2734665458,Sustainable computational science: the ReScience initiative,10.7717/peerj-cs.142,127,2026-03-30
+W2738438370,Sciunits: reusable research objects,10.1109/escience.2017.51,12,2026-03-30
+W4301397397,Toward practical transparent verifiable and long-term reproducible research using guix,10.1038/s41597-022-01720-9,16,2026-03-30
+W3182281291,Fixing dependency errors for python build reproducibility,10.1145/3460319.3464797,55,2026-03-30
+W3036442251,Beyond open data: a model for linking digital artifacts to enable reproducibility of scientific claims,10.1145/3391800.3398172,4,2026-03-30
+W2750971703,Reproducibility: a primer on semantics and implications for research,10.3768/rtipress.2017.bk.0020.1708,9,2026-03-30
+W4404783460,Reproducibility signals in science: a preliminary analysis,10.18653/v1/2022.wiesp-1.16,1,2026-03-30
+W3023811136,Documenting computing environments for reproducible experiments,10.3233/apc200106,8,2026-03-30
+W2126645252,Reproducing statistical results,10.1146/annurev-statistics-010814-020127,78,2026-03-30
+W4293105253,Long-term availability of data associated with articles in PLOS ONE,10.1371/journal.pone.0272845,28,2026-03-30
+W2995262684,"A reproducible data analysis workflow with R Markdown, Git, Make, and Docker",10.5964/qcmb.3763,41,2026-03-30
+W2561942675,"Transparency, reproducibility, and the credibility of economics research",10.1257/jel.20171350,421,2026-03-30
+W4322619775,Making provenance work for you,10.32614/RJ-2023-003,4,2026-03-30
+W7109130967,Reproducibility spectrum for applied social sciences: conceptual taxonomy and recommended tools,10.5281/ZENODO.17830903,0,2026-03-30
+W3111444287,Reproducibility and replicability in economics,10.1162/99608f92.4f6b9e67,38,2026-03-30
+W4377832476,Report of the AEA data editor,10.1257/pandp.113.850,3,2026-03-30
+W7128650985,Computational reproducibility and robustness of empirical economics and political science research,NA,0,2026-03-30
+W4361215018,CRRESS - session 4 - reproducibility and confidential data,10.31222/osf.io/vsj8u,0,2026-03-30
+W4410763908,Statistical perspectives on reproducibility: definitions and challenges,10.1007/s42519-025-00459-x,6,2026-03-30
+W3202707833,"Trust, but verify: an investigation of methods of verification and dissemination of computational research artifacts for transparency and reproducibility",NA,0,2026-03-30
+W4220991954,Reproducible research publication workflow: a canonical workflow framework and FAIR digital object approach to quality research output,10.1162/dint_a_00133,8,2026-03-30
+W2951092176,Tools and techniques for computational reproducibility,10.1186/s13742-016-0135-4,178,2026-03-30
+W2979855176,Creating and sharing reproducible research code the workflowr way,10.12688/f1000research.20843.1,86,2026-03-30
+W3188518593,A review of containerization for interactive and reproducible analysis,10.52933/jdssv.v3i1.53,3,2026-03-30
+W4416034576,AIRepr: an analyst-inspector framework for evaluating reproducibility of LLMs in data science,10.18653/v1/2025.findings-emnlp.539,1,2026-03-30
+W4400676736,Reproducibility does not imply reproduction,10.59350/7xmvp-a5292,0,2026-03-30
+W4411492408,Why computational reproducibility matters,10.59350/vpfzy-wrr35,0,2026-03-30
+W2951565607,"A survey on collecting, managing, and analyzing provenance from scripts",10.1145/3311955,48,2026-03-30
+W2916318691,Computational reproducibility: the elephant in the room,10.1109/MS.2018.2883805,6,2026-03-30
+W2981156674,Toward computational reproducibility: a doctoral student's story of passing the baton,10.1002/pra2.134,1,2026-03-30
+W3151240889,CODECHECK: an open science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility,10.12688/f1000research.51738.2,26,2026-03-30
+W4307208486,Tools and recommendations for reproducible teaching,10.1080/26939169.2022.2138645,11,2026-03-30
+W4200316860,Science capsule: towards sharing and reproducibility of scientific workflows,10.1109/WORKS54523.2021.00014,3,2026-03-30
+W4400682640,The four possibilities of reproducible scientific computations,10.59350/81ba8-dse91,0,2026-03-30
+W3034374347,WORCS: a workflow for open reproducible code in science,10.3233/DS-210031,57,2026-03-30
+W3102028509,Ten simple rules for writing dockerfiles for reproducible data science,10.1371/journal.pcbi.1008316,95,2026-03-30
+W3199519791,Computational reproducibility: a practical framework for data curators,10.7191/jeslib.2021.1206,5,2026-03-30
+W7118528460,PRIMAD-LID: a developed framework for computational reproducibility,10.48550/arxiv.2601.02349,0,2026-03-30
+W4403524754,"Perceived problems, causes, and solutions of finance research reproducibility and replicability: a pre-registered report",10.1016/j.pacfin.2024.102564,2,2026-03-30
+W4394730096,Mass reproducibility and replicability: a new hope,10.2139/ssrn.4790780,17,2026-03-30
+W4403919440,Introducing reproducible research standards at the world bank,10.1162/99608f92.21328ce3,1,2026-03-30
+W2964966717,Facilitating reproducible project management and manuscript development in team science: the projects R package,10.1371/journal.pone.0212390,3,2026-03-30
+W4401429773,"Computational and robustness reproducibility of ""UN peacekeeping and democratization in conflict-affected countries""",10.31235/osf.io/7k2vz,0,2026-03-30
+W4383227083,Replication of the morning after: report from the nottingham replication games,10.31235/osf.io/a2d5p,0,2026-03-30
+W7112551898,"A report on ""corruption and Co-optation in autocracy: evidence from Russia""",NA,0,2026-03-30
+W4205384179,Protecting against researcher bias in secondary data analysis: challenges and potential solutions,10.1007/s10654-021-00839-0,132,2026-03-30
+W4390929439,Replicability of simulation studies for the investigation of statistical methods: the RepliSims project,10.1098/rsos.231003,11,2026-03-30
+W4306765260,The interdependence of data producers and data users: how researchers’ behaviors can support or hinder each other,10.31222/osf.io/yp3ct,1,2026-03-30
+W3128249766,Reproducibility badging and definitions,10.3789/niso-rp-31-2021,13,2026-03-30
+W3042819918,Principles for data analysis workflows,10.1371/journal.pcbi.1008770,42,2026-03-30
+W4200442510,Improving research quality: the view from the UK reproducibility network institutional leads for research improvement,10.1186/s13104-021-05883-3,13,2026-03-30
+W4411139913,Automated Reproducibility Testing in R Markdown,10.1525/collabra.138638,1,2026-03-30
+W4400190764,A framework for evaluating reproducibility and replicability in economics,10.1111/ecin.13244,21,2026-03-30
+W4399395017,In-Class Data Analysis Replications: Teaching Students While Testing Science,10.1162/99608f92.f9720d1f,1,2026-03-30
+W4362637478,statacons: An SCons-based build tool for Stata,10.1177/1536867X231162032,0,2026-03-30
+W4408688463,The reliability of replications: a study in computational reproductions,10.1098/rsos.241038,5,2026-03-30
+W4290990050,The Stark realities of reproducible statistically orientated sociological research: Some newer rules of the sociological method,10.1177/20597991221111681,2,2026-03-30
+W4406175245,Accelerating social science knowledge production with the coordinated open-source model,10.1007/s11135-024-02020-7,1,2026-03-30
+W4379209278,Reproducibility and transparency versus privacy and confidentiality: Reflections from a data editor,10.1016/j.jeconom.2023.05.001,10,2026-03-30

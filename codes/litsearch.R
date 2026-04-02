@@ -1,4 +1,3 @@
-# ============================================================================
 # SocEnRep – WP1 Literature Search via OpenAlex
 # Tier 1 (core concept queries) and Tier 2 (concept × discipline queries)
 #
@@ -11,7 +10,6 @@
 #   install.packages("stringr")
 #
 # last modified: 12.03.2026
-# ============================================================================
 
 library(openalexR)
 library(dplyr)
@@ -20,21 +18,15 @@ library(tibble)
 library(tidyr)
 library(stringr)
 
-# ============================================================================
-# CONFIGURATION
-# ============================================================================
-
 DATE_FROM         <- "2015-01-01"   # after:2015 filter from the protocol
-DATE_TO           <- Sys.Date() |> as.character()
+DATE_TO           <- "2026-03-12"   # fixed to search date for reproducibility
 OUTPUT_DIR        <- "lit_search_output"
 VERBOSE           <- TRUE           # set FALSE to suppress progress messages
 INTER_QUERY_SLEEP <- 5              # seconds between queries (rate limit protection)
 
 dir.create(OUTPUT_DIR, showWarnings = FALSE)
 
-# ============================================================================
 # HELPER FUNCTION
-# ============================================================================
 
 #' Run a single OpenAlex full-text search and return a tibble.
 #'
@@ -114,14 +106,13 @@ run_query <- function(query_id, query_str, date_from, date_to,
       abstract
     ) |>
     mutate(
+      AN                 = openalex_id,     # RIS AN tag — preserved through ASReview → Zotero export
       screening_decision = NA_character_,  # to be filled: Include / Exclude / Uncertain
       screening_notes    = NA_character_
     )
 }
 
-# ============================================================================
 # TIER 1: CORE CONCEPT QUERIES (no discipline filter)
-# ============================================================================
 # Each query uses a quoted phrase matching the protocol exactly.
 # The `search` parameter in OpenAlex searches title + abstract,
 # so quoted phrases must appear as-is in one of those fields.
@@ -152,9 +143,7 @@ tier1_results <- do.call(bind_rows, lapply(seq_len(nrow(tier1_queries)), functio
   )
 }))
 
-# ============================================================================
 # TIER 2: CONCEPT × DISCIPLINE QUERIES
-# ============================================================================
 # The discipline term is appended inside the search string, matching the
 # exact query strings specified in the protocol. OpenAlex will require all
 # terms to appear in the title/abstract -- the quoted phrase AND the
@@ -192,10 +181,7 @@ tier2_results <- do.call(bind_rows, lapply(seq_len(nrow(tier2_queries)), functio
   )
 }))
 
-# ============================================================================
 # COMBINE AND DEDUPLICATE
-# ============================================================================
-
 all_results <- bind_rows(tier1_results, tier2_results)
 
 message("\n", strrep("=", 60))
@@ -291,10 +277,7 @@ message("Total records after deduplication: ", nrow(deduplicated))
 n_no_doi <- sum(is.na(deduplicated$doi))
 message("Records without a DOI (likely preprints/grey lit): ", n_no_doi)
 
-# ============================================================================
 # OUTPUT FILES
-# ============================================================================
-
 # Full deduplicated results for title/abstract screening
 # Note: col types are set explicitly so screening_decision and screening_notes
 # are always read back as character (not logical) when re-imported into R.
@@ -328,10 +311,7 @@ write_csv(
   file.path(OUTPUT_DIR, "03_search_log.csv")
 )
 
-# ============================================================================
-# SUMMARY REPORT
-# ============================================================================
-
+# REPORT
 message("\n", strrep("=", 60))
 message("SEARCH SUMMARY")
 message(strrep("=", 60))
@@ -348,18 +328,3 @@ message("  03_search_log.csv            -- PRISMA flow input")
 message("  04_pass3_removed_titles.csv  -- Pass 3 removal log (inspect if >50 removed)")
 message("\nNext step: open 01_deduplicated_results.csv and fill in")
 message("'screening_decision' (Include / Exclude / Uncertain) per row.")
-
-# ============================================================================
-# CREATING A CLEAN FILE RECORD TO BE LOADED ON ASREVIEW LAB
-# ============================================================================
-
-results <- read_csv(
-  "lit_search_output/01_deduplicated_results.csv",
-  col_types = cols(
-    screening_decision = col_character(),
-    screening_notes    = col_character(),
-    is_oa              = col_logical()
-  )
-)
-
-write_csv(results, "lit_search_output/01_deduplicated_results.csv")

@@ -1,0 +1,18 @@
+# Windows
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# R
+.Rhistory
+.Rproj.user/
+*.Rproj
+.Renviron
+
+# R output / temp files
+*.Rout
+*.rda
+*.rds
+
+# OS
+.DS_Store
