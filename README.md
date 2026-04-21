@@ -1,6 +1,6 @@
-# SocEnRep – WP1 Systematic Literature Search
+# SocEnRep – WP1 Scoping Review
 
-This folder contains all materials for the systematic literature review conducted as part of Work Package 1 of the SocEnRep project. The review covers reproducibility criteria, checklists, and verification practices in economics and the social sciences.
+This folder contains all materials for the scoping review conducted as part of Work Package 1 of the SocEnRep project. The review covers reproducibility criteria, checklists, and verification practices in economics and the social sciences.
 
 **Search period:** 2015–2026-03-12 (initial search); 2026-03-30 (forward snowballing)
 **Protocol:** See `protocol_logbook.docx` for the full step-by-step protocol and decisions log.
