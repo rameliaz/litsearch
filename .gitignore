@@ -16,3 +16,8 @@ ehthumbs.db
 
 # OS
 .DS_Store
+
+# Copyrighted Materials
+/coding/04 Final Set to Step 5/
+# Google Forms / binary files
+*.gform
