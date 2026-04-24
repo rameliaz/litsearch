@@ -155,7 +155,7 @@ snowballing  via OpenAlex cites filter
         v                   v
 11_irr_sample_         11_irr_sample_
 descriptive.csv        criteria.csv
-[45 papers, RAs]       [22 papers, Gunther]
+[45 papers]            [22 papers]
 ```
 
 ---
