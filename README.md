@@ -2,7 +2,7 @@
 
 This folder contains all materials for the scoping review conducted as part of the SocEnRep project. The review covers reproducibility criteria, checklists, and verification practices in economics and the social sciences.
 
-**Search period:** 2015–2026-03-12 (initial search); 2026-03-30 (forward snowballing)
+**Search period:** 2015–2026-03-12 (initial search); 2026-03-24–27 (backward snowballing, during full-text screening); 2026-03-30 (forward snowballing); 2026-04-01–02 (grey literature & recommendations)
 **Protocol:** See `protocol_logbook.docx` for the full step-by-step protocol and decisions log.
 
 ---
@@ -12,6 +12,7 @@ This folder contains all materials for the scoping review conducted as part of t
 ```
 litsearch/
 ├── codes/                     R scripts
+├── coding/                    Codebook and Google Form/Sheet for Step 5 coding
 ├── lit_search_output/         All outputs, numbered by pipeline step
 └── protocol_logbook.docx      Protocol and decisions logbook
 ```
@@ -24,7 +25,7 @@ litsearch/
 |------|-------------|
 | `litsearch.R` | Runs 15 OpenAlex queries (6 Tier 1 core concept, 9 Tier 2 concept × discipline) and produces the deduplicated record pool. `DATE_TO` is hardcoded to `"2026-03-12"` for reproducibility — do not change to `Sys.Date()`. **Do not re-run** without consulting the project team; it would overwrite `01_deduplicated_results.csv`, which is the reproducibility artifact. |
 | `forward_snowballing.R` | Runs Step 4 forward snowballing via the OpenAlex `cites` filter. Reads `07_fulltext_screened.ris` as the seed list, fetches all works citing each seed, deduplicates internally and against `01_deduplicated_results.csv`, and outputs `08_*` files. `DATE_TO` is hardcoded to `"2026-03-30"`. **Note (openalexR 3.0.1):** the `cites` filter must be passed as a direct named argument (`cites = seed_id`), not inside a `filter = list(...)` — the list approach triggers HTTP 400 "request line too large" (GitHub issue #360). |
-| `coding_sample.R` | Draws two proportionally stratified IRR samples from `10_final_set_before_expert.xlsx`. Outputs `11_irr_sample_descriptive.csv` (n = 45, for RAs) and `11_irr_sample_criteria.csv` (n = 22). Both samples are independent draws, stratified by publication type using largest-remainder rounding. `set.seed(2026)` is fixed for reproducibility. |
+| `coding_sample.R` | Draws two proportionally stratified IRR samples from `10_final_set.xlsx`. Excludes BLOG and ART types (too little extractable information). Outputs `11_irr_sample_descriptive.csv` (n = 45, for RAs) and `11_irr_sample_criteria.csv` (n = 15, for Gunther). Both samples are independent draws, stratified by publication type using largest-remainder rounding. `set.seed(2026)` is fixed for reproducibility. |
 
 ---
 
@@ -54,13 +55,14 @@ Screening was done in ASReview Lab using model ELAS u4. Stopping rule: 265 conse
 
 ### Step 3 — Full-Text Screening
 
-174 records loaded into Zotero; Melanie cleaned metadata and downloaded PDFs. Full-text screening completed 2026-03-27. During screening, 5 backward-snowballed records were added manually (Bleier 2025; Knöpfle & Schatto-Eckrodt 2024; Whitehouse et al. 2019; Hayden et al. 2023; Vilhuber et al. 2022; Horbach et al. 2026). Details in the [Google Sheets screening log](https://docs.google.com/spreadsheets/d/1igEM7VPpJ41-t9kMSmy5gkYYK-knBBG8?rtpof=true&usp=drive_fs).
+174 records loaded into Zotero; Melanie cleaned metadata and downloaded PDFs. Full-text screening completed 2026-03-27. During screening, 5 backward-snowballed records were identified and added manually (Whitehouse et al. 2019; Vilhuber et al. 2022; Hayden et al. 2023; Knöpfle & Schatto-Eckrodt 2024; Horbach et al. 2026). Details in the [Google Sheets screening log](https://docs.google.com/spreadsheets/d/1igEM7VPpJ41-t9kMSmy5gkYYK-knBBG8?rtpof=true&usp=drive_fs).
 
 | File | Description |
 |------|-------------|
 | `06_05a_imported_to_Zotero.ris` | RIS export of the 174 ASReview-relevant records, formatted for Zotero import. Generated 2026-03-23. |
 | `07_fulltext_screened.ris` | RIS export of the **124 included records** after full-text screening (48 excluded). This file is the seed list for forward snowballing. Exported from Zotero 2026-03-27. |
 | `PRISMA_flow_numbers.xlsx` | Running PRISMA flow numbers across all steps. Update after each step. |
+| `PRISMA_2020_flow_diagram_updated_SRs_v2.docx` | PRISMA 2020 flow diagram template (populated with step counts). |
 
 ### Step 4 — Forward Snowballing
 
@@ -71,7 +73,6 @@ Run completed 2026-03-30 using `forward_snowballing.R` against 124 seeds from `0
 | `08_snowballing_log.csv` | Per-seed log: how many citing works were retrieved for each of the 124 seed papers. |
 | `08_forward_snowballing_raw.csv` | All unique citing works retrieved across all seeds, after internal 3-pass deduplication. |
 | `08_forward_snowballing_new.csv` | **2,445 new records** not already in the original pool (`01_deduplicated_results.csv`). These went into ASReview for title/abstract screening. |
-| `08_forward_snowballing_new.ris` | RIS export of the full 2,445 new records (AN field populated). |
 
 ### Step 4 — Title/Abstract Screening of Forward Snowballing (ASReview Lab)
 
@@ -79,31 +80,45 @@ Screening of the 2,445 forward snowballing records in ASReview. Completed 2026-0
 
 | File | Description |
 |------|-------------|
-| `09_asreview_relevant_Forward_Snowball.csv` | **18 records** labelled relevant from the forward snowballing pool. |
+| `09_asreview_relevant_Forward_Snowball.csv` | **18 records** labelled relevant from the forward snowballing pool. Imported into Zotero for full-text review; **12 included** after full-text screening (6 removed as content unsuitable). |
 | `09_asreview_relevant+irrelevant+not_seen_Forward_Snowball.csv` | Full ASReview output with labels for all 2,445 records. |
-| `09_asreview_relevant_Forward_Snowball.ris` | RIS export of the 18 relevant records for Zotero import (AN field populated). |
-| `09_forward_snowballing_imported_to_zotero.ris` | RIS file imported into Zotero. |
+| `09_forward_snowballing_imported_to_zotero.ris` | RIS export of the 18 relevant records, imported into Zotero. |
 | `ASReview charts_forward snowball/` | Progress charts from the forward snowballing ASReview run: `progress_density_chart.png`, `progress_recall_chart.png`, `not_relevant_waves_chart.png`, `preliminary_categorization.csv`. |
 
-### Step 4b — Grey Literature and Expert Referral
+### Step 4b–c — Backward Snowballing, Grey Literature and Recommendations
+
+SSOAR GESIS searched on 2026-04-01 (0 new records). Four records added via recommendations: Miske et al. (2026) and Nosek et al. (2025) via social media/newsletter; Bleier (2025) and ACRe/BITSS (2022) via expert referral.
 
 | File | Description |
 |------|-------------|
-| `10_final_set_before_expert.xlsx` | The **145-paper final included set** before expert consultation. Combines all records from Steps 3–4 (124 full-text included + 12 forward snowballing + 3 grey literature additions from SSOAR and SCORE project). Columns: No., Authors, Year, Title, Source, DOI, URL, Type, Source/Query, OpenAlex ID, Notes. |
-| `10_final_set_before_expert.ris` | RIS export of the same 145 papers. |
+| `10_final_set.xlsx` | The **145-paper final corpus**. Combines: 124 (initial search) + 12 (forward snowballing) + 5 (backward snowballing) + 4 (recommendations: 2 social media/newsletter, 2 expert referral). Verified against Zotero subcollection RIS exports in `check this/`. Columns: No., Authors, Year, Title, Source, DOI, URL, Type, Source/Query, OpenAlex ID, Notes. Sheet name: `Literature`. |
+| `10_final_set.ris` | RIS export of the 145-paper final corpus. |
+| `check this/` | Zotero subcollection RIS exports used to verify `10_final_set.ris`: `02 Relevant List w-o Snowballed Rec.ris` (125), `Backward.ris` (5), `Forward.ris` (12), `Recommendations.ris` (4). Total 146; the 1 extra is a Brodeur et al. (2026) preprint excluded at full-text screening. |
 
 ### Step 5 — Coding
 
 | File | Description |
 |------|-------------|
 | `11_irr_sample_descriptive.csv` | **45 papers** sampled for descriptive coding IRR. Proportionally stratified by publication type. Generated by `coding_sample.R` with `set.seed(2026)`. |
-| `11_irr_sample_criteria.csv` | **22 papers** sampled for criteria extraction IRR. Proportionally stratified by publication type. Generated by `coding_sample.R` with `set.seed(2026)`. |
+| `11_irr_sample_criteria.csv` | **15 papers** sampled for criteria extraction IRR. Proportionally stratified by publication type. Generated by `coding_sample.R` with `set.seed(2026)`. |
+
+---
+
+## `coding/` — Coding Materials
+
+| File | Description |
+|------|-------------|
+| `v1_codebook_descriptive.docx` | Version 1 codebook for descriptive coding (Step 5). Defines codes and decision rules for RAs. |
+| `Coding Litreview SocEnrep.gform` | Google Form used to collect coding responses from RAs. |
+| `Coding Litreview SocEnrep (Responses).gsheet` | Google Sheet with all RA coding responses (linked to the Google Form). |
+
+*Note*. .gsheet and .gform files are *.gitignored* thus are not available in the repository.
 
 ---
 
 ## `protocol_logbook.docx`
 
-The protocol and decisions logbook for the entire literature review. Documents all methodological decisions, screening criteria, and step-by-step progress notes. **This is the primary reference for understanding how and why each step was conducted.** Last modified: 2026-03-27.
+The protocol and decisions logbook for the entire literature review. Documents all methodological decisions, screening criteria, and step-by-step progress notes. **This is the primary reference for understanding how and why each step was conducted.** Last modified: 2026-05-12.
 
 ---
 
@@ -127,25 +142,31 @@ Full-text screening in Zotero (Step 3)
         v
 07_fulltext_screened.ris      [124 included]
         |
-   _____|_____
-  |           |
-  v           v
-Backward    Forward snowballing (Step 4)
-snowballing  via OpenAlex cites filter
-(manual)          |
-                  v
-        08_forward_snowballing_new.csv  [2,445 new]
+   _____|___________________________
+  |           |                     |
+  v           v                     v
+Backward    Forward snowballing   Recommendations
+snowballing  via OpenAlex API     (grey lit, social
+[5 records]  cites filter          media, expert)
+  |               |                [4 records]
+  |               v                     |
+  |     08_forward_snowballing_new.csv  |
+  |              [2,445 new]            |
+  |               |                     |
+  |               v                     |
+  |     ASReview screening              |
+  |               |                     |
+  |               v                     |
+  |     09_asreview_relevant_           |
+  |     Forward_Snowball.csv            |
+  |          [18 relevant]              |
+  |               |                     |
+  |     Full-text review                |
+  |       [12 included]                 |
+  |_______________|_____________________|
                   |
                   v
-        ASReview screening
-                  |
-                  v
-        09_asreview_relevant_Forward_Snowball.csv  [18 relevant]
-                  |
-                  + grey literature (SSOAR, SCORE project: 3 new records)
-                  |
-                  v
-        10_final_set_before_expert.xlsx  [145 papers]
+        10_final_set.xlsx  [145 papers]
                   |
                   v
         coding_sample.R (stratified IRR sampling)
@@ -155,7 +176,7 @@ snowballing  via OpenAlex cites filter
         v                   v
 11_irr_sample_         11_irr_sample_
 descriptive.csv        criteria.csv
-[45 papers]            [22 papers]
+[45 papers]            [15 papers]
 ```
 
 ---

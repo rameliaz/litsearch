@@ -1,0 +1,304 @@
+TY  - CHAP
+TI  - Teaching Reproducibility and Replicability While Teaching Econometrics in the Classroom
+AU  - Ho, Anson T. Y.
+AU  - Huynh, Kim P.
+AU  - Jacho-Chávez, David T.
+AU  - Leinenbach, Katie
+AU  - Rea, Carson H.
+T2  - Teaching econometrics: a tribute to R. Carter hill
+A2  - Hillebrand, Eric
+A2  - Griffiths, William
+AB  - This research discusses how reproducibility and replicability can be taught to economists and social scientists while learning econometrics. Instructors can use standard tools from data science and machine learning to teach classical undergraduate Econometrics curriculum. This paper emphasizes the usage of self-contained computing environments for students to complete and submit their econometric practice exercises using open-source software. Demonstrations highlight how instructors can create computer-based assignments that can be distributed electronically to students, and how researchers can easily replicate and reproduce research using the same tools. For students, assignments are accompanied by code that automatically deploys a computing environment in the cloud where the assignment can be completed without the need for further software installation or a hardware upgrade. This teaches students how to prepare their work to be reproducible and replicable.
+CY  - Cham
+DA  - 2026///
+PY  - 2026
+DO  - 10.1007/978-3-031-97942-2_7
+DP  - Springer Link
+SP  - 115
+EP  - 132
+LA  - en
+PB  - Springer Nature Switzerland
+SN  - 978-3-031-97942-2
+UR  - https://doi.org/10.1007/978-3-031-97942-2_7
+Y2  - 2026/03/31/09:12:00
+N1  - <div data-schema-version="9"><p>Source: forward snowballing; Cited by: Reproducibility and replicability in economics</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - How to make a pie: reproducible research for empirical economics and econometrics
+AU  - Orozco, Valérie
+AU  - Bontemps, Christophe
+AU  - Maigné, Elise
+AU  - Piguet, Virginie
+AU  - Hofstetter, Annie
+AU  - Lacroix, Anne
+AU  - Levert, Fabrice
+AU  - Rousselle, Jean-Marc
+T2  - Journal of Economic Surveys
+AB  - Abstract Empirical economics and econometrics (EEE) research now relies primarily on the application of code to data sets. Handling the workflow that links data sets, programs, results, and finally manuscript(s) is essential if one wishes to reproduce results. Herein, we highlight the importance of “reproducible research” in EEE and propose three simple principles to follow: organize your work, code for others, and automate as much as you can. The first principle, “organize your work”, deals with the overall organization of files and the documentation of a research workflow. “Code for others” emphasizes that we should take care in how we write code that has to be read by others or later by our future self. Finally, “automate as much as you can” is a proposal to avoid any manual treatment and to automate most, if not all, of the steps used in a research process to reduce errors and increase reproducibility. As software is not always the problem and will never be the solution, we illustrate these principles with good habits and tools, with a particular focus on their implementation in most popular software and languages in applied economics.
+DA  - 2020/12//
+PY  - 2020
+DO  - 10.1111/joes.12389
+DP  - DOI.org (Crossref)
+VL  - 34
+IS  - 5
+SP  - 1134
+EP  - 1169
+J2  - J. Econ. Surv.
+LA  - en
+SN  - 0950-0804, 1467-6419
+ST  - How to make a pie
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/joes.12389
+AN  - https://openalex.org/W3089078847
+Y2  - 2026/03/31/05:18:10
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Sustainable computational science: the ReScience initiative</p>
+ER  - 
+
+TY  - JOUR
+TI  - Understanding experiments and research practices for reproducibility: an exploratory study
+AU  - Samuel, Sheeba
+AU  - König-Ries, Birgitta
+T2  - PeerJ
+AB  - Scientific experiments and research practices vary across disciplines. The research practices followed by scientists in each domain play an essential role in the understandability and reproducibility of results. The “Reproducibility Crisis”, where researchers find difficulty in reproducing published results, is currently faced by several disciplines. To understand the underlying problem in the context of the reproducibility crisis, it is important to first know the different research practices followed in their domain and the factors that hinder reproducibility. We performed an exploratory study by conducting a survey addressed to researchers representing a range of disciplines to understand scientific experiments and research practices for reproducibility. The survey findings identify a reproducibility crisis and a strong need for sharing data, code, methods, steps, and negative and positive results. Insufficient metadata, lack of publicly available data, and incomplete information in study methods are considered to be the main reasons for poor reproducibility. The survey results also address a wide number of research questions on the reproducibility of scientific results. Based on the results of our explorative study and supported by the existing published literature, we offer general recommendations that could help the scientific community to understand, reproduce, and reuse experimental data and results in the research data lifecycle.
+DA  - 2021/04/21/
+PY  - 2021
+DO  - 10.7717/peerj.11140
+DP  - DOI.org (Crossref)
+VL  - 9
+SP  - e11140
+J2  - PeerJ
+LA  - en
+SN  - 2167-8359
+ST  - Understanding experiments and research practices for reproducibility
+UR  - https://peerj.com/articles/11140
+AN  - https://openalex.org/W3154754686
+Y2  - 2026/03/31/05:17:57
+L1  - https://peerj.com/articles/11140.pdf
+N1  - <p>Source: forward snowballing (Step 4); Cited by: An introduction to docker for reproducible research</p>
+ER  - 
+
+TY  - CONF
+TI  - The role of containers in reproducibility
+AU  - Canon, R. Shane
+T2  - 2020 2nd International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)
+AB  - Reproducibility in computational workloads is a critical factor in scientific and commercial applications but it is often elusive. There are many factors that contribute to this challenge. In this paper, we discuss some of those sources and describe how containers can play a role in addressing this challenge. The role of workflow tools, best practices, and gaps are also presented. The goal of this paper is to provide readers with a basic understanding of the issues and equip them with practices in using containers to improve the reproducibility of their work.
+C1  - Atlanta, GA, USA
+DA  - 2020/11//
+PY  - 2020
+DO  - 10.1109/CANOPIEHPC51917.2020.00008
+DP  - DOI.org (Crossref)
+SP  - 19
+EP  - 25
+LA  - en
+PB  - IEEE
+SN  - 978-1-6654-1555-2
+UR  - https://ieeexplore.ieee.org/document/9297043/
+AN  - https://openalex.org/W3122350094
+Y2  - 2026/03/31/05:17:54
+N1  - <p>Source: forward snowballing (Step 4); Cited by: An introduction to docker for reproducible research</p>
+ER  - 
+
+TY  - JOUR
+TI  - Reproduce to validate: a comprehensive study on the reproducibility of economics research
+AU  - Herbert, Sylvérie
+AU  - Kingi, Hautahi
+AU  - Stanchi, Flavio
+AU  - Vilhuber, Lars
+T2  - Canadian Journal of Economics/Revue Canadienne D'économique
+AB  - Abstract Journals have pushed for transparency of research through data availability policies. Such data policies improve availability of data and code, but what is the impact on reproducibility? We present results from a large reproduction exercise for articles published in the American Economic Journal: Applied Economics, which has had a data availability policy since its inception in 2009. Out of 363 published articles, we assessed 274 articles. All articles provided some materials. We excluded 122 articles that required confidential or proprietary data or that required the replicator to otherwise obtain the data (44.5% of assessed articles). We attempted to reproduce 152 articles and were able to fully reproduce the results of 68 (44.7% of attempted reproductions). A further 66 (43.4% of attempted reproductions) were partially reproduced. Many articles required complex code changes even when at least partially reproduced. We collect bibliometric characteristics of authors, but find no evidence for author characteristics as determinants of reproducibility. There does not appear to be a citation bonus for reproducibility. The data availability policy of this journal was effective to ensure availability of materials, but is insufficient to ensure reproduction without additional work by replicators. , Résumé Les journaux militent pour la transparence de la recherche par le biais de politiques sur la disponibilité des données . De telles politiques sur les données améliorent la disponibilité des données et du code, mais quelle en est l'incidence sur la reproductibilité? Nous présentons les résultats d'un grand exercice de reproduction pour des articles publiés dans le American Economic Journal: Applied Economics , qui a une politique de disponibilité des données depuis sa création en 2009. Parmi les 363 articles publiés, nous en évaluons 274. Tous les articles avaient fourni certains documents. Nous avons exclu 122 articles qui nécessitaient des données confidentielles ou exclusives, ou qui exigeaient que la personne chargée de la réplication obtienne autrement les données (44,5% des articles évalués). Nous avons tenté de reproduire 152 articles et avons réussi à entièrement reproduire les résultats de 68 articles (44,7% des reproductions tentées). Nous avons aussi partiellement reproduit 66 autres articles (43,4% des reproductions tentées). De nombreux articles nécessitaient de complexes changements de code, même lorsqu'ils étaient au moins partiellement reproduits. Nous avons recueilli les caractéristiques bibliométriques des auteurs, mais n'avons pas constaté qu'elles étaient déterminantes pour la reproductibilité. La reproductibilité ne semble offrir aucun avantage en matière de citations. La politique de disponibilité des données de ce journal a été efficace pour assurer la disponibilité des documents, mais insuffisante pour assurer la reproduction sans travail supplémentaire des personnes chargées de la réplication.
+DA  - 2024/08//
+PY  - 2024
+DO  - 10.1111/caje.12728
+DP  - DOI.org (Crossref)
+VL  - 57
+IS  - 3
+SP  - 961
+EP  - 988
+J2  - Can. J. Econ./Rev. Can. écon.
+LA  - en
+SN  - 0008-4085, 1540-5982
+ST  - Reproduce to validate
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/caje.12728
+AN  - https://openalex.org/W4401316857
+Y2  - 2026/03/31/05:17:52
+N1  - <p>Source: forward snowballing (Step 4); Cited by: An empirical analysis of journal policy effectiveness for computational reproducibility</p>
+ER  - 
+
+TY  - JOUR
+TI  - Replications in agricultural economics
+AU  - Finger, Robert
+AU  - Grebitus, Carola
+AU  - Henningsen, Arne
+T2  - Applied Economic Perspectives and Policy
+AB  - Abstract Replicability is a cornerstone of all scientific disciplines. While agricultural economists often provide recommendations to stakeholders that inform, among others policymaking, we currently lack replication papers published in leading agricultural economics journals. This increases the risk that published results are not replicable, which potentially can lead to inefficient resource allocation. In this article, we provide a framework for replications in agricultural economics and discuss challenges and opportunities with the objective to foster a replication culture. We provide pathways on how to untap this potential and provide guidance for enabling a stronger emphasis on replications in the field of agricultural economics. We present the first special issue on replications in agricultural economics, which consists of 11 articles that replicate various empirical analyses presented in published articles and advance the analyses that were used in the original work to provide further insights.
+DA  - 2023/09//
+PY  - 2023
+DO  - 10.1002/aepp.13386
+DP  - DOI.org (Crossref)
+VL  - 45
+IS  - 3
+SP  - 1258
+EP  - 1274
+J2  - Appl. Econ. Perspect. Policy
+LA  - en
+SN  - 2040-5790, 2040-5804
+UR  - https://onlinelibrary.wiley.com/doi/10.1002/aepp.13386
+AN  - https://openalex.org/W4380052377
+Y2  - 2026/03/31/05:17:50
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aepp.13386
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Transparency, reproducibility, and the credibility of economics research</p>
+ER  - 
+
+TY  - JOUR
+TI  - Promoting reproducibility and replicability in political science
+AU  - Brodeur, Abel
+AU  - Esterling, Kevin
+AU  - Ankel-Peters, Jörg
+AU  - Bueno, Natália S.
+AU  - Desposato, Scott
+AU  - Dreber, Anna
+AU  - Genovese, Federica
+AU  - Green, Donald P.
+AU  - Hepplewhite, Matthew
+AU  - Hoces De La Guardia, Fernando
+AU  - Johannesson, Magnus
+AU  - Kotsadam, Andreas
+AU  - Miguel, Edward
+AU  - Velez, Yamil R.
+AU  - Young, Lauren
+T2  - Research & Politics
+AB  - This article reviews and summarizes current reproduction and replication practices in political science. We first provide definitions for reproducibility and replicability. We then review data availability policies for 28 leading political science journals and present the results from a survey of editors about their willingness to publish comments and replications. We discuss new initiatives that seek to promote and generate high-quality reproductions and replications. Finally, we make the case for standards and practices that may help increase data availability, reproducibility, and replicability in political science.
+DA  - 2024/01//
+PY  - 2024
+DO  - 10.1177/20531680241233439
+DP  - DOI.org (Crossref)
+VL  - 11
+IS  - 1
+SP  - 20531680241233439
+J2  - Res. Polit.
+LA  - en
+SN  - 2053-1680, 2053-1680
+UR  - https://journals.sagepub.com/doi/10.1177/20531680241233439
+AN  - https://openalex.org/W4391790392
+Y2  - 2026/03/31/05:17:48
+L1  - https://journals.sagepub.com/doi/pdf/10.1177/20531680241233439
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Transparency, reproducibility, and the credibility of economics research</p>
+ER  - 
+
+TY  - GEN
+TI  - The data availability policies of political science journals
+AU  - Rainey, Carlisle
+AU  - Roe, Harley
+AB  - This paper describes the data availability policies posted on the websites of a broad collection of political science journals. We code the policies of 221 political science journals, and we find that only 20% of these journals require researchers to share their data and/or code as a condition of publication. While requirements to share data and code are common among the most visible political science journals, these policies remain relatively rare in the discipline more broadly. In prioritizing reforms to improve openness and reproducibility in political science, we suggest remaining mindful of the relative rarity and simple effectiveness of requiring authors to share their data and code.
+DA  - 2024/02/15/
+PY  - 2024
+DO  - 10.31235/osf.io/df2ya
+DP  - DOI.org (Crossref)
+LA  - en
+PB  - SocArXiv
+UR  - https://osf.io/df2ya_v1
+AN  - https://openalex.org/W4391893514
+Y2  - 2026/03/31/05:17:46
+L1  - https://osf.io/df2ya/download
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Reproducibility in the social sciences</p>
+ER  - 
+
+TY  - JOUR
+TI  - Reproducibility in the classroom
+AU  - Dogucu, Mine
+T2  - Annual Review of Statistics and Its Application
+AB  - Difficulties in reproducing results from scientific studies have lately been referred to as a reproducibility crisis. Scientific practice depends heavily on scientific training. What gets taught in the classroom is often practiced in labs, fieldwork, and data analysis. The importance of reproducibility in the classroom has gained momentum in statistics education in recent years. In this article, we review the existing literature on reproducibility education. We delve into the relationship between computing tools and reproducibility through visiting historical developments in this area. We share examples for teaching reproducibility and reproducible teaching while discussing the pedagogical opportunities created by these examples as well as challenges that the instructors should be aware of. We detail the use of teaching reproducibility and reproducible teaching practices in an introductory data science course. Lastly, we provide recommendations on reproducibility education for instructors, administrators, and other members of the scientific community.
+DA  - 2025/03/07/
+PY  - 2025
+DO  - 10.1146/annurev-statistics-112723-034436
+DP  - DOI.org (Crossref)
+VL  - 12
+IS  - 1
+SP  - 89
+EP  - 105
+J2  - Annu. Rev. Stat. Appl.
+LA  - en
+SN  - 2326-8298, 2326-831X
+UR  - https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-112723-034436
+AN  - https://openalex.org/W4403279609
+Y2  - 2026/03/31/05:17:42
+L1  - https://escholarship.org/content/qt25b54425/qt25b54425.pdf
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Tools and recommendations for reproducible teaching</p>
+ER  - 
+
+TY  - JOUR
+TI  - Long-term effects of the targeting the ultra poor program—a reproducibility and replicability assessment of banerjee et al. (2021)
+AU  - Rose, Julian
+AU  - Neubauer, Florian
+AU  - Ankel-Peters, Jörg
+T2  - Q OPEN
+AB  - Abstract Banerjee, Duflo, and Sharma (BDS, 2021, American Economic Review: Insights, 3, 471–86) conduct a 10-year follow-up of a randomized transfer program in West Bengal. BDS find large effects on consumption, food security, income, and health. We conduct a replicability assessment. First, we successfully reproduce the results, thanks to a perfectly documented reproduction package. Results are robust across alternative specifications. We furthermore assess the paper's pre-specification diligence and the reporting in terms of external and construct validity. While the paper refers to a pre-registration, it lacks a pre-analysis plan. Assessing the validity of findings for other contexts is difficult absent necessary details about the exact treatment delivery.
+DA  - 2025/05/29/
+PY  - 2025
+DO  - 10.1093/qopen/qoae031
+DP  - DOI.org (Crossref)
+VL  - 5
+IS  - 3
+SP  - qoae031
+J2  - Q OPEN
+LA  - en
+SN  - 2633-9048
+UR  - https://academic.oup.com/qopen/article/doi/10.1093/qopen/qoae031/7901373
+AN  - https://openalex.org/W4404420645
+Y2  - 2026/03/31/05:17:39
+L1  - https://academic.oup.com/qopen/article-pdf/5/3/qoae031/60932520/qoae031.pdf
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Transparency, reproducibility, and the credibility of economics research</p>
+ER  - 
+
+TY  - JOUR
+TI  - Reproducibility in accounting research: views of the research community
+AU  - Hail, Luzi
+AU  - Lang, Mark
+AU  - Leuz, Christian
+T2  - Journal of Accounting Research
+AB  - ABSTRACT We have little knowledge about the prevalence of irreproducibility in the accounting literature. To narrow this gap, we conducted a survey among the participants of the 2019 JAR Conference on their perceptions of the frequency, causes, and consequences of irreproducible research published in accounting journals. A majority of respondents believe that irreproducibility is common in the literature, constitutes a major problem, and receives too little attention. Most have encountered irreproducibility in the work of others (although not in their own work) but chose not to pursue their failed reproduction attempts to publication. Respondents believe irreproducibility results chiefly from career or publication incentives as well as from selective reporting of results. They also believe that practices like sharing code and data combined with stronger incentives to replicate the work of others would enhance reproducibility. The views of accounting researchers are remarkably similar to those expressed in a survey by the scientific journal Nature . We conclude by discussing the implications of our findings and provide several potential paths forward for the accounting research community.
+DA  - 2020/05//
+PY  - 2020
+DO  - 10.1111/1475-679X.12305
+DP  - DOI.org (Crossref)
+VL  - 58
+IS  - 2
+SP  - 519
+EP  - 543
+J2  - J. Account. Res.
+LA  - en
+SN  - 0021-8456, 1475-679X
+ST  - Reproducibility in accounting research
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/1475-679X.12305
+AN  - https://openalex.org/W3012134895
+Y2  - 2026/03/31/05:17:37
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Transparency, reproducibility, and the credibility of economics research</p>
+ER  - 
+
+TY  - JOUR
+TI  - Understanding cultural persistence and change: A replication of Giuliano and Nunn (2021)
+AU  - Bertoli, Simone
+AU  - Clerc, Melchior
+AU  - Loper, Jordan
+AU  - Roca Fernández, Èric
+T2  - Economic Inquiry
+AB  - Abstract Giuliano and Nunn (2021) provide econometric evidence that ancestral climatic variability reduces the current importance of tradition. We conduct a “deep reproduction”, comparing the precise descriptions of the individual‐level regressions in their article with the corresponding code. This analysis uncovers several major inconsistencies, also related to the code not included in their replication package. A published corrigendum addresses some inconsistencies we had also communicated to the Editor of REStud, but several remain, relating to a substantial portion of the observations. A realignment of the code with the text reveals a more nuanced relationship between ancestral climatic variability and tradition.
+DA  - 2026/01//
+PY  - 2026
+DO  - 10.1111/ecin.13242
+DP  - DOI.org (Crossref)
+VL  - 64
+IS  - 1
+SP  - 22
+EP  - 37
+J2  - Econ. Inq.
+LA  - en
+SN  - 0095-2583, 1465-7295
+ST  - Understanding cultural persistence and change
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/ecin.13242
+AN  - https://openalex.org/W4396945723
+Y2  - 2026/03/31/05:17:35
+N1  - <p>Source: forward snowballing (Step 4); Cited by: Care to share? Experimental evidence on code sharing behavior in the social sciences</p>
+ER  - 
+

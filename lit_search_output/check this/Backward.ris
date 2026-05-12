@@ -1,0 +1,114 @@
+TY  - JOUR
+TI  - Rebooting reproducibility: From re-execution to replication
+AU  - Whitehouse, Tyler
+AU  - Clark, Dav
+AU  - Tsang, Emmy
+T2  - eLife
+AB  - Critical questions for building and employing more useful tools for reproducible research.
+DA  - 2019/07/12/
+PY  - 2019
+LA  - en
+PB  - eLife Sciences Publications Limited
+ST  - Rebooting reproducibility
+UR  - https://elifesciences.org/labs/6fb86e9c/rebooting-reproducibility-from-re-execution-to-replication
+Y2  - 2026/03/24/10:34:32
+L2  - https://elifesciences.org/labs/6fb86e9c/rebooting-reproducibility-from-re-execution-to-replication
+N1  - <div data-schema-version="9"><p>Backward snowballed</p>
+<p>Getting this paper from the reference list: <a href="https://oceanrep.geomar.de/id/eprint/54375/" rel="noopener noreferrer nofollow">https://oceanrep.geomar.de/id/eprint/54375/</a></p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - How to Get There From Here? Barriers and Enablers on the Road Towards Reproducibility in Research
+AU  - Horbach, Serge P. J. M.
+AU  - Lisa Cole, Nicki
+AU  - Kopeinik, Simone
+AU  - Leitner, Barbara
+AU  - Ross-Hellauer, Tony
+AU  - Tijdink, Joeri
+T2  - Journal of Trial and Error
+AB  - Reproducibility of research is a hotly debated topic, including aspects like causes and consequences of low levels of reproducibility. While some research fields have led the way and introduced various reproducibility practices and procedures, the call for efforts to ‘improve’ reproducibility in research has not come without criticisms. The current study uses a future studies methodology to gather perceptions of developments in the research ecosystem related to reproducibility issues. It draws on input from representatives of four main stakeholder categories: scholarly publishers, funding agencies, qualitative social scientists and machine learning researchers. Particularly, it discusses the enablers and barriers that members of these stakeholder communities foresee on the road towards a research ecosystem that is more conducive to reproducibility. The study finds that enablers and barriers can be categorised into five main clusters. The factors most prominently mentioned as potentially supporting or hindering a desired future are located within research culture, including norms, values and shared definitions; and in the infrastructure required to engage in reproducibility practices, including repositories, support staff, and digital infrastructure. Three other clusters of factors put forth by participants relate to policy efforts required to incentivise reproducibility practices; training and education to empower researchers and support staff to engage in reproducibility practices; and the financial resources required to facilitate the transition towards a desired future and to specifically fund replication studies. This manuscript also identifies several tensions between enablers and barriers perceived by diverse stakeholders and concludes with recommendations for addressing these.
+DA  - 2026/03/17/
+PY  - 2026
+DO  - 10.36850/f4c4-4a38
+DP  - journal.trialanderror.org
+J2  - J. Trial Error
+LA  - en
+PB  - JOTE Publishers
+ST  - How to Get There From Here?
+UR  - https://journal.trialanderror.org/pub/barriers-enablers/release/1
+Y2  - 2026/03/27/11:24:15
+L1  - https://journal.trialanderror.org/pub/barriers-enablers/download/pdf
+N1  - <div data-schema-version="9"><p>Snowballed from social media (newsletter)</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Teaching for Large-Scale Reproducibility Verification
+AU  - Vilhuber, Lars
+AU  - Son, Hyuk Harry
+AU  - Welch, Meredith
+AU  - Wasser, David N.
+AU  - Darisse, Michael
+T2  - Journal of Statistics and Data Science Education
+AB  - We describe a unique environment in which undergraduate students from various STEM and social science disciplines are trained in data provenance and reproducible methods, and then apply that knowledge to real, conditionally accepted manuscripts and associated replication packages. We describe in detail the recruitment, training, and regular activities. While the activity is not part of a regular curriculum, the skills and knowledge taught through explicit training of reproducible methods and principles, and reinforced through repeated application in a real-life workflow, contribute to the education of these undergraduate students, and prepare them for post-graduation jobs and further studies. Supplementary materials for this article are available online.
+DA  - 2022/11/18/
+PY  - 2022
+DO  - 10.1080/26939169.2022.2074582
+DP  - Taylor and Francis+NEJM
+VL  - 30
+IS  - 3
+SP  - 274
+EP  - 281
+J2  - J. Stat. Data Sci. Educ.
+PB  - Taylor & Francis
+SN  - null
+UR  - https://doi.org/10.1080/26939169.2022.2074582
+Y2  - 2026/03/27/10:50:45
+L1  - https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2074582
+N1  - <div data-schema-version="9"><p>backward snowballed</p>
+</div>
+KW  - Reproducibility
+KW  - Economics
+KW  - Undergraduate training
+ER  - 
+
+TY  - BOOK
+TI  - Supporting reproducible research
+AU  - Hayden, Gabriele
+AU  - Mentnech, Tisha
+AU  - Rampin, Vicky
+DA  - 2023///
+PY  - 2023
+DP  - Zotero
+LA  - en
+PB  - Association of College and Research Libraries
+SN  - 978-0-8389-3990-1
+UR  - https://arcabc.ca/islandora/object/tru%3A6265/
+N1  - <div data-schema-version="9"><p>backward snowballed</p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - The Challenges of Replicating Volatile Platform-Data Studies: Replicating Schatto-Eckrodt et al. (2020)
+AU  - Knöpfle, Philipp
+AU  - Schatto-Eckrodt, Tim
+T2  - Media and Communication
+AB  - Philipp Knöpfle, Tim Schatto-Eckrodt
+DA  - 2024/04/15/
+PY  - 2024
+DO  - 10.17645/mac.7789
+DP  - www.cogitatiopress.com
+VL  - 12
+IS  - 0
+J2  - Media Commun.
+LA  - en
+SN  - 2183-2439
+ST  - The Challenges of Replicating Volatile Platform-Data Studies
+UR  - https://www.cogitatiopress.com/mediaandcommunication/article/view/7789
+Y2  - 2026/03/25/13:08:07
+L1  - https://www.cogitatiopress.com/mediaandcommunication/article/download/7789/3726
+N1  - <div data-schema-version="9"><p>backward snowballed</p>
+</div>
+ER  - 
+

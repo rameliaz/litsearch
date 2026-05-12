@@ -1,0 +1,214 @@
+TY  - BOOK
+TI  - Guide for Accelerating Computational Reproducibility in the Social Sciences
+AU  - Advancing Computational Reproducibility in Economics (ACRE)
+AB  - Materials to support the reproduction of published research in social sciences
+DA  - 2022///
+PY  - 2022
+DP  - bitss.github.io
+PB  - Berkeley Initiative for Transparency in the Social Sciences
+UR  - https://bitss.github.io/ACRE/
+Y2  - 2025/08/31/17:06:14
+L2  - https://bitss.github.io/ACRE/
+N1  - <div data-schema-version="9"><p>recommended by Amelia</p>
+</div>
+ER  - 
+
+TY  - RPRT
+TI  - What is Computational Reproducibility?
+AU  - Bleier, Arnim
+AB  - Reproducibility is a cornerstone of credible and transparent research in Computational Social Science (CSS) and beyond. This guide offers an introduction to the core concepts, challenges, and practices of computational reproducibility. It outlines a structured framework for understanding reproducibility across three dimensions – form, completeness, and availability of research materials – and offers initial guidance for addressing common barriers related to technical complexity, external dependencies, and human factors. This guide is intended to serve as a starting point for CSS researchers who want to increase the reproducibility of their work and, by doing so, contribute to a culture of openness, accountability, and cumulative scientific progress.
+DA  - 2025///
+PY  - 2025
+DO  - 10.60762/GGDBD25002.1.0
+DP  - DOI.org (Datacite)
+LA  - en
+M3  - GESIS Guides to Digital Behavioral Data
+PB  - GESIS - Leibniz Institute for the Social Sciences
+SN  - 2
+ST  - What is Computational Reproducibility?
+UR  - https://www.gesis.org/fileadmin/admin/Dateikatalog/pdf/guides/02_Bleier_computational_reproducibility.pdf
+Y2  - 2026/03/24/08:26:06
+N1  - <div data-schema-version="9"><p>recommended by Arnim</p>
+<p></p>
+</div>
+ER  - 
+
+TY  - JOUR
+TI  - Investigating the reproducibility of the social and behavioural sciences
+AU  - Miske, Olivia
+AU  - Abatayo, Anna Lou
+AU  - Daley, Mason
+AU  - Dirzo, Mirka
+AU  - Fox, Nicholas
+AU  - Haber, Noah
+AU  - Hahn, Krystal M.
+AU  - Struhl, Melissa Kline
+AU  - Mawhinney, Brinna
+AU  - Silverstein, Priya
+AU  - Stankov, Theresa
+AU  - Tyner, Andrew H.
+AU  - Adamkovič, Matúš
+AU  - Alzahawi, Shilaan
+AU  - Anafinova, Saule
+AU  - Awtrey, Eli
+AU  - Axxe, Erick
+AU  - Bailey, James
+AU  - Bakker, Bert N.
+AU  - Balaji, Akshaya
+AU  - Banik, Gabriel
+AU  - Bartoš, František
+AU  - Berkman, Henk
+AU  - Berry, Zachariah
+AU  - Bethke, Felix S.
+AU  - Brady, Timothy F.
+AU  - Breznau, Nate
+AU  - Capitan, Sara
+AU  - Capitán, Tabaré
+AU  - Caquelin, Laura
+AU  - Cheng, Kent Jason
+AU  - Chopik, William J.
+AU  - Clochard, Gwen-Jiro
+AU  - Coupé, Tom
+AU  - Cummins, Jamie
+AU  - Burak, Elif Gizem Demirag
+AU  - Duan, Jianhua
+AU  - Esterling, Kevin M.
+AU  - Evans, Thomas R.
+AU  - Fiala, Nathan
+AU  - Field, James
+AU  - Gay, Victor
+AU  - Geng, Jing
+AU  - Gereke, Johanna
+AU  - Gleibs, Ilka Helene
+AU  - Gourdon-Kanhukamwe, Amélie
+AU  - Grigoryev, Dmitry
+AU  - Gunby, Nicholas
+AU  - Hanel, Paul H. P.
+AU  - Hong, Sanghyun
+AU  - Houlihan, Sean Dae
+AU  - Huntington-Klein, Nick
+AU  - Izydorczak, Kamil
+AU  - Jankowsky, Kristin
+AU  - Jonas, Kai
+AU  - Kačmár, Pavol
+AU  - Kapoor, Hansika
+AU  - Karcher, Sebastian
+AU  - Kołczyńska, Marta
+AU  - Kretschmer, David
+AU  - Lazarevic, Ljiljana
+AU  - Leahy, Katelin E.
+AU  - Lee, Jessica C.
+AU  - Limnios, Christopher
+AU  - Liu, An-Chiao
+AU  - Lloyd, John Wills
+AU  - Lopez-Nicolas, Ruben
+AU  - Lou, Nigel Mantou
+AU  - Lucas, Richard E.
+AU  - Maier, Maximilian
+AU  - Mallinson, Daniel J.
+AU  - Martončik, Marcel
+AU  - McCall, Michael C.
+AU  - Mehta, Nikita
+AU  - Méndez, Esteban
+AU  - Michalak, Johannes
+AU  - Molden, Daniel C.
+AU  - Mushtaq, Faisal
+AU  - Neuendorf, Claudia
+AU  - Nichols, Austin Lee
+AU  - Nilsonne, Gustav
+AU  - O’Boyle, Ernest
+AU  - Oh, Jeewon
+AU  - Ostermann, Thomas
+AU  - Oyebanjo, Abiola
+AU  - Panczak, Radoslaw
+AU  - Pavlov, Yuri G.
+AU  - Pavlović, Zoran
+AU  - Peter, Noemi
+AU  - Peters, Kim
+AU  - Porter, Nathaniel D.
+AU  - Purol, Mariah
+AU  - Puthillam, Arathy
+AU  - Ramljak, Marco
+AU  - Reader, Arran T.
+AU  - Reed, W. Robert
+AU  - Röer, Jan Philipp
+AU  - Ropovik, Ivan
+AU  - Savi, Alexander O.
+AU  - Schmidt, Kathleen
+AU  - Schnabel, Landon
+AU  - Sevigny, Eric L.
+AU  - Shaki, Samuel
+AU  - Shakya, Shishir
+AU  - Soh, Andrew
+AU  - Somo, Angela
+AU  - Sonmez, Fatih
+AU  - Strømland, Eirik
+AU  - Suchow, Jordan W.
+AU  - Szabelska, Anna
+AU  - Tagat, Anirudh
+AU  - Tutor, Melba Verra
+AU  - Urbanska, Karolina
+AU  - Van Dessel, Pieter
+AU  - Vargo, Elisabeth Julie
+AU  - Vo, Diem Thi Hong
+AU  - Volkman, Victor
+AU  - Wang, Ke
+AU  - Wichman, Aaron L.
+AU  - Williams, Jamal R.
+AU  - Winter, Fabian
+AU  - Wintermantel, Ferdinand
+AU  - Zhang, Nan
+AU  - Ziano, Ignazio
+AU  - Zogmaister, Cristina
+AU  - Zupan, Zorana
+AU  - Nosek, Brian A.
+AU  - Errington, Timothy M.
+T2  - Nature
+AB  - Published claims should be reproducible, yielding the same result when the same analysis is applied to the same data1,2. Here we assess reproducibility in a stratified random sample of 600 papers published from 2009 to 2018 in 62 journals spanning the social and behavioural sciences. The authors of 144 (24.0%, 95% confidence interval (CI) = 20.8–27.6%) papers made data available to assess reproducibility and, for 38 others, we obtained source data to reconstruct the dataset. We assessed 143 out of the 182 available datasets and found that 76.6 (53.6%, 95% CI = 45.8–60.7%) papers were rated as precisely reproducible and 105.0 (73.5%, 95% CI = 66.4–80.0%) were rated as at least approximately reproducible (within 15% of the original effects or within 0.05 of original P values) after inverse weighting each of the 551 claims by the number of claims per paper. We observed higher reproducibility for papers from political science and economics compared with other fields, for more recent papers compared with older papers and for papers from journals that require data sharing. Implementation of measures to verify that research is reproducible is needed to support trustworthiness in the complex enterprise of knowledge production3,4.
+DA  - 2026/04//
+PY  - 2026
+DO  - 10.1038/s41586-026-10203-5
+DP  - www.nature.com
+VL  - 652
+IS  - 8108
+SP  - 126
+EP  - 134
+J2  - Nature
+LA  - en
+PB  - Nature Publishing Group
+SN  - 1476-4687
+UR  - https://www.nature.com/articles/s41586-026-10203-5
+Y2  - 2026/04/01/16:01:23
+L1  - https://www.nature.com/articles/s41586-026-10203-5.pdf
+N1  - <div data-schema-version="9"><p>Snowballed from social media (newsletter)</p>
+</div>
+KW  - Scientific community
+KW  - Social sciences
+ER  - 
+
+TY  - GEN
+TI  - A Brief Glossary of Terms about Repeatability: Replicability, Robustness, and Reproducibility
+AU  - Nosek, Brian A
+AU  - Errington, Timothy M
+AU  - Haber, Noah
+AU  - Stankov, Theresa
+AU  - Tyner, Andrew H
+AB  - This short paper provides a brief glossary drawing on emerging norms for how reproducibility-related terms are defined. We suggest improved precision and a new term to improve clarity and avoid dual use. Specifically, we affirm the emerging standard definitions for reproducibility, robustness, and replicability, introduce the term repeatability, and clarify the use of credibility and trustworthiness in this context.
+DA  - 2025/12/02/
+PY  - 2025
+DO  - 10.31222/osf.io/mqfp4_v1
+DP  - OSF Preprints
+PB  - MetaArXiv
+ST  - A Brief Glossary of Terms about Repeatability
+UR  - https://osf.io/preprints/metaarxiv/mqfp4_v1/
+Y2  - 2026/04/01/15:59:38
+L1  - https://osf.io/download/692df0f0db6add8d791170cd/
+N1  - <div data-schema-version="9"><p>Snowballed from social media (newsletter)</p>
+</div>
+KW  - replicability
+KW  - Reproducibility
+KW  - repeatability
+KW  - robustness
+KW  - trustworthiness of research
+ER  - 
+
