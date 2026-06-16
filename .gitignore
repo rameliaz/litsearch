@@ -20,3 +20,9 @@ ehthumbs.db
 # Google Forms / binary files
 *.gform
 *.gsheet
+
+# randomly sampled papers
+# gitignored due to license problems
+**/coding/descriptive/files
+**/coding/criteria extraction/Gunther/files
+**/coding/descriptive/Bauer et al. - 2025 - Teaching constructive replications in the behavioral and social sciences using quantitative data.pdf
