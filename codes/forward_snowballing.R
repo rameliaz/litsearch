@@ -5,13 +5,13 @@
 # (i.e., the same working directory as litsearch.R)
 #
 # Input:
-#   lit_search_output/07_fulltext_screened.ris   — seed papers (full-text screened set)
-#   lit_search_output/01_deduplicated_results.csv — original search pool (for dedup)
+#   output/search_output/07_fulltext_screened.ris   — seed papers (full-text screened set)
+#   output/search_output/01_deduplicated_results.csv — original search pool (for dedup)
 #
 # Output:
-#   lit_search_output/08_snowballing_log.csv           — per-seed citation counts
-#   lit_search_output/08_forward_snowballing_raw.csv   — all unique citing works
-#   lit_search_output/08_forward_snowballing_new.csv   — new records only (ready for screening)
+#   output/search_output/08_snowballing_log.csv           — per-seed citation counts
+#   output/search_output/08_forward_snowballing_raw.csv   — all unique citing works
+#   output/search_output/08_forward_snowballing_new.csv   — new records only (ready for screening)
 #
 # Prerequisites:
 #   install.packages(c("openalexR", "dplyr", "readr", "tibble", "stringr"))
@@ -25,7 +25,7 @@ library(readr)
 library(tibble)
 library(stringr)
 
-OUTPUT_DIR        <- "lit_search_output"
+OUTPUT_DIR        <- "output/search_output"
 SEED_RIS          <- file.path(OUTPUT_DIR, "07_fulltext_screened.ris")
 ORIGINAL_POOL_CSV <- file.path(OUTPUT_DIR, "01_deduplicated_results.csv")
 DATE_TO           <- "2026-03-30"
@@ -33,7 +33,7 @@ INTER_QUERY_SLEEP <- 5    # seconds between API calls (rate-limit protection)
 RESOLVE_DOI       <- TRUE # attempt DOI-based OpenAlex ID lookup for seeds without AN field
 VERBOSE           <- TRUE
 
-dir.create(OUTPUT_DIR, showWarnings = FALSE)
+dir.create(OUTPUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 # HELPER: Normalise titles for fuzzy deduplication
 # (same logic as litsearch.R — must stay in sync)

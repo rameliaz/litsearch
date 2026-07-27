@@ -13,11 +13,11 @@
 #   install.packages("dplyr")
 #   install.packages("readr")
 #
-# Input:  lit_search_output/10_final_set_before_expert.xlsx
-# Output: lit_search_output/11_irr_sample_descriptive.csv
-#         lit_search_output/11_irr_sample_criteria.csv
+# Input:  output/search_output/10_final_set.xlsx
+# Output: output/search_output/11_irr_sample_descriptive.csv
+#         output/search_output/11_irr_sample_criteria.csv
 #
-# last modified: 15.05.2026
+# last modified: 26.07.2026 (paths updated for the output/ restructure)
 
 library(readxl)
 library(dplyr)
@@ -28,8 +28,12 @@ set.seed(2026)  # fixed number so that random sample is always consistent
 N_DESCRIPTIVE <- 45   # ~30% of 145; coded by RAs alongside Amelia
 N_CRITERIA    <- 15   # ~10% of 145; coded by Gunther alongside Amelia
 EXCLUDE_TYPES <- c("BLOG", "ART") # The reason is that these types of publications contain limited information
-INPUT_FILE    <- "lit_search_output/10_final_set.xlsx"
-OUTPUT_DIR    <- "lit_search_output"
+INPUT_FILE    <- "output/search_output/10_final_set.xlsx"
+OUTPUT_DIR    <- "output/search_output"
+
+# Guard against redrawing the samples the coders already worked from. See the
+# note next to the write step at the bottom of this script.
+OVERWRITE_SAMPLES <- FALSE
 
 papers <- read_excel(INPUT_FILE, sheet = "Literature") |>
   filter(!is.na(`No.`)) |>                        # drop empty trailing rows
@@ -82,10 +86,25 @@ sample_criteria |> count(Type) |> print()
 overlap <- sum(sample_descriptive$`No.` %in% sample_criteria$`No.`)
 message("\nPapers appearing in both samples: ", overlap)
 
-write_csv(sample_descriptive,
-          file.path(OUTPUT_DIR, "11_irr_sample_descriptive.csv"))
-write_csv(sample_criteria,
-          file.path(OUTPUT_DIR, "11_irr_sample_criteria.csv"))
+out_descriptive <- file.path(OUTPUT_DIR, "11_irr_sample_descriptive.csv")
+out_criteria    <- file.path(OUTPUT_DIR, "11_irr_sample_criteria.csv")
+
+# set.seed() alone does NOT make this script reproducible: the draw depends on
+# the contents of 10_final_set.xlsx, which has been edited since the samples
+# were drawn on 12.05.2026 (rows were renumbered). Re-running therefore yields a
+# DIFFERENT set of papers, which would break the link between the coding data
+# and the sample the RAs actually coded. The saved CSVs are the artifact.
+if (!OVERWRITE_SAMPLES && (file.exists(out_descriptive) || file.exists(out_criteria))) {
+  stop("IRR samples already exist in ", OUTPUT_DIR, "/.\n",
+       "  These are the samples the coders actually worked from (drawn 12.05.2026).\n",
+       "  Re-running would draw a different set, because 10_final_set.xlsx has\n",
+       "  changed since. Set OVERWRITE_SAMPLES <- TRUE at the top only if you\n",
+       "  really intend to replace them.",
+       call. = FALSE)
+}
+
+write_csv(sample_descriptive, out_descriptive)
+write_csv(sample_criteria, out_criteria)
 
 message("\nDone. Outputs written to ", OUTPUT_DIR, "/")
 message("  11_irr_sample_descriptive.csv  -- ", N_DESCRIPTIVE,

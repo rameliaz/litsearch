@@ -1,0 +1,5 @@
+variable,label,value,papers,pct
+C1,Primary contribution type,Empirical audit of different containers,1,0.7
+C1,Primary contribution type,Theoretical review about a framework used to assess reproducibility (PRIMAD-LID)),1,0.7
+C2,Secondary contribution type,Narrative review,1,0.7
+C2,Secondary contribution type,Opinion,1,0.7

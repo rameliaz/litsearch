@@ -3,6 +3,9 @@
 Thumbs.db
 ehthumbs.db
 
+# Office lock/owner files created while a document is open
+~$*
+
 # R
 .Rhistory
 .Rproj.user/

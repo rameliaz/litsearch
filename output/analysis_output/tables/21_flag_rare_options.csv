@@ -1,0 +1,40 @@
+variable,label,option,n_papers,n_answered,pct_of_answered
+B1A,Disciplines targeted,Accounting,1,66,1.5
+B1A,Disciplines targeted,Computational Humanities,1,66,1.5
+B1A,Disciplines targeted,International relation,1,66,1.5
+D2A,Types of contextual variation,Analytical methods,1,65,1.5
+D2A,Types of contextual variation,CR may vary depending on the scientific claims.,1,65,1.5
+D2A,Types of contextual variation,Computational and infrastructure complexity,1,65,1.5
+D2A,Types of contextual variation,Differences across journals' policy,1,65,1.5
+D2A,Types of contextual variation,Operating system (Windows vs. Linux),1,65,1.5
+D2A,Types of contextual variation,Software longevity/decay,1,65,1.5
+D2A,Types of contextual variation,Time,1,65,1.5
+D2A,Types of contextual variation,and cultural context,1,65,1.5
+D2A,Types of contextual variation,combination between study settings (lab vs. field),1,65,1.5
+D2A,Types of contextual variation,computational vs. non-computational steps in research (research cycles),1,65,1.5
+D2A,Types of contextual variation,data quality,1,65,1.5
+D2A,Types of contextual variation,historical,1,65,1.5
+D2A,Types of contextual variation,journal's data policy,1,65,1.5
+D2A,Types of contextual variation,varies between runtime and workflow,1,65,1.5
+E1C,Programming languages,SPSS,2,98,2
+E1C,Programming languages,java,2,98,2
+E1C,Programming languages,C/C++,1,98,1
+E1C,Programming languages,Excel,1,98,1
+E1C,Programming languages,Fortran,1,98,1
+E1C,Programming languages,GAMS,1,98,1
+E1C,Programming languages,Mathematica,1,98,1
+E1C,Programming languages,NetLogo,1,98,1
+E1D,Data types,Audio data,1,99,1
+E1D,Data types,Trading data,1,99,1
+F2,Who should perform the check,Librarians,2,145,1.4
+F2,Who should perform the check,FDA/EPA external auditors,1,145,0.7
+F2,Who should perform the check,Portal moderation/journal-like review,1,145,0.7
+F2,Who should perform the check,Third-party but internal team (WB),1,145,0.7
+F2,Who should perform the check,archive/repository staff (librarian),1,145,0.7
+F2,Who should perform the check,data curators,1,145,0.7
+F2,Who should perform the check,internal Office of Quality Assurance staff,1,145,0.7
+F3,When the check should happen,all stages of research lifecycle,1,145,0.7
+F3,When the check should happen,before acceptance decision,1,145,0.7
+F3,When the check should happen,parallel to peer review,1,145,0.7
+F3,When the check should happen,parallel to peer review process,1,145,0.7
+F3,When the check should happen,parallel to peer-review,1,145,0.7

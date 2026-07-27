@@ -20,11 +20,11 @@ library(stringr)
 
 DATE_FROM         <- "2015-01-01"   # after:2015 filter from the protocol
 DATE_TO           <- "2026-03-12"   # fixed to search date for reproducibility
-OUTPUT_DIR        <- "lit_search_output"
+OUTPUT_DIR        <- "output/search_output"
 VERBOSE           <- TRUE           # set FALSE to suppress progress messages
 INTER_QUERY_SLEEP <- 5              # seconds between queries (rate limit protection)
 
-dir.create(OUTPUT_DIR, showWarnings = FALSE)
+dir.create(OUTPUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 # HELPER FUNCTION
 

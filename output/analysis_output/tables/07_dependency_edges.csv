@@ -1,0 +1,54 @@
+from,to,times_asserted
+code deposit,numerical output match,20
+data deposit,numerical output match,18
+code deposit,table and figure match,13
+data deposit,table and figure match,10
+code deposit,dependency resolution,9
+code deposit,path resolution,9
+coding error handling,numerical output match,8
+computing environment,numerical output match,8
+dependency resolution,numerical output match,7
+code deposit,computing environment,6
+codes consistent with claims,numerical output match,6
+coding error handling,table and figure match,6
+computing environment,table and figure match,6
+data documentation,dependency resolution,6
+dependency resolution,computing environment,6
+dependency resolution,table and figure match,6
+code deposit,codes consistent with claims,5
+codes consistent with claims,table and figure match,5
+data documentation,numerical output match,5
+path resolution,numerical output match,5
+data documentation,computing environment,4
+data documentation,path resolution,4
+data documentation,table and figure match,4
+path resolution,table and figure match,4
+code deposit,coding error handling,3
+license,data deposit,3
+numerical output match,table and figure match,3
+computing environment,dependency resolution,2
+computing environment,path resolution,2
+license,code deposit,2
+code deposit,dynamic code inspection,1
+code deposit,workflow/reproduction tree,1
+code documentation/anotation,codes consistent with claims,1
+code runs without manual intervention,numerical output match,1
+code runs without manual intervention,table and figure match,1
+coding error handling,codes consistent with claims,1
+data deposit,coding error handling,1
+data deposit,computing environment,1
+data deposit,dependency resolution,1
+data deposit,dynamic code inspection,1
+data deposit,path resolution,1
+data deposit,workflow/reproduction tree,1
+data documentation,coding error handling,1
+data documentation,workflow/reproduction tree,1
+data provenance,numerical output match,1
+data provenance,table and figure match,1
+data provenance,third-party certification,1
+dependency resolution,codes consistent with claims,1
+dependency resolution,coding error handling,1
+license,computing environment,1
+path resolution,dependency resolution,1
+workflow/reproduction tree,numerical output match,1
+workflow/reproduction tree,table and figure match,1

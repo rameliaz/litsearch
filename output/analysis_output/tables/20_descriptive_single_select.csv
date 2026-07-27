@@ -1,0 +1,43 @@
+variable,label,value,papers,pct
+B1,Discipline-specific focus,No. Paper is general with no named target discipline.,79,54.5
+B1,Discipline-specific focus,Yes. Paper explicitly targets one or more named disciplines,66,45.5
+C1,Primary contribution type,Technical tool/workflow paper,52,35.9
+C1,Primary contribution type,Guidelines/policy paper,27,18.6
+C1,Primary contribution type,Empirical audit/assessment,24,16.6
+C1,Primary contribution type,Replication/reproduction attempt,10,6.9
+C1,Primary contribution type,"User study (e.g., survey, interview, focus group discussion -- with computational reproducibility as the main topic)",9,6.2
+C1,Primary contribution type,Educational/training resource,7,4.8
+C1,Primary contribution type,Conceptual/review paper,6,4.1
+C1,Primary contribution type,"Meta-studies (e.g., scoping review, systematic review, meta-analysis)",4,2.8
+C1,Primary contribution type,Opinion,4,2.8
+C1,Primary contribution type,Empirical audit of different containers,1,0.7
+C1,Primary contribution type,Theoretical review about a framework used to assess reproducibility (PRIMAD-LID)),1,0.7
+C2,Secondary contribution type,(not answered),93,64.1
+C2,Secondary contribution type,Guidelines/policy paper,13,9
+C2,Secondary contribution type,Educational/training resource,11,7.6
+C2,Secondary contribution type,Technical tool/workflow paper,9,6.2
+C2,Secondary contribution type,Empirical audit/assessment,8,5.5
+C2,Secondary contribution type,"User study (e.g., survey, interview, focus group discussion -- with computational reproducibility as the main topic)",6,4.1
+C2,Secondary contribution type,Replication/reproduction attempt,3,2.1
+C2,Secondary contribution type,Narrative review,1,0.7
+C2,Secondary contribution type,Opinion,1,0.7
+D1,Provides a definition of reproducibility,Yes,91,62.8
+D1,Provides a definition of reproducibility,No,54,37.2
+D2,Discusses contextual variation,No. The paper treats reproducibility as context-independent or does not address variation.,80,55.2
+D2,Discusses contextual variation,Yes. The paper explicitly notes that reproducibility looks different and is practiced differently depending on context.,65,44.8
+E1,"Describes a workflow, guideline or tool","Yes. The paper actively describes, introduces, or recommends at least one concrete workflow, checklist, or tool.",99,68.3
+E1,"Describes a workflow, guideline or tool",No. The paper discusses reproducibility in general but does NOT describe a specific workflow or tool.,46,31.7
+E1A,Explicitness of the workflow,Step-by-step (explicit),61,42.1
+E1A,Explicitness of the workflow,(not answered),47,32.4
+E1A,Explicitness of the workflow,Narrative (implicit),37,25.5
+E1E,Automation of the check,(not answered),46,31.7
+E1E,Automation of the check,Partial automation. Some steps are automated and some require human judgment.,34,23.4
+E1E,Automation of the check,Manual only. The workflow is entirely manual.,22,15.2
+E1E,Automation of the check,Not described,22,15.2
+E1E,Automation of the check,Full automation. The entire proposed workflow is automated with no required manual steps.,21,14.5
+E1F,LLMs involved in the automation,No. Automation is present but does not involve LLMs.,47,32.4
+E1F,LLMs involved in the automation,(not answered),46,31.7
+E1F,LLMs involved in the automation,Not applicable. E1e = Manual only or Not described.,43,29.7
+E1F,LLMs involved in the automation,"Yes. The paper explicitly mentions LLMs (e.g., GPT, Claude, Llama) as part of the workflow.",9,6.2
+F1,Recommends scoring or badging,No,121,83.4
+F1,Recommends scoring or badging,Yes,24,16.6

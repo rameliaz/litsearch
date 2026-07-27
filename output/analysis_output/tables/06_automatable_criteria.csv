@@ -1,0 +1,16 @@
+dimension,criterion,mentions_automatable
+Executability,computing environment,28
+Executability,dependency resolution,28
+Executability,path resolution,15
+Availability,data documentation,11
+Consistency,numerical output match,8
+Consistency,table and figure match,6
+Availability,code deposit,5
+Executability,coding error handling,5
+Availability,data deposit,4
+Availability,data provenance,4
+Executability,version control,4
+Consistency,codes consistent with claims,4
+Executability,code runs without manual intervention,3
+Availability,license,1
+Executability,workflow/reproduction tree,1

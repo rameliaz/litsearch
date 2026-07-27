@@ -1,0 +1,80 @@
+variable,label,option,n_papers,n_answered,pct_of_answered
+B1A,Disciplines targeted,Economics,29,66,43.9
+B1A,Disciplines targeted,General social science,20,66,30.3
+B1A,Disciplines targeted,Political Science,16,66,24.2
+B1A,Disciplines targeted,Communication science,7,66,10.6
+B1A,Disciplines targeted,Sociology,5,66,7.6
+B1A,Disciplines targeted,Finance,3,66,4.5
+B1A,Disciplines targeted,Management/Business,3,66,4.5
+B1A,Disciplines targeted,Accounting,1,66,1.5
+B1A,Disciplines targeted,Computational Humanities,1,66,1.5
+B1A,Disciplines targeted,International relation,1,66,1.5
+D2A,Types of contextual variation,Scientific discipline,28,65,43.1
+D2A,Types of contextual variation,Data or material license,23,65,35.4
+D2A,Types of contextual variation,Data type,18,65,27.7
+D2A,Types of contextual variation,Programming language or software,18,65,27.7
+D2A,Types of contextual variation,Study design,14,65,21.5
+D2A,Types of contextual variation,Analytical methods,1,65,1.5
+D2A,Types of contextual variation,CR may vary depending on the scientific claims.,1,65,1.5
+D2A,Types of contextual variation,Computational and infrastructure complexity,1,65,1.5
+D2A,Types of contextual variation,Differences across journals' policy,1,65,1.5
+D2A,Types of contextual variation,Operating system (Windows vs. Linux),1,65,1.5
+D2A,Types of contextual variation,Software longevity/decay,1,65,1.5
+D2A,Types of contextual variation,Time,1,65,1.5
+D2A,Types of contextual variation,and cultural context,1,65,1.5
+D2A,Types of contextual variation,combination between study settings (lab vs. field),1,65,1.5
+D2A,Types of contextual variation,computational vs. non-computational steps in research (research cycles),1,65,1.5
+D2A,Types of contextual variation,data quality,1,65,1.5
+D2A,Types of contextual variation,historical,1,65,1.5
+D2A,Types of contextual variation,journal's data policy,1,65,1.5
+D2A,Types of contextual variation,varies between runtime and workflow,1,65,1.5
+E1B,Computational environment,"Containerization (e.g., Docker, Singularity, CodeOcean, Binder, WholeTale, etc.)",48,98,49
+E1B,Computational environment,Package/dependency management,33,98,33.7
+E1B,Computational environment,Literate programming/dynamic documents,30,98,30.6
+E1B,Computational environment,Version control,29,98,29.6
+E1B,Computational environment,Not described,28,98,28.6
+E1C,Programming languages,R,44,98,44.9
+E1C,Programming languages,Not described,40,98,40.8
+E1C,Programming languages,Python,27,98,27.6
+E1C,Programming languages,Stata,15,98,15.3
+E1C,Programming languages,Matlab,7,98,7.1
+E1C,Programming languages,Julia,6,98,6.1
+E1C,Programming languages,SAS,4,98,4.1
+E1C,Programming languages,SPSS,2,98,2
+E1C,Programming languages,java,2,98,2
+E1C,Programming languages,C/C++,1,98,1
+E1C,Programming languages,Excel,1,98,1
+E1C,Programming languages,Fortran,1,98,1
+E1C,Programming languages,GAMS,1,98,1
+E1C,Programming languages,Mathematica,1,98,1
+E1C,Programming languages,NetLogo,1,98,1
+E1D,Data types,Not described,65,99,65.7
+E1D,Data types,Proprietary/confidential data,24,99,24.2
+E1D,Data types,Survey/experimental,9,99,9.1
+E1D,Data types,Administrative/register data,7,99,7.1
+E1D,Data types,Digital trace data,5,99,5.1
+E1D,Data types,Text/NLP,4,99,4
+E1D,Data types,Audio data,1,99,1
+E1D,Data types,Trading data,1,99,1
+F2,Who should perform the check,Third-party/independent reproducers/replicators,71,145,49
+F2,Who should perform the check,Not described,47,145,32.4
+F2,Who should perform the check,Authors (self-check),40,145,27.6
+F2,Who should perform the check,Data editors,31,145,21.4
+F2,Who should perform the check,Peer reviewers,20,145,13.8
+F2,Who should perform the check,AI Agents,5,145,3.4
+F2,Who should perform the check,Librarians,2,145,1.4
+F2,Who should perform the check,FDA/EPA external auditors,1,145,0.7
+F2,Who should perform the check,Portal moderation/journal-like review,1,145,0.7
+F2,Who should perform the check,Third-party but internal team (WB),1,145,0.7
+F2,Who should perform the check,archive/repository staff (librarian),1,145,0.7
+F2,Who should perform the check,data curators,1,145,0.7
+F2,Who should perform the check,internal Office of Quality Assurance staff,1,145,0.7
+F3,When the check should happen,Not described,78,145,53.8
+F3,When the check should happen,After publication,44,145,30.3
+F3,When the check should happen,"After acceptance, before publication",25,145,17.2
+F3,When the check should happen,"Before submission, proactively",20,145,13.8
+F3,When the check should happen,all stages of research lifecycle,1,145,0.7
+F3,When the check should happen,before acceptance decision,1,145,0.7
+F3,When the check should happen,parallel to peer review,1,145,0.7
+F3,When the check should happen,parallel to peer review process,1,145,0.7
+F3,When the check should happen,parallel to peer-review,1,145,0.7

@@ -1,0 +1,12 @@
+operationalization category,operationalization value,operationalizations,pct
+Classification,not specified,85,58.2
+Classification,ordinal,28,19.2
+Classification,binary,27,18.5
+Classification,continuum,6,4.1
+Scope: coverage,not specified,116,79.5
+Scope: coverage,all claims,18,12.3
+Scope: coverage,only focal or primary claims,8,5.5
+Scope: coverage,fixed number of claims,4,2.7
+Scope: unit,not specified,101,68.7
+Scope: unit,paper-level,26,17.7
+Scope: unit,claim-level,20,13.6
