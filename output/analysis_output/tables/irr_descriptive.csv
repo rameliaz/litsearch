@@ -1,0 +1,20 @@
+variable,label,field_type,n_items,n_valid,n_options,alpha,meets_threshold
+B1,B1. Is the paper focused on a specific scientific discipline?,single_select,45,45,NA,0.601,FALSE
+C1,C1. What is the primary type of contribution this paper makes?,single_select,45,45,NA,0.588,FALSE
+C2,C2. Is there a clearly applicable secondary type of contribution?,single_select,45,15,NA,0.399,FALSE
+D1,D1. Does the paper provide a definition of reproducibility?,single_select,45,45,NA,0.591,FALSE
+D2,D2. Does the paper discuss how the meaning or practice of reproducibility varies across different contexts?,single_select,45,45,NA,0.371,FALSE
+E1,"E1. Does the paper describe or recommend a specific workflow, guideline, or tool for checking reproducibility?",single_select,45,45,NA,0.464,FALSE
+E1A,E1a. How explicitly is the workflow or guideline described?,single_select,45,39,NA,0.602,FALSE
+E1E,E1e. Does the paper suggest or describe automated checking of reproducibility?,single_select,45,39,NA,0.23,FALSE
+E1F,E1f. Does the described automation involve large language models (LLMs)?,single_select,45,39,NA,0.484,FALSE
+F1,F1. Does the paper describe or recommend a scoring or badging system for evaluating reproducibility?,single_select,45,45,NA,0.6,FALSE
+B1A,B1a. Which discipline(s) does the paper focus on?,multi_select,1575,1575,35,0.513,FALSE
+D2A,D2a. Which types of contextual variation does the paper discuss?,multi_select,1890,1890,42,0.288,FALSE
+E1B,E1b. What computational environment does the paper focus on?,multi_select,225,225,5,0.605,FALSE
+E1C,E1c. What programming language(s) does the paper focus on?,multi_select,945,945,21,0.514,FALSE
+E1D,E1d. What data type(s) does the paper focus on?,multi_select,495,495,11,0.549,FALSE
+F2,F2. Who does the paper say should perform the reproducibility check?,multi_select,1125,1125,25,0.459,FALSE
+F3,F3. When does the paper suggest reproducibility should be verified?,multi_select,900,900,20,0.429,FALSE
+D1A,"D1a. If yes, please copy and paste the exact definition text from the paper.",freetext_blank_check,45,45,NA,0.586,FALSE
+notes,Please put any additional information about the paper that you deem necessary.,freetext_blank_check,45,45,NA,-0.031,FALSE

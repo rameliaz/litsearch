@@ -5,15 +5,13 @@ Availability,data documentation,FALSE,84,84,57.9
 Availability,data provenance,FALSE,50,50,34.5
 Availability,license,FALSE,30,30,20.7
 Availability,artifacts longevity/sustainability,TRUE,9,9,6.2
-Availability,code documentation/anotation,TRUE,1,1,0.7
 Executability,computing environment,FALSE,71,71,49
 Executability,dependency resolution,FALSE,58,58,40
 Executability,path resolution,FALSE,29,29,20
 Executability,coding error handling,FALSE,28,28,19.3
 Executability,version control,TRUE,12,12,8.3
+Executability,code documentation/annotation,TRUE,5,5,3.4
 Executability,code runs without manual intervention,TRUE,4,4,2.8
-Executability,code documentation/anotation,TRUE,3,3,2.1
-Executability,code documentation/annotation,TRUE,1,1,0.7
 Executability,commands logs traceability,TRUE,1,1,0.7
 Executability,dynamic code inspection,TRUE,1,1,0.7
 Executability,test code coverage,TRUE,1,1,0.7

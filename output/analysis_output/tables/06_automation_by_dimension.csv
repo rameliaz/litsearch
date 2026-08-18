@@ -1,12 +1,12 @@
 dimension,can be automated,mentions,pct_within_dimension
-Availability,(not coded),9,2.4
+Availability,(not coded),8,2.2
 Availability,no,32,8.6
-Availability,unclear,306,82.3
+Availability,unclear,306,82.5
 Availability,yes,25,6.7
-Executability,(not coded),2,1
+Executability,(not coded),3,1.4
 Executability,no,20,9.5
-Executability,unclear,104,49.5
-Executability,yes,84,40
+Executability,unclear,104,49.3
+Executability,yes,84,39.8
 Consistency,no,11,11.5
 Consistency,unclear,67,69.8
 Consistency,yes,18,18.8

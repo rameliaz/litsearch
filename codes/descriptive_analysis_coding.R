@@ -1,10 +1,9 @@
-# SocEnRep – Descriptive analysis of Amelia's Step 5 coding results
+# SocEnRep – Descriptive analysis of Step 5 coding results
 #
-# Produces descriptive statistics only (counts, distributions, cross-tabulations)
-# for the team meeting. No inferential statistics and no IRR here -- IRR needs the
-# RA/Gunther files and is handled separately.
+# Produces descriptive statistics only (counts, distributions, cross-tabulations).
+# No inferential statistics and no IRR here.
 #
-# Covers the three files in dataset/ that hold Amelia's own coding:
+# Covers the three files in dataset/ that hold full coding by Amelia:
 #   Part A  descriptive coding of all 145 papers
 #   Part B1 how each paper operationalizes reproducibility success
 #   Part B2 which specific criteria each paper invokes
@@ -680,7 +679,7 @@ plot_multi <- function(v, title, height = 4) {
     coord_flip() +
     scale_y_continuous(expand = expansion(mult = c(0, 0.14))) +
     labs(title = title,
-         subtitle = "Papers may select several options; entries mentioned once are omitted",
+         subtitle = "Coders may select several options; entries mentioned once are omitted",
          x = NULL, y = "Papers") +
     theme_socenrep()
   save_fig(p, paste0("21_", str_to_lower(v)), height = height)
