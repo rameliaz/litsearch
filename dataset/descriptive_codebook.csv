@@ -23,4 +23,5 @@
 "D2A","D2a. Which types of contextual variation does the paper discuss?","multi_select"
 "paper_id","Derived: `No.` in 10_final_set.xlsx, matched on paper title","derived"
 "doi","Derived: DOI from 10_final_set.xlsx (the coder-entered DOI/Link is only cross-checked)","derived"
+"year","Derived: publication `Year` from 10_final_set.xlsx (not in the IRR file)","derived"
 "submitted","Derived (IRR file only): FALSE where the coder never submitted this paper","derived"

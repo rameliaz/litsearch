@@ -1,0 +1,48 @@
+dimension,criterion,can be automated,mentions,mentions_total,pct_within_criterion
+Availability,code deposit,no,9,104,8.7
+Availability,code deposit,unclear,94,104,90.4
+Availability,code deposit,yes,1,104,1
+Availability,data deposit,no,7,95,7.4
+Availability,data deposit,unclear,87,95,91.6
+Availability,data deposit,yes,1,95,1.1
+Availability,data documentation,no,6,83,7.2
+Availability,data documentation,unclear,66,83,79.5
+Availability,data documentation,yes,11,83,13.3
+Availability,data provenance,no,5,51,9.8
+Availability,data provenance,unclear,41,51,80.4
+Availability,data provenance,yes,5,51,9.8
+Availability,license,no,5,30,16.7
+Availability,license,unclear,24,30,80
+Availability,license,yes,1,30,3.3
+Availability,artifacts longevity/sustainability,unclear,9,9,100
+Executability,computing environment,no,3,69,4.3
+Executability,computing environment,unclear,38,69,55.1
+Executability,computing environment,yes,28,69,40.6
+Executability,dependency resolution,no,3,59,5.1
+Executability,dependency resolution,unclear,28,59,47.5
+Executability,dependency resolution,yes,28,59,47.5
+Executability,path resolution,no,5,30,16.7
+Executability,path resolution,unclear,10,30,33.3
+Executability,path resolution,yes,15,30,50
+Executability,coding error handling,no,9,29,31
+Executability,coding error handling,unclear,15,29,51.7
+Executability,coding error handling,yes,5,29,17.2
+Executability,version control,unclear,6,12,50
+Executability,version control,yes,6,12,50
+Executability,code documentation/annotation,unclear,6,6,100
+Executability,code runs without manual intervention,yes,4,4,100
+Executability,commands logs traceability,unclear,1,1,100
+Executability,dynamic code inspection,unclear,1,1,100
+Executability,test code coverage,unclear,1,1,100
+Executability,workflow/reproduction tree,yes,1,1,100
+Consistency,numerical output match,no,5,50,10
+Consistency,numerical output match,unclear,37,50,74
+Consistency,numerical output match,yes,8,50,16
+Consistency,table and figure match,no,5,24,20.8
+Consistency,table and figure match,unclear,15,24,62.5
+Consistency,table and figure match,yes,4,24,16.7
+Consistency,codes consistent with claims,no,1,18,5.6
+Consistency,codes consistent with claims,unclear,13,18,72.2
+Consistency,codes consistent with claims,yes,4,18,22.2
+Consistency,cross-tool/software validation,unclear,1,1,100
+Consistency,third-party certification,no,1,1,100

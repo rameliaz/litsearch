@@ -1,23 +1,23 @@
 dimension,criterion,is_new,mentions,papers,pct_papers
-Availability,code deposit,FALSE,103,103,71
+Availability,code deposit,FALSE,104,104,71.7
 Availability,data deposit,FALSE,95,95,65.5
-Availability,data documentation,FALSE,84,84,57.9
-Availability,data provenance,FALSE,50,50,34.5
+Availability,data documentation,FALSE,83,83,57.2
+Availability,data provenance,FALSE,51,51,35.2
 Availability,license,FALSE,30,30,20.7
 Availability,artifacts longevity/sustainability,TRUE,9,9,6.2
-Executability,computing environment,FALSE,71,71,49
-Executability,dependency resolution,FALSE,58,58,40
-Executability,path resolution,FALSE,29,29,20
-Executability,coding error handling,FALSE,28,28,19.3
+Executability,computing environment,FALSE,69,69,47.6
+Executability,dependency resolution,FALSE,59,59,40.7
+Executability,path resolution,FALSE,30,30,20.7
+Executability,coding error handling,FALSE,29,29,20
 Executability,version control,TRUE,12,12,8.3
-Executability,code documentation/annotation,TRUE,5,5,3.4
+Executability,code documentation/annotation,TRUE,6,6,4.1
 Executability,code runs without manual intervention,TRUE,4,4,2.8
 Executability,commands logs traceability,TRUE,1,1,0.7
 Executability,dynamic code inspection,TRUE,1,1,0.7
 Executability,test code coverage,TRUE,1,1,0.7
 Executability,workflow/reproduction tree,TRUE,1,1,0.7
 Consistency,numerical output match,FALSE,50,50,34.5
-Consistency,table and figure match,FALSE,25,25,17.2
-Consistency,codes consistent with claims,FALSE,19,19,13.1
+Consistency,table and figure match,FALSE,24,24,16.6
+Consistency,codes consistent with claims,FALSE,18,18,12.4
 Consistency,cross-tool/software validation,TRUE,1,1,0.7
 Consistency,third-party certification,TRUE,1,1,0.7

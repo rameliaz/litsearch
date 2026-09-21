@@ -1,6 +1,6 @@
-# SocEnRep – Scoping Review
+# Scoping Review: Computational Reproducibility Criteria
 
-This folder contains all materials for the scoping review conducted as part of the SocEnRep project. The review covers reproducibility criteria, checklists, and verification practices in economics and the social sciences.
+This folder contains all materials for the scoping review conducted as part of [the SocEnRep project](https://cais-research.de/en/research/socenrep/). The review covers reproducibility criteria, checklists, and verification practices in economics and the social sciences.
 
 **Search period:** 2015–2026-03-12 (initial search); 2026-03-24–27 (backward snowballing, during full-text screening); 2026-03-30 (forward snowballing); 2026-04-01–02 (grey literature & recommendations)
 **Protocol:** See `protocol_logbook.docx` for the full step-by-step protocol and decisions log.
@@ -17,7 +17,7 @@ litsearch/
 ├── output/
 │   ├── search_output/            Literature search pipeline outputs, numbered by step (01–11)
 │   ├── analysis_output/          Tables and figures from the descriptive analysis
-│   └── cleaning_log/             Data-quality flags from the Part A response cleaning
+│   └── cleaning_log/             Data-quality flags from the Part A and Part B cleaning
 └── protocol_logbook.docx         Protocol and decisions logbook
 ```
 
@@ -32,6 +32,7 @@ litsearch/
 | `litsearch.R` | Runs 15 OpenAlex queries (6 Tier 1 core concept, 9 Tier 2 concept × discipline) and produces the deduplicated record pool. `DATE_TO` is hardcoded to `"2026-03-12"` for reproducibility — do not change to `Sys.Date()`. **Do not re-run** without consulting the project team; it would overwrite `01_deduplicated_results.csv`, which is the reproducibility artifact. |
 | `forward_snowballing.R` | Runs Step 4 forward snowballing via the OpenAlex `cites` filter. Reads `07_fulltext_screened.ris` as the seed list, fetches all works citing each seed, deduplicates internally and against `01_deduplicated_results.csv`, and outputs `08_*` files. `DATE_TO` is hardcoded to `"2026-03-30"`. **Note (openalexR 3.0.1):** the `cites` filter must be passed as a direct named argument (`cites = seed_id`), not inside a `filter = list(...)` — the list approach triggers HTTP 400 "request line too large" (GitHub issue #360). |
 | `descriptive_analysis_coding.R` | Descriptive analysis of Amelia's Step 5 coding (Parts A, B1, B2). Produces counts, distributions and cross-tabulations only — no IRR, no inferential statistics. Writes CSV tables to `output/analysis_output/tables/` and PNG figures to `output/analysis_output/figures/`, and prints the same tables to the console as a meeting handout. Paths use `here()`, so it runs from any working directory inside the repo. |
+| `IRR.R` | Krippendorff's α for every codeable Part A field in the 45-paper descriptive IRR sample (Amelia + 3 RAs), read from `dataset/descriptive_shared_subsample_IRR.csv` and typed via `descriptive_codebook.csv`. Fields below the protocol threshold (α ≥ 0.70) are flagged as candidates for a reconciliation meeting. Part A only; writes `output/analysis_output/tables/irr_descriptive.csv`. |
 | `coding_sample.R` | Draws two proportionally stratified IRR samples from `10_final_set.xlsx`. Excludes BLOG and ART types (too little extractable information). Outputs `11_irr_sample_descriptive.csv` (n = 45, for RAs) and `11_irr_sample_criteria.csv` (n = 15, for Gunther). |
 
 ---
@@ -124,8 +125,8 @@ Step 5 coding is split into two parts (see `protocol_logbook.docx` for the full 
 |------|-------------|
 | `v1_codebook_descriptive.docx` | Version 1 codebook for descriptive coding. |
 | `v2_codebook_descriptive.docx` | **Current codebook** (2026-06-23), revised after the trial coding round and RA sync meeting. |
-| `trial_coding_results.xlsx` | Results of the trial coding round (all coders coded Bauer et al. 2025 to calibrate; 2026-06-08). |
-| `amelia_coding_Bauer et al.docx` | Amelia's worked example of coding Bauer et al. (2025) for the trial round. |
+| `trial/trial_coding_results.xlsx` | Results of the trial coding round (all coders coded Bauer et al. 2025 to calibrate; 2026-06-08). |
+| `trial/amelia_coding_Bauer et al.docx` | Amelia's worked example of coding Bauer et al. (2025) for the trial round. |
 | `sync_meeting.pptx` | Slides from the RA sync/training meeting (2026-06-17). |
 | `sample_descriptive.xlsx` | **The descriptive IRR sample of record.** One sheet per RA, each listing the same 45 papers with a `Done` tick box. `get_descriptive_coding.R` reads this file to define the subsample. |
 | `Coding Litreview SocEnrep.gform` | Google Form used to collect coding responses. |
@@ -153,39 +154,39 @@ Part A columns are the codebook variable codes (`B1`, `B1A`, `C1`, … `F3`) rat
 
 | File | Description |
 |------|-------------|
-| `descriptive.csv` | All Part A coding responses from the Google Form: Amelia (145 papers) + the three RAs (45–46 each). 282 rows after duplicate submissions are resolved. |
+| `descriptive.csv` | All Part A coding responses from the Google Form: Amelia (145 papers) + the three RAs (45–46 each). 283 rows after duplicate submissions are resolved. |
 | `descriptive_coding.csv` | Amelia's Part A coding of the full 145-paper corpus. |
-| `descriptive_shared_subsample_IRR.csv` | The shared IRR subsample as a complete grid: 45 papers × 4 coders = 180 rows, of which 179 were actually submitted. |
+| `descriptive_shared_subsample_IRR.csv` | The shared IRR subsample as a complete grid: 45 papers × 4 coders = 180 rows. |
 | `descriptive_codebook.csv` | Variable code → Google Forms question text, with the field type (`single_select` / `multi_select` / `free_text` / `derived`). |
-| `b1_criteria_extraction.csv` | Part B1: reproducibility operationalizations (classification, scope/unit, coverage, statistical criterion) with text evidence. One row per operationalization (452 rows across 141 papers). |
-| `b2_criteria_extraction.csv` | Part B2: specific reproducibility criteria mapped to dimensions, with normative framing, prerequisite/dependency relations, and automation/LLM codes. One row per criterion (678 rows across 132 papers). |
-| `b1_shared_subsample_IRR.csv` | Part B1 rows for the 15-paper criteria IRR sample, all coders stacked (57 rows; Amelia only until Gunther codes). |
-| `b2_shared_subsample_IRR.csv` | Part B2 rows for the 15-paper criteria IRR sample, all coders stacked (98 rows; Amelia only until Gunther codes). |
+| `b1_criteria_extraction.csv` | Part B1: reproducibility operationalizations (classification, scope/unit, coverage, statistical criterion) with text evidence. One row per operationalization (464 rows across 145 papers). |
+| `b2_criteria_extraction.csv` | Part B2: specific reproducibility criteria mapped to dimensions, with normative framing, prerequisite/dependency relations, and automation/LLM codes. One row per criterion (679 rows across 132 papers). |
+| `b1_shared_subsample_IRR.csv` | Part B1 rows for the 15-paper criteria IRR sample, all coders stacked (57 rows; Amelia only at the moment). |
+| `b2_shared_subsample_IRR.csv` | Part B2 rows for the 15-paper criteria IRR sample, all coders stacked (98 rows; Amelia only at the moment). |
 | `criteria_codebook.csv` | Field reference for the B1/B2 columns (20 fields): variable name, part, field type (`categorical` / `free_text` / `identifier` / `derived`), and a description paraphrased from the PART B scheme in `protocol_logbook.docx`. |
 | `criteria_codebook_values.csv` | Observed values for the controlled-vocabulary B1/B2 fields (e.g. `criterion label`, `normative framing`, `can be automated`), with row and paper counts — computed from the actual coded data, not hardcoded, so drift from the protocol's controlled list is visible directly. |
-| `sample_descriptive.xlsx` | Copy of the descriptive IRR sample with coder assignments. |
 
 ---
 
 ## `output/analysis_output/` — Analysis Outputs
 
-Generated by `codes/descriptive_analysis_coding.R` from the `dataset/` files; re-running the script overwrites everything here.
+Generated by `codes/descriptive_analysis_coding.R` from the `dataset/` files (except `irr_descriptive.csv`, written by `codes/IRR.R`); re-running the script overwrites everything else here.
 
 | Output | Description |
 |--------|-------------|
 | `tables/00_*` | Coding coverage, papers with no criteria extracted, and data-quality flags. |
-| `tables/01_*` – `08_*` | Part B2 criteria: per-paper counts, by dimension, by label, new criteria, normative framing, automation/LLM, dependency edges, criteria by year. |
-| `tables/10_*` – `12_*` | Part B1 operationalizations, how many of the three axes are specified, and the verbatim statistical criteria. |
-| `tables/20_*` – `30_*` | Part A descriptive coding (single- and multi-select fields) and corpus composition. |
+| `tables/01_*` – `08_*` | Part B2 criteria: per-paper counts, by dimension, by label, new criteria, normative framing (overall and `_by_criterion`), automation/LLM (including `_by_criterion`), dependency edges, criteria by year. |
+| `tables/09_*` – `12_*` | Part B1 operationalizations (including `09_operationalizations_per_paper`), how many of the three axes are specified, and the verbatim statistical criteria. |
+| `tables/20_*` – `23_*` | Part A descriptive coding (single- and multi-select fields), the formatted descriptive summary table (`22_descriptive_summary_table.csv` / `.xlsx`), and corpus composition by type (`23_corpus_by_type.csv`). |
+| `tables/irr_descriptive.csv` | Krippendorff's α per Part A field for the descriptive IRR sample. Written by `codes/IRR.R`, not by the analysis script. |
 | `figures/*.png` | Publication-ready versions of the main tables, 300 dpi. |
 
 Tables whose name contains `flag` are **data-quality lists, not results**: free-text entries and near-duplicate spellings that should be harmonised before the synthesis (see Current Status below). Flag tables are written on every run even when empty, so an empty file means "checked, nothing found" rather than a stale leftover.
 
 ---
 
-## `output/cleaning_log/` — Part A Cleaning Flags
+## `output/cleaning_log/` — Cleaning Flags
 
-Written by `codes/get_descriptive_coding.R`. None of these are results; they record what the cleaning step found and what it decided.
+Written by `codes/get_descriptive_coding.R` (Part A) and `codes/get_criteria_extraction.R` (Part B; marked below). None of these are results; they record what the cleaning step found and what it decided.
 
 | File | Description |
 |------|-------------|
@@ -193,17 +194,19 @@ Written by `codes/get_descriptive_coding.R`. None of these are results; they rec
 | `flag_duplicate_submissions.csv` | Submissions dropped because the same coder submitted the same paper twice, with the fields that differed between the two. The most recent submission is kept. |
 | `flag_doi_mismatch.csv` | Coder-entered DOIs that differ from the DOI in `10_final_set.xlsx`. The corpus DOI is kept. |
 | `flag_irr_sample_renumbered.csv` | IRR-sample rows whose `No.` no longer points at the same paper in `10_final_set.xlsx` (the file was renumbered after the sample was drawn). Papers are matched on title instead. Currently empty. |
+| `flag_unmatched_papers.csv` | Coder-submitted papers that could not be matched to any paper in `10_final_set.xlsx`. Currently empty. |
 | `flag_irr_missing_submissions.csv` | Coder × paper cells in the IRR sample that were never submitted. |
 | `flag_marked_done_not_submitted.csv` | Papers an RA ticked `Done` in `sample_descriptive.xlsx` but never submitted through the form — a genuine missing submission, as opposed to a paper they were never assigned. |
 | `flag_ra_papers_outside_sample.csv` | Papers the RAs coded that are not part of the 45-paper IRR sample (the trial-round paper and any coded by arrangement). Kept in `descriptive.csv`, excluded from the IRR file. |
-| `flag_b2_blank_category.csv` | Individual `criterion category` cells left blank in a Part B2 sheet, with the workbook row to fix and the value recoverable from the criterion label (a label that maps to exactly one category everywhere else). The rest of each row is coded. |
-| `flag_criteria_irr_coverage.csv` | Rows contributed per paper per coder in the 15-paper criteria IRR sample. A paper with no rows from a coder is ambiguous — either not yet coded, or coded and found to yield nothing — so it is listed rather than treated as agreement. |
+| `flag_criteria_irr_sample_renumbered.csv` | Part B counterpart of `flag_irr_sample_renumbered.csv`: criteria IRR-sample rows whose `No.` no longer points at the same paper (matched on title instead). Currently empty. *(Part B)* |
+| `flag_b2_blank_category.csv` | Individual `criterion category` cells left blank in a Part B2 sheet, with the workbook row to fix and the value recoverable from the criterion label (a label that maps to exactly one category everywhere else). The rest of each row is coded. *(Part B)* |
+| `flag_criteria_irr_coverage.csv` | Rows contributed per paper per coder in the 15-paper criteria IRR sample. A paper with no rows from a coder is ambiguous — either not yet coded, or coded and found to yield nothing — so it is listed rather than treated as agreement. *(Part B)* |
 
 ---
 
 ## `protocol_logbook.docx`
 
-The protocol and decisions logbook for the entire literature review. Documents all methodological decisions, screening criteria, the Step 5 coding scheme (Part A descriptive codes; Part B1/B2 criteria extraction codes), and step-by-step progress notes. **This is the primary reference for understanding how and why each step was conducted.** Last substantively modified: 2026-07-24.
+The protocol and decisions logbook for the entire literature review. Documents all methodological decisions, screening criteria, the Step 5 coding scheme (Part A descriptive codes; Part B1/B2 criteria extraction codes), and step-by-step progress notes. **This is the primary reference for understanding how and why each step was conducted.** Last substantively modified: 2026-08-20.
 
 ---
 
@@ -267,7 +270,7 @@ descriptive.csv        criteria.csv
 Part A: descriptive    Part B: criteria
 coding (Google Form)   extraction (sheets)
 Amelia [145] + RAs     Amelia [145, done
-[45, IRR]              2026-07-24] +
+[45, IRR], all done    2026-07-24] +
         |              Gunther [15, IRR]
         v                   |
 dataset/*descriptive*.csv   v
@@ -277,12 +280,13 @@ dataset/*descriptive*.csv   v
 
 ---
 
-## Current Status (2026-07-26)
+## Current Status (2026-09-21)
 
 - Part A descriptive coding: Amelia's full-corpus coding and RA IRR coding collected via Google Form. The export is now automated — `codes/get_descriptive_coding.R` pulls the live sheet, cleans it and rewrites the `dataset/` files (2026-07-26). The first automated pull picked up 13 cells that had been harmonised in the sheet since the manual 24.07 export (C1/C2 free-text contribution types folded into `Conceptual/review paper`, `Opinion` and `Educational/training resource`; F2 `AI agent`/`AI agents` → `AI Agents`).
 - Part B criteria extraction: Amelia completed all 145 papers on 2026-07-24. The export is automated — `codes/get_criteria_extraction.R` reads the coding workbooks and writes Amelia's two files plus the two shared-subsample files (2026-07-26). Gunther's workbook is still header-only, so the IRR files hold Amelia's rows alone for now. 
-- Descriptive analysis of Amelia's coding run (`codes/descriptive_analysis_coding.R`, 2026-07-26). Headline numbers: **679 criterion mentions** across 132 papers (13 papers yielded none), median 5 per paper; **Availability 372 / Executability 210 / Consistency 97**; 70.8% of mentions are framed injunctively; 12 criteria were newly coined during coding, of which `version control` (11) and `artifacts longevity/sustainability` (9) are frequent enough to consider promoting to the codebook.
-- **Next:** compute Krippendorff's α for the descriptive IRR subsample (45 papers × 4 coders) and the criteria IRR sample (Gunther); reconciliation meeting if discrepancies are high; finalize PRISMA flow diagram; resolve the Brodeur et al. duplicate (working paper #98 vs. published version #138 — see logbook note of 2026-07-08).
+- Descriptive analysis of Amelia's coding run (`codes/descriptive_analysis_coding.R`, 2026-07-26). Headline numbers: **679 criterion mentions** across 132 papers (13 papers yielded none), median 5 per paper; **Availability 372 / Executability 213 / Consistency 94**; 69.2% of mentions are framed injunctively; 10 criteria were newly coined during coding, of which `version control` (12) and `artifacts longevity/sustainability` (9) are the most frequent.
+- Part A IRR: Krippendorff's α computed for the descriptive IRR sample (`codes/IRR.R`; results in `output/analysis_output/tables/irr_descriptive.csv`).
+- **Next:** compute Krippendorff's α for the criteria IRR sample (once Gunther has coded); finalize PRISMA flow diagram; resolve the Brodeur et al. duplicate (working paper #98 vs. published version #138 — see logbook note of 2026-07-08).
 
 ---
 

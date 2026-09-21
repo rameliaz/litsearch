@@ -1,4 +1,4 @@
-# SocEnRep – Descriptive analysis of Step 5 coding results
+# Descriptive analysis of Step 5 coding results
 #
 # Produces descriptive statistics only (counts, distributions, cross-tabulations).
 # No inferential statistics and no IRR here.
@@ -10,20 +10,22 @@
 #
 # Prerequisites:
 #   install.packages(c("readr", "readxl", "dplyr", "tidyr", "stringr",
-#                      "forcats", "ggplot2", "scales", "here"))
+#                      "forcats", "ggplot2", "scales", "here", "writexl"))
 #
 # Input:  dataset/descriptive_coding.csv
 #         dataset/b1_criteria_extraction.csv
 #         dataset/b2_criteria_extraction.csv
-#         output/search_output/10_final_set.xlsx   (for Year and Type)
+#         output/search_output/10_final_set.xlsx   (for Year and Type of publication)
 #
 # Output: output/analysis_output/tables/*.csv
+#         output/analysis_output/tables/22_descriptive_summary_table.xlsx
 #         output/analysis_output/figures/*.png
 #
-# last modified: 26.07.2026
+# last modified: 20.08.2026
 
 library(readr)
 library(readxl)
+library(writexl)
 library(dplyr)
 library(tidyr)
 library(stringr)
@@ -140,9 +142,13 @@ split_multi <- function(x) {
 # Counts checked options across papers. Case-variant spellings of the same
 # free-text entry (e.g. "AI Agents" vs "AI agents") are merged onto the most
 # frequent spelling; genuinely distinct entries are left alone.
-count_multi <- function(df, col) {
+# n_base overrides the denominator: for a skip-logic field (only shown when a
+# parent question was answered a certain way), the correct N is the number of
+# papers *eligible* to answer, not the number who actually filled it in - use
+# n_base to supply that eligible count instead of inferring it from df.
+count_multi <- function(df, col, n_base = NULL) {
   tokens    <- split_multi(df[[col]])
-  n_answered <- sum(lengths(tokens) > 0)
+  n_answered <- if (!is.null(n_base)) n_base else sum(lengths(tokens) > 0)
   tibble(paper_row = rep(seq_len(nrow(df)), lengths(tokens)),
          option    = unlist(tokens)) |>
     mutate(key = str_to_lower(option)) |>
@@ -400,6 +406,37 @@ p_framing <- ggplot(framing, aes(dimension, mentions, fill = `normative framing`
         panel.grid.major.y = element_line(colour = "grey92"))
 save_fig(p_framing, "05_normative_framing", height = 4)
 
+# Framing split per specific criterion, not just pooled into one of three
+# dimensions - mirrors the criterion-level automation breakdown below.
+framing_by_criterion <- b2 |>
+  count(dimension, criterion, `normative framing`, name = "mentions") |>
+  group_by(dimension, criterion) |>
+  mutate(mentions_total      = sum(mentions),
+         pct_within_criterion = round(100 * mentions / mentions_total, 1)) |>
+  ungroup() |>
+  arrange(dimension, desc(mentions_total), criterion)
+framing_by_criterion |>
+  mutate(criterion = str_trunc(criterion, 46)) |>
+  report("NORMATIVE FRAMING BY CRITERION")
+save_table(framing_by_criterion, "05_normative_framing_by_criterion")
+
+p_framing_criterion <- framing_by_criterion |>
+  mutate(criterion = fct_reorder(str_trunc(criterion, 46), mentions_total)) |>
+  ggplot(aes(criterion, mentions, fill = `normative framing`)) +
+  geom_col(position = "fill", width = 0.7) +
+  coord_flip() +
+  facet_grid(dimension ~ ., scales = "free_y", space = "free_y") +
+  scale_y_continuous(labels = percent_format()) +
+  scale_fill_brewer(palette = "Set2", name = "Framing") +
+  labs(title = "How is each specific criterion framed?",
+       subtitle = "Share of mentions per criterion, grouped by dimension",
+       caption = "Criteria ordered by total mentions within each dimension (see table 03).",
+       x = NULL, y = NULL) +
+  theme_socenrep() +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(colour = "grey92"))
+save_fig(p_framing_criterion, "05_normative_framing_by_criterion", height = 8)
+
 # --- 3.6 automation --------------------------------------------------------
 automation <- b2 |>
   mutate(`can be automated` = replace_na(`can be automated`, "(not coded)")) |>
@@ -410,13 +447,29 @@ automation <- b2 |>
 report(automation, "AUTOMATION POTENTIAL BY DIMENSION")
 save_table(automation, "06_automation_by_dimension")
 
-automation_by_criterion <- b2 |>
+automatable_by_criterion <- b2 |>
   filter(`can be automated` == "yes") |>
   count(dimension, criterion, name = "mentions_automatable", sort = TRUE)
-automation_by_criterion |>
+automatable_by_criterion |>
   mutate(criterion = str_trunc(criterion, 52)) |>
   report("CRITERIA JUDGED AUTOMATABLE")
-save_table(automation_by_criterion, "06_automatable_criteria")
+save_table(automatable_by_criterion, "06_automatable_criteria")
+
+# Full yes/no/unclear/not-coded split per criterion (not just the "yes" share
+# above), so automation potential can be read off at the same granularity as
+# the criteria themselves rather than pooled into one of three dimensions.
+automation_by_criterion <- b2 |>
+  mutate(`can be automated` = replace_na(`can be automated`, "(not coded)")) |>
+  count(dimension, criterion, `can be automated`, name = "mentions") |>
+  group_by(dimension, criterion) |>
+  mutate(mentions_total       = sum(mentions),
+         pct_within_criterion = round(100 * mentions / mentions_total, 1)) |>
+  ungroup() |>
+  arrange(dimension, desc(mentions_total), criterion)
+automation_by_criterion |>
+  mutate(criterion = str_trunc(criterion, 46)) |>
+  report("AUTOMATION POTENTIAL BY CRITERION")
+save_table(automation_by_criterion, "06_automation_by_criterion")
 
 llm <- b2 |>
   filter(!is.na(`LLM involved`)) |>
@@ -438,6 +491,25 @@ p_auto <- ggplot(automation, aes(dimension, mentions, fill = `can be automated`)
   theme(panel.grid.major.x = element_blank(),
         panel.grid.major.y = element_line(colour = "grey92"))
 save_fig(p_auto, "06_automation", height = 4)
+
+p_auto_criterion <- automation_by_criterion |>
+  mutate(criterion = fct_reorder(str_trunc(criterion, 46), mentions_total)) |>
+  ggplot(aes(criterion, mentions, fill = `can be automated`)) +
+  geom_col(position = "fill", width = 0.7) +
+  coord_flip() +
+  facet_grid(dimension ~ ., scales = "free_y", space = "free_y") +
+  scale_y_continuous(labels = percent_format()) +
+  scale_fill_manual(values = c("yes" = "#55A868", "no" = "#C44E52",
+                               "unclear" = "grey75", "(not coded)" = "grey90"),
+                    name = "Can be automated") +
+  labs(title = "Automation potential by specific criterion",
+       subtitle = "Share of mentions per criterion, grouped by dimension",
+       caption = "Criteria ordered by total mentions within each dimension (see table 03).",
+       x = NULL, y = NULL) +
+  theme_socenrep() +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(colour = "grey92"))
+save_fig(p_auto_criterion, "06_automation_by_criterion", height = 8)
 
 # --- 3.7 dependency structure (counts only; the DAG comes later) -----------
 dependency_counts <- b2 |>
@@ -508,13 +580,28 @@ cat("\nRows: ", nrow(b1), " across ", n_distinct(b1$paper_id), " papers\n",
     "(a paper contributes more than one row when it reports several ",
     "operationalizations)\n", sep = "")
 
-# A handful of papers report several operationalizations and so contribute more
-# than one row per category; counts below are rows, not papers.
-n_multi_op <- b1 |>
+# Operationalizations per paper = number of Classification rows (one row per
+# distinct operationalization reported; each operationalization's Scope:
+# coverage / Scope: unit / Statistical criterion rows ride along with it, so
+# counting Classification rows avoids triple-counting a single operationalization).
+op_per_paper <- b1 |>
   filter(`operationalization category` == "Classification") |>
-  count(paper_id) |>
-  filter(n > 1) |>
-  nrow()
+  count(paper_id, name = "n_operationalizations") |>
+  right_join(tibble(paper_id = corpus$paper_id), by = "paper_id") |>
+  mutate(n_operationalizations = replace_na(n_operationalizations, 0L))
+
+op_per_paper_summary <- op_per_paper |>
+  count(n_operationalizations, name = "papers") |>
+  mutate(pct = round(100 * papers / N_CORPUS, 1)) |>
+  arrange(n_operationalizations)
+report(op_per_paper_summary, "OPERATIONALIZATIONS PER PAPER")
+save_table(op_per_paper_summary, "09_operationalizations_per_paper")
+
+n_multi_op <- sum(op_per_paper$n_operationalizations > 1)
+cat("\nPapers with a single operationalization:   ", sum(op_per_paper$n_operationalizations == 1),
+    "\nPapers with multiple operationalizations:  ", n_multi_op,
+    "\nPapers with no B1 coding at all:           ", sum(op_per_paper$n_operationalizations == 0),
+    "\n", sep = "")
 
 b1_by_category <- b1 |>
   filter(`operationalization category` != "Statistical criterion") |>
@@ -563,7 +650,8 @@ stat_criteria <- b1 |>
   filter(`operationalization category` == "Statistical criterion",
          !is.na(`operationalization value`), nzchar(`operationalization value`)) |>
   select(paper_id, statistical_criterion = `operationalization value`)
-cat("\nPapers stating an explicit statistical criterion: ", nrow(stat_criteria), "\n", sep = "")
+cat("\nPapers stating an explicit statistical criterion: ", n_distinct(stat_criteria$paper_id),
+    " (", nrow(stat_criteria), " statements; some papers state more than one)\n", sep = "")
 save_table(stat_criteria, "12_statistical_criteria")
 
 # ===========================================================================
@@ -572,6 +660,17 @@ save_table(stat_criteria, "12_statistical_criteria")
 
 cat("\n\n", strrep("=", 70), "\n", "PART A: DESCRIPTIVE CODING\n",
     strrep("=", 70), "\n", sep = "")
+
+# E1a-f are skip-logic fields on the form: they only appear when E1 = "Yes"
+# (n = 99 of 145). Their correct N is that eligible subset, not the full
+# corpus (which would wrongly count the 46 E1 = No papers as "not answered"
+# to E1a-f) and, for the multi-select ones, not "papers who actually filled
+# it in" either (a handful of eligible papers left E1a/b/c blank, so that
+# undercounts by 1). Confirmed with Amelia 20.08.2026.
+E1_YES         <- descriptive |> filter(str_starts(E1, "Yes"))
+N_E1_YES       <- nrow(E1_YES)
+E1_COND_SINGLE <- c("E1A", "E1E", "E1F")
+E1_COND_MULTI  <- c("E1B", "E1C", "E1D")
 
 # --- single-select fields --------------------------------------------------
 single_fields <- c(
@@ -589,14 +688,17 @@ single_fields <- c(
 
 single_summary <- lapply(names(single_fields), function(v) {
   if (!v %in% names(descriptive)) return(NULL)
-  descriptive |>
+  base   <- if (v %in% E1_COND_SINGLE) E1_YES else descriptive
+  n_base <- nrow(base)
+  base |>
     count(.data[[v]], name = "papers") |>
     rename(value = 1) |>
     mutate(variable = v,
            label    = single_fields[[v]],
            value    = replace_na(as.character(value), "(not answered)"),
-           pct      = round(100 * papers / nrow(descriptive), 1)) |>
-    select(variable, label, value, papers, pct) |>
+           n        = n_base,
+           pct      = round(100 * papers / n_base, 1)) |>
+    select(variable, label, value, papers, n, pct) |>
     arrange(desc(papers))
 }) |> bind_rows()
 
@@ -646,7 +748,12 @@ multi_fields <- c(
 
 multi_summary <- lapply(names(multi_fields), function(v) {
   if (!v %in% names(descriptive)) return(NULL)
-  count_multi(descriptive, v) |>
+  raw <- if (v %in% E1_COND_MULTI) {
+    count_multi(E1_YES, v, n_base = N_E1_YES)
+  } else {
+    count_multi(descriptive, v)
+  }
+  raw |>
     mutate(variable = v, label = multi_fields[[v]]) |>
     select(variable, label, option, n_papers, n_answered, pct_of_answered)
 }) |> bind_rows()
@@ -668,9 +775,12 @@ rare_options |>
   report("RARE / FREE-TEXT OPTIONS TO HARMONISE BEFORE THE NEXT ROUND")
 save_table(rare_options, "21_flag_rare_options")
 
-plot_multi <- function(v, title, height = 4) {
-  d <- multi_summary |> filter(variable == v, n_papers > 1)
+plot_multi <- function(v, title, height = NULL) {
+  d <- multi_summary |> filter(variable == v)
   if (nrow(d) == 0) return(invisible(NULL))
+  # Height scales with the number of bars so long tails of rarely-selected
+  # options (still shown in full - see subtitle) don't get squeezed together.
+  if (is.null(height)) height <- max(3, 0.35 * nrow(d) + 1.2)
   p <- d |>
     mutate(option = fct_reorder(str_trunc(option, 46), n_papers)) |>
     ggplot(aes(option, n_papers)) +
@@ -679,27 +789,68 @@ plot_multi <- function(v, title, height = 4) {
     coord_flip() +
     scale_y_continuous(expand = expansion(mult = c(0, 0.14))) +
     labs(title = title,
-         subtitle = "Coders may select several options; entries mentioned once are omitted",
+         subtitle = "Coders may select several options; full range of entries shown",
          x = NULL, y = "Papers") +
     theme_socenrep()
   save_fig(p, paste0("21_", str_to_lower(v)), height = height)
 }
 
-plot_multi("B1A", "Disciplines targeted", height = 3.5)
-plot_multi("F2",  "Who should perform the reproducibility check?", height = 3.5)
-plot_multi("F3",  "When should reproducibility be verified?", height = 3.5)
-plot_multi("E1B", "Computational environment in focus", height = 3.5)
-plot_multi("E1D", "Data types in focus", height = 3.5)
+plot_multi("B1A", "Disciplines targeted")
+plot_multi("F2",  "Who should perform the reproducibility check?")
+plot_multi("F3",  "When should reproducibility be verified?")
+plot_multi("E1B", "Computational environment in focus")
+plot_multi("E1D", "Data types in focus")
 
 # --- corpus composition ----------------------------------------------------
 corpus_summary <- corpus |>
   count(type, name = "papers", sort = TRUE) |>
   mutate(pct = round(100 * papers / sum(papers), 1))
 report(corpus_summary, "CORPUS COMPOSITION BY PUBLICATION TYPE")
-save_table(corpus_summary, "30_corpus_by_type")
+save_table(corpus_summary, "23_corpus_by_type")
 
 # ===========================================================================
-# 6. DONE
+# 6. COMBINED DESCRIPTIVE SUMMARY TABLE (Part A, form order)
+# ===========================================================================
+# single_summary and multi_summary (section 5) hold all 17 Part A select
+# items, but as two separate long tables and no shared order. This reassembles
+# both into one long-format table, ordered to match the coder-facing Google
+# Form flow (v2 codebook, confirmed 20.08.2026), so collaborators can read
+# the whole of Part A as one reference table instead of stitching 20_* and
+# 21_* together by hand. N basis: 145 (full corpus) for every item except
+# E1a-f, which are skip-logic fields shown only when E1 = Yes and so carry
+# N = 99 instead (see E1_YES / E1_COND_SINGLE / E1_COND_MULTI in section 5).
+# Multi-select counts within an item can still sum to more than its N, since
+# coders could pick several options.
+
+cat("\n\n", strrep("=", 70), "\n",
+    "COMBINED SUMMARY TABLE (all Part A select items, form order)\n",
+    strrep("=", 70), "\n", sep = "")
+
+FORM_ORDER <- c("B1", "B1A", "C1", "C2", "D1", "D2", "D2A",
+                "E1", "E1A", "E1B", "E1C", "E1D", "E1E", "E1F",
+                "F1", "F2", "F3")
+stopifnot(setequal(FORM_ORDER, union(single_summary$variable, multi_summary$variable)))
+
+summary_table <- bind_rows(
+  single_summary |>
+    transmute(order = match(variable, FORM_ORDER), variable, question = label,
+              type = "Single-select", n = n,
+              response = value, count = papers, pct = pct),
+  multi_summary |>
+    transmute(order = match(variable, FORM_ORDER), variable, question = label,
+              type = "Multi-select", n = n_answered,
+              response = option, count = n_papers, pct = pct_of_answered)
+) |>
+  arrange(order) |>
+  select(-order)
+
+report(summary_table |> mutate(question = str_trunc(question, 30),
+                               response = str_trunc(response, 40)),
+       "COMBINED SUMMARY TABLE (Part A, form order)")
+save_table(summary_table, "22_descriptive_summary_table")
+
+# ===========================================================================
+# 7. DONE
 # ===========================================================================
 
 cat("\n\n", strrep("=", 70), "\n",

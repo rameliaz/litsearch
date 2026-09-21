@@ -1,4 +1,3 @@
-# SocEnRep – WP1 Forward Snowballing via OpenAlex
 # Step 4 of the systematic literature review protocol
 #
 # Run this script from: WP1 & 2/litsearch/

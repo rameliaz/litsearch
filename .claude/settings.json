@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -0 rm -f)",
+      "Bash(git fetch *)",
+      "Bash(git push *)",
+      "Bash(git pull *)"
+    ]
+  }
+}

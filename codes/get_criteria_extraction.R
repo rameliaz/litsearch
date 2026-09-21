@@ -1,4 +1,4 @@
-# SocEnRep - Build the Part B (criteria extraction) datasets
+# Build the Part B (criteria extraction) datasets
 #
 # Reads each coder's coding workbook (sheets Part_B1 and Part_B2), cleans them,
 # and writes six files:

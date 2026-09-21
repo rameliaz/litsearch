@@ -1,4 +1,4 @@
-# SocEnRep - Download and clean the Part A (descriptive) coding responses
+# Download and clean the Part A (descriptive) coding responses
 #
 # Pulls the live Google Form responses, cleans them, and splits them into the
 # two analysis files:
@@ -30,14 +30,14 @@
 #   optional: install.packages("googlesheets4")
 #
 # Input:  Google Sheet "Coding Litreview SocEnrep (Responses)"
-#         output/search_output/10_final_set.xlsx          (paper IDs, DOIs)
+#         output/search_output/10_final_set.xlsx          (paper IDs, DOIs, year)
 #         coding/descriptive/sample_descriptive.xlsx      (the 45 IRR papers,
 #                                                          one sheet per RA)
 #
 # Output: dataset/*.csv
 #         output/cleaning_log/*.csv   (data-quality flags, not results)
 #
-# last modified: 26.07.2026
+# last modified: 21.09.2026
 
 library(readr)
 library(readxl)
@@ -250,6 +250,7 @@ codebook <- tibble(
     ~variable,   ~question,                                                    ~field_type,
     "paper_id",  "Derived: `No.` in 10_final_set.xlsx, matched on paper title", "derived",
     "doi",       "Derived: DOI from 10_final_set.xlsx (the coder-entered DOI/Link is only cross-checked)", "derived",
+    "year",      "Derived: publication `Year` from 10_final_set.xlsx (not in the IRR file)", "derived",
     "submitted", "Derived (IRR file only): FALSE where the coder never submitted this paper", "derived"
   ))
 
@@ -315,7 +316,8 @@ corpus <- read_excel(here("output", "search_output", "10_final_set.xlsx"),
   transmute(paper_id  = as.integer(`No.`),
             title_key = norm_title(Title),
             paper_title_corpus = Title,
-            doi       = norm_doi(DOI))
+            doi       = norm_doi(DOI),
+            year      = suppressWarnings(as.integer(Year)))
 
 clean <- clean |> left_join(corpus, by = "title_key")
 
@@ -398,7 +400,7 @@ save_log(dropped, "flag_duplicate_submissions")
 # --- final column order ----------------------------------------------------
 clean <- clean |>
   arrange(paper_id, match(coder, CODERS)) |>
-  select(paper_id, coder, paper_title, doi, timestamp,
+  select(paper_id, coder, paper_title, doi, year, timestamp,
          any_of("email"), all_of(coding_fields), any_of("notes"))
 
 if (DROP_EMAIL) clean <- clean |> select(-any_of("email"))
@@ -479,7 +481,7 @@ save_log(claimed_not_submitted, "flag_marked_done_not_submitted")
 # row rather than being silently absent.
 irr <- expand_grid(paper_id = irr_sample$paper_id, coder = CODERS) |>
   left_join(irr_sample |> select(paper_id, paper_title, doi), by = "paper_id") |>
-  left_join(clean |> select(-any_of(c("paper_title", "doi"))),
+  left_join(clean |> select(-any_of(c("paper_title", "doi", "year"))),
             by = c("paper_id", "coder")) |>
   mutate(submitted = !is.na(timestamp)) |>
   relocate(submitted, .after = coder) |>

@@ -1,7 +1,7 @@
 dimension,criterion,mentions,papers
 Executability,version control,12,12
 Availability,artifacts longevity/sustainability,9,9
-Executability,code documentation/annotation,5,5
+Executability,code documentation/annotation,6,6
 Executability,code runs without manual intervention,4,4
 Executability,commands logs traceability,1,1
 Executability,dynamic code inspection,1,1

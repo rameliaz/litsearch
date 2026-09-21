@@ -1,0 +1,47 @@
+dimension,criterion,normative framing,mentions,mentions_total,pct_within_criterion
+Availability,code deposit,descriptive,7,104,6.7
+Availability,code deposit,injunctive,84,104,80.8
+Availability,code deposit,tacit,13,104,12.5
+Availability,data deposit,descriptive,9,95,9.5
+Availability,data deposit,injunctive,73,95,76.8
+Availability,data deposit,tacit,13,95,13.7
+Availability,data documentation,descriptive,3,83,3.6
+Availability,data documentation,injunctive,64,83,77.1
+Availability,data documentation,tacit,16,83,19.3
+Availability,data provenance,descriptive,1,51,2
+Availability,data provenance,injunctive,37,51,72.5
+Availability,data provenance,tacit,13,51,25.5
+Availability,license,descriptive,1,30,3.3
+Availability,license,injunctive,27,30,90
+Availability,license,tacit,2,30,6.7
+Availability,artifacts longevity/sustainability,injunctive,9,9,100
+Executability,computing environment,descriptive,2,69,2.9
+Executability,computing environment,injunctive,40,69,58
+Executability,computing environment,tacit,27,69,39.1
+Executability,dependency resolution,descriptive,1,59,1.7
+Executability,dependency resolution,injunctive,33,59,55.9
+Executability,dependency resolution,tacit,25,59,42.4
+Executability,path resolution,injunctive,11,30,36.7
+Executability,path resolution,tacit,19,30,63.3
+Executability,coding error handling,injunctive,15,29,51.7
+Executability,coding error handling,tacit,14,29,48.3
+Executability,version control,injunctive,8,12,66.7
+Executability,version control,tacit,4,12,33.3
+Executability,code documentation/annotation,injunctive,5,6,83.3
+Executability,code documentation/annotation,tacit,1,6,16.7
+Executability,code runs without manual intervention,injunctive,2,4,50
+Executability,code runs without manual intervention,tacit,2,4,50
+Executability,commands logs traceability,injunctive,1,1,100
+Executability,dynamic code inspection,injunctive,1,1,100
+Executability,test code coverage,injunctive,1,1,100
+Executability,workflow/reproduction tree,tacit,1,1,100
+Consistency,numerical output match,descriptive,4,50,8
+Consistency,numerical output match,injunctive,35,50,70
+Consistency,numerical output match,tacit,11,50,22
+Consistency,table and figure match,descriptive,1,24,4.2
+Consistency,table and figure match,injunctive,13,24,54.2
+Consistency,table and figure match,tacit,10,24,41.7
+Consistency,codes consistent with claims,injunctive,9,18,50
+Consistency,codes consistent with claims,tacit,9,18,50
+Consistency,cross-tool/software validation,injunctive,1,1,100
+Consistency,third-party certification,injunctive,1,1,100

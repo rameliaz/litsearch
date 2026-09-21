@@ -1,38 +1,38 @@
 ﻿"part","variable","value","n_rows","n_papers"
-"B1","operationalization category","Scope: unit",147,141
-"B1","operationalization category","Classification",146,141
-"B1","operationalization category","Scope: coverage",146,141
+"B1","operationalization category","Scope: unit",151,145
+"B1","operationalization category","Classification",150,145
+"B1","operationalization category","Scope: coverage",150,145
 "B1","operationalization category","Statistical criterion",13,10
-"B1","operationalization value","not specified",302,115
-"B1","operationalization value","ordinal",28,28
-"B1","operationalization value","binary",27,26
-"B1","operationalization value","paper-level",26,26
+"B1","operationalization value","not specified",316,119
+"B1","operationalization value","ordinal",30,30
+"B1","operationalization value","binary",26,25
+"B1","operationalization value","paper-level",25,25
 "B1","operationalization value","claim-level",20,17
-"B1","operationalization value","all claims",18,16
-"B1","operationalization value","only focal or primary claims",8,8
-"B1","operationalization value","continuum",6,6
+"B1","operationalization value","all claims",17,15
+"B1","operationalization value","only focal or primary claims",9,9
+"B1","operationalization value","continuum",4,4
 "B1","operationalization value","fixed number of claims",4,4
-"B2","criterion category","Availability",371,119
-"B2","criterion category","Executability",211,95
-"B2","criterion category","Consistency",96,58
-"B2","criterion label","code deposit",103,103
+"B2","criterion category","Availability",372,119
+"B2","criterion category","Executability",213,95
+"B2","criterion category","Consistency",94,57
+"B2","criterion label","code deposit",104,104
 "B2","criterion label","data deposit",95,95
-"B2","criterion label","data documentation",84,84
-"B2","criterion label","computing environment",71,71
-"B2","criterion label","dependency resolution",58,58
-"B2","criterion label","data provenance",50,50
+"B2","criterion label","data documentation",83,83
+"B2","criterion label","computing environment",69,69
+"B2","criterion label","dependency resolution",59,59
+"B2","criterion label","data provenance",51,51
 "B2","criterion label","numerical output match",50,50
-"B2","criterion label","new criterion",36,26
+"B2","criterion label","new criterion",37,27
 "B2","criterion label","license",30,30
-"B2","criterion label","path resolution",29,29
-"B2","criterion label","coding error handling",28,28
-"B2","criterion label","table and figure match",25,25
-"B2","criterion label","codes consistent with claims",19,19
-"B2","normative framing","injunctive",478,111
-"B2","normative framing","tacit",144,60
-"B2","normative framing","descriptive",56,29
-"B2","can be automated","unclear",477,113
-"B2","can be automated","yes",127,45
-"B2","can be automated","no",63,23
-"B2","LLM involved","no",99,39
-"B2","LLM involved","yes",28,7
+"B2","criterion label","path resolution",30,30
+"B2","criterion label","coding error handling",29,29
+"B2","criterion label","table and figure match",24,24
+"B2","criterion label","codes consistent with claims",18,18
+"B2","normative framing","injunctive",470,112
+"B2","normative framing","tacit",180,71
+"B2","normative framing","descriptive",29,18
+"B2","can be automated","unclear",493,117
+"B2","can be automated","yes",122,44
+"B2","can be automated","no",64,23
+"B2","LLM involved","no",101,38
+"B2","LLM involved","yes",26,7

@@ -1,15 +1,11 @@
-# SocEnRep - Interrater reliability (Krippendorff's alpha) for Part A (descriptive) coding
+# Interrater reliability (Krippendorff's alpha) for Part A (descriptive) coding
 #
 # Computes Krippendorff's alpha for every codeable field in the 45-paper
 # descriptive-coding IRR sample (Amelia + 3 RAs). Threshold per the protocol
 # (protocol_logbook.docx, "Coding process") is alpha >= 0.70; fields below
 # that are flagged as candidates for a reconciliation meeting.
 #
-# Only Part A (descriptive coding) is covered here. Part B (criteria
-# extraction, Amelia vs. Gunther) is left out on purpose - Gunther's 15-paper
-# sheet is still empty, and Part B is extraction rather than rating (see the
-# note at the top of get_criteria_extraction.R), so it needs its own
-# alignment step before an alpha can even be computed.
+# Only Part A (descriptive coding) is covered here. 
 #
 # The codebook (dataset/descriptive_codebook.csv) splits the codeable fields
 # into three types, handled differently here:
@@ -22,10 +18,16 @@
 #     into dozens of per-option alphas, most of which would be undefined
 #     (options picked by only 1-2 papers give no basis for an agreement
 #     estimate).
-#   - D1A (pasted definition text) and notes are free text, so a real content
-#     alpha isn't possible without a separate qualitative pass. As a coarse
+#   - D1A (pasted definition text) is free text, so a real content alpha
+#     isn't possible without a separate qualitative pass. As a coarse
 #     stand-in, this checks only whether coders agree on whether they wrote
 #     anything at all (blank vs. non-blank) - NOT whether the text agrees.
+#     `notes` is excluded entirely: it's an open "anything else" box with no
+#     coding decision behind it, so agreement on it isn't a meaningful IRR
+#     question in the first place.
+#
+# However, only Krippendorf's alphas from the single-select items are reported in
+# the manuscript.
 #
 # Krippendorff's alpha handles missing data natively (skip logic, e.g. B1A is
 # only answered when B1 = "Yes", shows up as NA and is simply left out of the
@@ -45,7 +47,7 @@
 #
 # Output: output/analysis_output/tables/irr_descriptive.csv
 #
-# last modified: 10.08.2026
+# last modified: 20.08.2026
 
 library(readr)
 library(dplyr)
@@ -205,7 +207,7 @@ multi_results <- lapply(MULTI_FIELDS, function(v) {
 # 4. FREE-TEXT FIELDS - coarse "wrote something vs. left blank" check
 # ===========================================================================
 
-BLANK_FIELDS <- c("D1A", "notes")
+BLANK_FIELDS <- c("D1A")
 
 blank_results <- lapply(BLANK_FIELDS, function(v) {
   long <- irr_data |>
