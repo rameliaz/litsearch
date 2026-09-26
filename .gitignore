@@ -19,6 +19,7 @@ ehthumbs.db
 
 # OS
 .DS_Store
+/.claude/
 
 # Google Forms / binary files
 *.gform
