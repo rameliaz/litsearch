@@ -1,0 +1,4 @@
+﻿"paper_id","paper_title","criterion","is prerequisite for","depends on"
+138,"Reproducibility and robustness of economics and political science research","data deposit","numerical output match, table and figure match",
+138,"Reproducibility and robustness of economics and political science research","code deposit","coding error handling; codes consistent with claims; numerical output match, table and figure match",
+138,"Reproducibility and robustness of economics and political science research","coding error handling","numerical output match, table and figure match","code deposit"
